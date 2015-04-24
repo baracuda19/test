@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+	<appender name="EventAsyncAppender" class="org.apache.log4j.AsyncAppender">
+		<param name="BufferSize" value="200" />
+		<appender-ref ref="EventFileAppender" />
+	</appender>
+
+	<appender name="AppAsyncAppender" class="org.apache.log4j.AsyncAppender">
+		<param name="BufferSize" value="200" />
+		<appender-ref ref="AppFileAppender" />
+	</appender>
+	<appender name="MomAsyncAppender" class="org.apache.log4j.AsyncAppender">
+		<param name="BufferSize" value="200" />
+		<!-- filter duplicate messages, unfortunately there is no way to write 
+			how many have been aggregated -->
+		<filter class="com.sabre.messaging.util.PeriodFilter">
+			<param name="period" value="60000" />
+			<param name="spoolCount" value="3" />
+			<param name="spoolInterval" value="300000" />
+		</filter>
+		<appender-ref ref="AppFileAppender" />
+	</appender>
+
+	<appender name="CouchbaseAsyncAppender" class="org.apache.log4j.AsyncAppender">
+		<param name="BufferSize" value="200" />
+		<appender-ref ref="CouchbaseFileAppender" />
+	</appender>
+
+	<appender name="EventFileAppender" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="DatePattern" value="'.'yyMMddHH" />
+		<param name="File" value="${catalina.base}/logs/shs-services-event.log" />
+		<param name="Append" value="true" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%m%n" />
+		</layout>
+	</appender>
+
+	<appender name="AppFileAppender" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="DatePattern" value="'.'yyMMddHH" />
+		<param name="File" value="${catalina.base}/logs/shs-services.log" />
+		<param name="Append" value="true" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d %-5p %t [%c{2}] - %m%n" />
+		</layout>
+	</appender>
+
+	<appender name="CouchbaseFileAppender" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="DatePattern" value="'.'yyMMddHH" />
+		<param name="File" value="${catalina.base}/logs/shs-services-couchbase.log" />
+		<param name="Append" value="true" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d %-5p %t [%c{2}] - %m%n" />
+		</layout>
+	</appender>
+
+	<category name="event-logger" additivity="false">
+		<priority value="warn" />
+		<appender-ref ref="EventAsyncAppender" />
+	</category>
+
+	<category name="event-error-logger" additivity="false">
+		<priority value="info" />
+		<appender-ref ref="EventAsyncAppender" />
+	</category>
+
+	<category name="event-monitor-logger" additivity="false">
+		<priority value="info" />
+		<appender-ref ref="EventAsyncAppender" />
+	</category>
+
+	<category name="event-request-logger" additivity="false">
+		<priority value="info" />
+		<appender-ref ref="EventAsyncAppender" />
+	</category>
+
+	<logger name="com.sabre" additivity="false">
+		<level value="info" />
+		<appender-ref ref="AppAsyncAppender" />
+	</logger>
+
+	<logger name="net.spy.memcached" additivity="false">
+		<level value="info" />
+		<appender-ref ref="CouchbaseAsyncAppender" />
+	</logger>
+
+	<logger name="com.couchbase.client" additivity="false">
+		<level value="info" />
+		<appender-ref ref="CouchbaseAsyncAppender" />
+	</logger>
+
+	<logger name="com.sabre.messaging" additivity="false">
+		<level value="info" />
+		<appender-ref ref="MomAsyncAppender" />
+	</logger>
+
+	<root>
+		<priority value="warn" />
+		<appender-ref ref="AppAsyncAppender" />
+	</root>
+
+</log4j:configuration>

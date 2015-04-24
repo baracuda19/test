@@ -1,0 +1,7492 @@
+{
+  "YOW": {
+    "AirportCode": "YOW",
+    "AirportName": "International",
+    "CountryCode": "CA",
+    "CountryName": "Canada",
+    "RegionName": "North America"
+  },
+  "SCQ": {
+    "AirportCode": "SCQ",
+    "AirportName": "Santiago De Compostela",
+    "CountryCode": "ES",
+    "CountryName": "Spain",
+    "RegionName": "Europe"
+  },
+  "SCW": {
+    "AirportCode": "SCW",
+    "AirportName": "Syktyvkar",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "JRO": {
+    "AirportCode": "JRO",
+    "AirportName": "Kilimanjaro",
+    "CountryCode": "TZ",
+    "CountryName": "Tanzania - United Republic Of",
+    "RegionName": "Africa"
+  },
+  "HNL": {
+    "AirportCode": "HNL",
+    "AirportName": "Honolulu International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "BBO": {
+    "AirportCode": "BBO",
+    "AirportName": "Berbera",
+    "CountryCode": "SO",
+    "CountryName": "Somalia",
+    "RegionName": "Africa"
+  },
+  "WLG": {
+    "AirportCode": "WLG",
+    "AirportName": "International",
+    "CountryCode": "NZ",
+    "CountryName": "New Zealand",
+    "RegionName": "Asia Pacific"
+  },
+  "DFW": {
+    "AirportCode": "DFW",
+    "AirportName": "Dallas/Fort Worth International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "SDF": {
+    "AirportCode": "SDF",
+    "AirportName": "Louisville International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "HOB": {
+    "AirportCode": "HOB",
+    "AirportName": "Lea County Regional Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "YPR": {
+    "AirportCode": "YPR",
+    "AirportName": "Digby Island",
+    "CountryCode": "CA",
+    "CountryName": "Canada",
+    "RegionName": "North America"
+  },
+  "SDL": {
+    "AirportCode": "SDL",
+    "AirportName": "Sundsvall/Harnosand",
+    "CountryCode": "SE",
+    "CountryName": "Sweden",
+    "RegionName": "Europe"
+  },
+  "SDN": {
+    "AirportCode": "SDN",
+    "AirportName": "Sandane",
+    "CountryCode": "NO",
+    "CountryName": "Norway",
+    "RegionName": "Europe"
+  },
+  "FKB": {
+    "AirportCode": "FKB",
+    "AirportName": "Soellingen",
+    "CountryCode": "DE",
+    "CountryName": "Germany",
+    "RegionName": "Europe"
+  },
+  "JSH": {
+    "AirportCode": "JSH",
+    "AirportName": "Sitia",
+    "CountryCode": "GR",
+    "CountryName": "Greece",
+    "RegionName": "Europe"
+  },
+  "SDR": {
+    "AirportCode": "SDR",
+    "AirportName": "Santander",
+    "CountryCode": "ES",
+    "CountryName": "Spain",
+    "RegionName": "Europe"
+  },
+  "SDQ": {
+    "AirportCode": "SDQ",
+    "AirportName": "Las Americas",
+    "CountryCode": "DO",
+    "CountryName": "Dominican Republic",
+    "RegionName": "North America"
+  },
+  "JSI": {
+    "AirportCode": "JSI",
+    "AirportName": "Skiathos",
+    "CountryCode": "GR",
+    "CountryName": "Greece",
+    "RegionName": "Europe"
+  },
+  "HOG": {
+    "AirportCode": "HOG",
+    "AirportName": "Frank Pais",
+    "CountryCode": "CU",
+    "CountryName": "Cuba",
+    "RegionName": "North America"
+  },
+  "LWO": {
+    "AirportCode": "LWO",
+    "AirportName": "Snilow",
+    "CountryCode": "UA",
+    "CountryName": "Ukraine",
+    "RegionName": "Europe"
+  },
+  "LWS": {
+    "AirportCode": "LWS",
+    "AirportName": "Lewiston-Nez Perce County Regional Airpo",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "YQB": {
+    "AirportCode": "YQB",
+    "AirportName": "Quebec",
+    "CountryCode": "CA",
+    "CountryName": "Canada",
+    "RegionName": "North America"
+  },
+  "BCN": {
+    "AirportCode": "BCN",
+    "AirportName": "Barcelona",
+    "CountryCode": "ES",
+    "CountryName": "Spain",
+    "RegionName": "Europe"
+  },
+  "DGO": {
+    "AirportCode": "DGO",
+    "AirportName": "Guadalupe Victoria",
+    "CountryCode": "MX",
+    "CountryName": "Mexico",
+    "RegionName": "Latin America"
+  },
+  "BCM": {
+    "AirportCode": "BCM",
+    "AirportName": "Bacau",
+    "CountryCode": "RO",
+    "CountryName": "Romania",
+    "RegionName": "Europe"
+  },
+  "SEA": {
+    "AirportCode": "SEA",
+    "AirportName": "Seattle Tacoma International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "HOV": {
+    "AirportCode": "HOV",
+    "AirportName": "Hovden",
+    "CountryCode": "NO",
+    "CountryName": "Norway",
+    "RegionName": "Europe"
+  },
+  "HOU": {
+    "AirportCode": "HOU",
+    "AirportName": "William P Hobby Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "DGT": {
+    "AirportCode": "DGT",
+    "AirportName": "Dumaguete",
+    "CountryCode": "PH",
+    "CountryName": "Philippines",
+    "RegionName": "Asia Pacific"
+  },
+  "JSY": {
+    "AirportCode": "JSY",
+    "AirportName": "Syros Island",
+    "CountryCode": "GR",
+    "CountryName": "Greece",
+    "RegionName": "Europe"
+  },
+  "YQM": {
+    "AirportCode": "YQM",
+    "AirportName": "Moncton",
+    "CountryCode": "CA",
+    "CountryName": "Canada",
+    "RegionName": "North America"
+  },
+  "YQQ": {
+    "AirportCode": "YQQ",
+    "AirportName": "Comox",
+    "CountryCode": "CA",
+    "CountryName": "Canada",
+    "RegionName": "North America"
+  },
+  "UIO": {
+    "AirportCode": "UIO",
+    "AirportName": "Mariscal Sucr",
+    "CountryCode": "EC",
+    "CountryName": "Ecuador",
+    "RegionName": "Latin America"
+  },
+  "YQR": {
+    "AirportCode": "YQR",
+    "AirportName": "Regina",
+    "CountryCode": "CA",
+    "CountryName": "Canada",
+    "RegionName": "North America"
+  },
+  "SEL": {
+    "AirportCode": "SEL",
+    "AirportName": "Metropolitan Area",
+    "CountryCode": "KR",
+    "CountryName": "Korea - Republic Of",
+    "RegionName": "Asia Pacific"
+  },
+  "YQU": {
+    "AirportCode": "YQU",
+    "AirportName": "Grande Prairie",
+    "CountryCode": "CA",
+    "CountryName": "Canada",
+    "RegionName": "North America"
+  },
+  "YQT": {
+    "AirportCode": "YQT",
+    "AirportName": "Thunder Bay",
+    "CountryCode": "CA",
+    "CountryName": "Canada",
+    "RegionName": "North America"
+  },
+  "SEN": {
+    "AirportCode": "SEN",
+    "AirportName": "Municipal",
+    "CountryCode": "GB",
+    "CountryName": "United Kingdom",
+    "RegionName": "Europe"
+  },
+  "BDA": {
+    "AirportCode": "BDA",
+    "AirportName": "Bermuda International",
+    "CountryCode": "BM",
+    "CountryName": "Bermuda",
+    "RegionName": "North America"
+  },
+  "YQY": {
+    "AirportCode": "YQY",
+    "AirportName": "Sydney",
+    "CountryCode": "CA",
+    "CountryName": "Canada",
+    "RegionName": "North America"
+  },
+  "YQX": {
+    "AirportCode": "YQX",
+    "AirportName": "Gander",
+    "CountryCode": "CA",
+    "CountryName": "Canada",
+    "RegionName": "North America"
+  },
+  "LXS": {
+    "AirportCode": "LXS",
+    "AirportName": "#N/A",
+    "CountryCode": "GR",
+    "CountryName": "Greece",
+    "RegionName": "Europe"
+  },
+  "FLL": {
+    "AirportCode": "FLL",
+    "AirportName": "Fort Lauderdale - Hollywood Internationa",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "HPN": {
+    "AirportCode": "HPN",
+    "AirportName": "Westchester County Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "FLO": {
+    "AirportCode": "FLO",
+    "AirportName": "Florence Regional Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "SEZ": {
+    "AirportCode": "SEZ",
+    "AirportName": "Seychelles Intl",
+    "CountryCode": "SC",
+    "CountryName": "Seychelles",
+    "RegionName": "Africa"
+  },
+  "JTR": {
+    "AirportCode": "JTR",
+    "AirportName": "Thira",
+    "CountryCode": "GR",
+    "CountryName": "Greece",
+    "RegionName": "Europe"
+  },
+  "FLN": {
+    "AirportCode": "FLN",
+    "AirportName": "Hercilio Luz",
+    "CountryCode": "BR",
+    "CountryName": "Brazil",
+    "RegionName": "Latin America"
+  },
+  "BDL": {
+    "AirportCode": "BDL",
+    "AirportName": "Bradley International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "FLR": {
+    "AirportCode": "FLR",
+    "AirportName": "Peretola",
+    "CountryCode": "IT",
+    "CountryName": "Italy",
+    "RegionName": "Europe"
+  },
+  "SFB": {
+    "AirportCode": "SFB",
+    "AirportName": "Orlando Sanford",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "JTY": {
+    "AirportCode": "JTY",
+    "AirportName": "Astypalaia",
+    "CountryCode": "GR",
+    "CountryName": "Greece",
+    "RegionName": "Europe"
+  },
+  "BDS": {
+    "AirportCode": "BDS",
+    "AirportName": "Papola Casale",
+    "CountryCode": "IT",
+    "CountryName": "Italy",
+    "RegionName": "Europe"
+  },
+  "BDU": {
+    "AirportCode": "BDU",
+    "AirportName": "Bardufoss",
+    "CountryCode": "NO",
+    "CountryName": "Norway",
+    "RegionName": "Europe"
+  },
+  "LYH": {
+    "AirportCode": "LYH",
+    "AirportName": "Lynchburg Regional Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "SFO": {
+    "AirportCode": "SFO",
+    "AirportName": "San Francisco International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "SFT": {
+    "AirportCode": "SFT",
+    "AirportName": "Skelleftea",
+    "CountryCode": "SE",
+    "CountryName": "Sweden",
+    "RegionName": "Europe"
+  },
+  "LYR": {
+    "AirportCode": "LYR",
+    "AirportName": "Svalbard Airport",
+    "CountryCode": "NO",
+    "CountryName": "Norway",
+    "RegionName": "Europe"
+  },
+  "BEG": {
+    "AirportCode": "BEG",
+    "AirportName": "Beograd",
+    "CountryCode": "RS",
+    "CountryName": "Serbia",
+    "RegionName": "Europe"
+  },
+  "LYS": {
+    "AirportCode": "LYS",
+    "AirportName": "Satolas",
+    "CountryCode": "FR",
+    "CountryName": "France",
+    "RegionName": "Europe"
+  },
+  "FMO": {
+    "AirportCode": "FMO",
+    "AirportName": "Muenster",
+    "CountryCode": "DE",
+    "CountryName": "Germany",
+    "RegionName": "Europe"
+  },
+  "SGC": {
+    "AirportCode": "SGC",
+    "AirportName": "Surgut",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "BER": {
+    "AirportCode": "BER",
+    "AirportName": "Metropolitan Area",
+    "CountryCode": "DE",
+    "CountryName": "Germany",
+    "RegionName": "Europe"
+  },
+  "BET": {
+    "AirportCode": "BET",
+    "AirportName": "Bethel Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "YSJ": {
+    "AirportCode": "YSJ",
+    "AirportName": "Saint John",
+    "CountryCode": "CA",
+    "CountryName": "Canada",
+    "RegionName": "North America"
+  },
+  "SGD": {
+    "AirportCode": "SGD",
+    "AirportName": "Sonderborg",
+    "CountryCode": "DK",
+    "CountryName": "Denmark",
+    "RegionName": "Europe"
+  },
+  "BES": {
+    "AirportCode": "BES",
+    "AirportName": "Guipavas",
+    "CountryCode": "FR",
+    "CountryName": "France",
+    "RegionName": "Europe"
+  },
+  "SGF": {
+    "AirportCode": "SGF",
+    "AirportName": "Springfield Branson National Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "FMY": {
+    "AirportCode": "FMY",
+    "AirportName": "Page Field",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "LZC": {
+    "AirportCode": "LZC",
+    "AirportName": "Lazaro Cardenas",
+    "CountryCode": "MX",
+    "CountryName": "Mexico",
+    "RegionName": "Latin America"
+  },
+  "DIY": {
+    "AirportCode": "DIY",
+    "AirportName": "Diyarbakir",
+    "CountryCode": "TR",
+    "CountryName": "Turkey",
+    "RegionName": "Europe"
+  },
+  "BEY": {
+    "AirportCode": "BEY",
+    "AirportName": "International",
+    "CountryCode": "LB",
+    "CountryName": "Lebanon",
+    "RegionName": "Middle East"
+  },
+  "FNA": {
+    "AirportCode": "FNA",
+    "AirportName": "Lungi International",
+    "CountryCode": "SL",
+    "CountryName": "Sierra Leone",
+    "RegionName": "Africa"
+  },
+  "HRB": {
+    "AirportCode": "HRB",
+    "AirportName": "Harbin",
+    "CountryCode": "CN",
+    "CountryName": "China",
+    "RegionName": "Asia Pacific"
+  },
+  "HRE": {
+    "AirportCode": "HRE",
+    "AirportName": "Harare",
+    "CountryCode": "ZW",
+    "CountryName": "Zimbabwe",
+    "RegionName": "Africa"
+  },
+  "FNC": {
+    "AirportCode": "FNC",
+    "AirportName": "Funchal",
+    "CountryCode": "PT",
+    "CountryName": "Portugal",
+    "RegionName": "Europe"
+  },
+  "SGN": {
+    "AirportCode": "SGN",
+    "AirportName": "Ho Chi Minh City",
+    "CountryCode": "VN",
+    "CountryName": "Viet Nam",
+    "RegionName": "Asia Pacific"
+  },
+  "HRG": {
+    "AirportCode": "HRG",
+    "AirportName": "Hurghada",
+    "CountryCode": "EG",
+    "CountryName": "Egypt",
+    "RegionName": "Middle East"
+  },
+  "DJE": {
+    "AirportCode": "DJE",
+    "AirportName": "Melita",
+    "CountryCode": "TN",
+    "CountryName": "Tunisia",
+    "RegionName": "Africa"
+  },
+  "SGU": {
+    "AirportCode": "SGU",
+    "AirportName": "St. George Municipal Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "HRK": {
+    "AirportCode": "HRK",
+    "AirportName": "Kharkov",
+    "CountryCode": "UA",
+    "CountryName": "Ukraine",
+    "RegionName": "Europe"
+  },
+  "HRL": {
+    "AirportCode": "HRL",
+    "AirportName": "Harlingen Valley International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "UKX": {
+    "AirportCode": "UKX",
+    "AirportName": "Ust-Kut",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "BFL": {
+    "AirportCode": "BFL",
+    "AirportName": "Meadows Field",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "YTH": {
+    "AirportCode": "YTH",
+    "AirportName": "Thompson",
+    "CountryCode": "CA",
+    "CountryName": "Canada",
+    "RegionName": "North America"
+  },
+  "FNT": {
+    "AirportCode": "FNT",
+    "AirportName": "Flint Bishop International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "SHA": {
+    "AirportCode": "SHA",
+    "AirportName": "Hongqiao",
+    "CountryCode": "CN",
+    "CountryName": "China",
+    "RegionName": "Asia Pacific"
+  },
+  "BFS": {
+    "AirportCode": "BFS",
+    "AirportName": "Belfast Intl Arpt",
+    "CountryCode": "GB",
+    "CountryName": "United Kingdom",
+    "RegionName": "Europe"
+  },
+  "SHE": {
+    "AirportCode": "SHE",
+    "AirportName": "Shenyang",
+    "CountryCode": "CN",
+    "CountryName": "China",
+    "RegionName": "Asia Pacific"
+  },
+  "SHJ": {
+    "AirportCode": "SHJ",
+    "AirportName": "Sharjah",
+    "CountryCode": "AE",
+    "CountryName": "United Arab Emirates",
+    "RegionName": "Middle East"
+  },
+  "ULN": {
+    "AirportCode": "ULN",
+    "AirportName": "Buyant Uhaa",
+    "CountryCode": "MN",
+    "CountryName": "Mongolia",
+    "RegionName": "Asia Pacific"
+  },
+  "FOC": {
+    "AirportCode": "FOC",
+    "AirportName": "Fuzhou",
+    "CountryCode": "CN",
+    "CountryName": "China",
+    "RegionName": "Asia Pacific"
+  },
+  "BGA": {
+    "AirportCode": "BGA",
+    "AirportName": "Palo Negro",
+    "CountryCode": "CO",
+    "CountryName": "Colombia",
+    "RegionName": "Latin America"
+  },
+  "YTZ": {
+    "AirportCode": "YTZ",
+    "AirportName": "Toronto Island",
+    "CountryCode": "CA",
+    "CountryName": "Canada",
+    "RegionName": "North America"
+  },
+  "SHV": {
+    "AirportCode": "SHV",
+    "AirportName": "Shreveport Regional Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "ULY": {
+    "AirportCode": "ULY",
+    "AirportName": "Ulyanovsk East",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "QDU": {
+    "AirportCode": "QDU",
+    "AirportName": "Station",
+    "CountryCode": "DE",
+    "CountryName": "Germany",
+    "RegionName": "Europe"
+  },
+  "BGI": {
+    "AirportCode": "BGI",
+    "AirportName": "Grantley Adams Intl",
+    "CountryCode": "BB",
+    "CountryName": "Barbados",
+    "RegionName": "North America"
+  },
+  "FOR": {
+    "AirportCode": "FOR",
+    "AirportName": "Pinto Martins",
+    "CountryCode": "BR",
+    "CountryName": "Brazil",
+    "RegionName": "Latin America"
+  },
+  "BGM": {
+    "AirportCode": "BGM",
+    "AirportName": "Greater Binghamton Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "HSV": {
+    "AirportCode": "HSV",
+    "AirportName": "Huntsville International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "DKR": {
+    "AirportCode": "DKR",
+    "AirportName": "Yoff",
+    "CountryCode": "SN",
+    "CountryName": "Senegal",
+    "RegionName": "Africa"
+  },
+  "BGO": {
+    "AirportCode": "BGO",
+    "AirportName": "Flesland",
+    "CountryCode": "NO",
+    "CountryName": "Norway",
+    "RegionName": "Europe"
+  },
+  "BGR": {
+    "AirportCode": "BGR",
+    "AirportName": "Bangor International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "UME": {
+    "AirportCode": "UME",
+    "AirportName": "Umea",
+    "CountryCode": "SE",
+    "CountryName": "Sweden",
+    "RegionName": "Europe"
+  },
+  "SID": {
+    "AirportCode": "SID",
+    "AirportName": "Amilcar Cabral Intl",
+    "CountryCode": "CV",
+    "CountryName": "Cape Verde",
+    "RegionName": "Africa"
+  },
+  "YUM": {
+    "AirportCode": "YUM",
+    "AirportName": "Yuma International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "YUL": {
+    "AirportCode": "YUL",
+    "AirportName": "Pierre Elliott Trudeau",
+    "CountryCode": "CA",
+    "CountryName": "Canada",
+    "RegionName": "North America"
+  },
+  "BGW": {
+    "AirportCode": "BGW",
+    "AirportName": "Al Muthana",
+    "CountryCode": "IQ",
+    "CountryName": "Iraq",
+    "RegionName": "Middle East"
+  },
+  "HTA": {
+    "AirportCode": "HTA",
+    "AirportName": "Chita",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "BGY": {
+    "AirportCode": "BGY",
+    "AirportName": "Orio Al Serio",
+    "CountryCode": "IT",
+    "CountryName": "Italy",
+    "RegionName": "Europe"
+  },
+  "OAK": {
+    "AirportCode": "OAK",
+    "AirportName": "Oakland International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "DLA": {
+    "AirportCode": "DLA",
+    "AirportName": "Douala",
+    "CountryCode": "CM",
+    "CountryName": "Cameroon",
+    "RegionName": "Africa"
+  },
+  "SIN": {
+    "AirportCode": "SIN",
+    "AirportName": "Changi",
+    "CountryCode": "SG",
+    "CountryName": "Singapore",
+    "RegionName": "Asia Pacific"
+  },
+  "OAJ": {
+    "AirportCode": "OAJ",
+    "AirportName": "Albert J. Ellis Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "DLC": {
+    "AirportCode": "DLC",
+    "AirportName": "Dalian",
+    "CountryCode": "CN",
+    "CountryName": "China",
+    "RegionName": "Asia Pacific"
+  },
+  "SIP": {
+    "AirportCode": "SIP",
+    "AirportName": "Simferopol",
+    "CountryCode": "UA",
+    "CountryName": "Ukraine",
+    "RegionName": "Europe"
+  },
+  "BHD": {
+    "AirportCode": "BHD",
+    "AirportName": "Belfast City Airport",
+    "CountryCode": "GB",
+    "CountryName": "United Kingdom",
+    "RegionName": "Europe"
+  },
+  "DLH": {
+    "AirportCode": "DLH",
+    "AirportName": "Duluth International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "BHI": {
+    "AirportCode": "BHI",
+    "AirportName": "Comandante",
+    "CountryCode": "AR",
+    "CountryName": "Argentina",
+    "RegionName": "Latin America"
+  },
+  "FPO": {
+    "AirportCode": "FPO",
+    "AirportName": "Grand Bahama Int'l",
+    "CountryCode": "BS",
+    "CountryName": "Bahamas",
+    "RegionName": "North America"
+  },
+  "DLM": {
+    "AirportCode": "DLM",
+    "AirportName": "Dalaman",
+    "CountryCode": "TR",
+    "CountryName": "Turkey",
+    "RegionName": "Europe"
+  },
+  "BHM": {
+    "AirportCode": "BHM",
+    "AirportName": "BirminghamShuttlesworth International A",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "OAX": {
+    "AirportCode": "OAX",
+    "AirportName": "Xoxocotlan",
+    "CountryCode": "MX",
+    "CountryName": "Mexico",
+    "RegionName": "Latin America"
+  },
+  "SJD": {
+    "AirportCode": "SJD",
+    "AirportName": "Los Cabos",
+    "CountryCode": "MX",
+    "CountryName": "Mexico",
+    "RegionName": "Latin America"
+  },
+  "SJC": {
+    "AirportCode": "SJC",
+    "AirportName": "Norman Y. Mineta San Jose International",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "SJJ": {
+    "AirportCode": "SJJ",
+    "AirportName": "Butmir",
+    "CountryCode": "BA",
+    "CountryName": "Bosnia And Herzegowina",
+    "RegionName": "Europe"
+  },
+  "BHX": {
+    "AirportCode": "BHX",
+    "AirportName": "International",
+    "CountryCode": "GB",
+    "CountryName": "United Kingdom",
+    "RegionName": "Europe"
+  },
+  "YVR": {
+    "AirportCode": "YVR",
+    "AirportName": "Vancouver Intl",
+    "CountryCode": "CA",
+    "CountryName": "Canada",
+    "RegionName": "North America"
+  },
+  "WRO": {
+    "AirportCode": "WRO",
+    "AirportName": "Strachowice",
+    "CountryCode": "PL",
+    "CountryName": "Poland",
+    "RegionName": "Europe"
+  },
+  "SJO": {
+    "AirportCode": "SJO",
+    "AirportName": "Juan Santamaria Intl",
+    "CountryCode": "CR",
+    "CountryName": "Costa Rica",
+    "RegionName": "Latin America"
+  },
+  "BIA": {
+    "AirportCode": "BIA",
+    "AirportName": "Poretta",
+    "CountryCode": "FR",
+    "CountryName": "France",
+    "RegionName": "Europe"
+  },
+  "SJT": {
+    "AirportCode": "SJT",
+    "AirportName": "San Angelo Regional Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "DME": {
+    "AirportCode": "DME",
+    "AirportName": "Domodedovo",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "SJU": {
+    "AirportCode": "SJU",
+    "AirportName": "Luis Muoz Marn International Airport",
+    "CountryCode": "PR",
+    "CountryName": "Puerto Rico",
+    "RegionName": "North America"
+  },
+  "DMK": {
+    "AirportCode": "DMK",
+    "AirportName": "Don Mueang",
+    "CountryCode": "TH",
+    "CountryName": "Thailand",
+    "RegionName": "Asia Pacific"
+  },
+  "BIL": {
+    "AirportCode": "BIL",
+    "AirportName": "Billings Logan International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "DMM": {
+    "AirportCode": "DMM",
+    "AirportName": "King Fahad Int'l",
+    "CountryCode": "SA",
+    "CountryName": "Saudi Arabia",
+    "RegionName": "Middle East"
+  },
+  "BIM": {
+    "AirportCode": "BIM",
+    "AirportName": "International",
+    "CountryCode": "BS",
+    "CountryName": "Bahamas",
+    "RegionName": "North America"
+  },
+  "YWG": {
+    "AirportCode": "YWG",
+    "AirportName": "Winnipeg",
+    "CountryCode": "CA",
+    "CountryName": "Canada",
+    "RegionName": "North America"
+  },
+  "BIO": {
+    "AirportCode": "BIO",
+    "AirportName": "Bilbao",
+    "CountryCode": "ES",
+    "CountryName": "Spain",
+    "RegionName": "Europe"
+  },
+  "HUX": {
+    "AirportCode": "HUX",
+    "AirportName": "Huatulco",
+    "CountryCode": "MX",
+    "CountryName": "Mexico",
+    "RegionName": "Latin America"
+  },
+  "SKB": {
+    "AirportCode": "SKB",
+    "AirportName": "Golden Rock",
+    "CountryCode": "KN",
+    "CountryName": "Saint Kitts And Nevis",
+    "RegionName": "North America"
+  },
+  "BIQ": {
+    "AirportCode": "BIQ",
+    "AirportName": "Biarritz Parme",
+    "CountryCode": "FR",
+    "CountryName": "France",
+    "RegionName": "Europe"
+  },
+  "BIS": {
+    "AirportCode": "BIS",
+    "AirportName": "Bismarck Municipal Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "SKD": {
+    "AirportCode": "SKD",
+    "AirportName": "Samarkand",
+    "CountryCode": "UZ",
+    "CountryName": "Uzbekistan",
+    "RegionName": "Europe"
+  },
+  "SKG": {
+    "AirportCode": "SKG",
+    "AirportName": "Makedonia Apt.",
+    "CountryCode": "GR",
+    "CountryName": "Greece",
+    "RegionName": "Europe"
+  },
+  "FRA": {
+    "AirportCode": "FRA",
+    "AirportName": "International",
+    "CountryCode": "DE",
+    "CountryName": "Germany",
+    "RegionName": "Europe"
+  },
+  "SKP": {
+    "AirportCode": "SKP",
+    "AirportName": "Skopje",
+    "CountryCode": "MK",
+    "CountryName": "Macedonia - The Former Yugoslav Republic Of",
+    "RegionName": "Europe"
+  },
+  "SKU": {
+    "AirportCode": "SKU",
+    "AirportName": "Skiros",
+    "CountryCode": "GR",
+    "CountryName": "Greece",
+    "RegionName": "Europe"
+  },
+  "DNK": {
+    "AirportCode": "DNK",
+    "AirportName": "Dnepropetrovsk",
+    "CountryCode": "UA",
+    "CountryName": "Ukraine",
+    "RegionName": "Europe"
+  },
+  "BJI": {
+    "AirportCode": "BJI",
+    "AirportName": "Bemidji Regional Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "FRO": {
+    "AirportCode": "FRO",
+    "AirportName": "Flora",
+    "CountryCode": "NO",
+    "CountryName": "Norway",
+    "RegionName": "Europe"
+  },
+  "BJM": {
+    "AirportCode": "BJM",
+    "AirportName": "International",
+    "CountryCode": "BI",
+    "CountryName": "Burundi",
+    "RegionName": "Africa"
+  },
+  "BJL": {
+    "AirportCode": "BJL",
+    "AirportName": "Yundum International",
+    "CountryCode": "GM",
+    "CountryName": "Gambia",
+    "RegionName": "Africa"
+  },
+  "YXE": {
+    "AirportCode": "YXE",
+    "AirportName": "Saskatoon",
+    "CountryCode": "CA",
+    "CountryName": "Canada",
+    "RegionName": "North America"
+  },
+  "FRU": {
+    "AirportCode": "FRU",
+    "AirportName": "Bishkek",
+    "CountryCode": "KG",
+    "CountryName": "Kyrgyzstan",
+    "RegionName": "Europe"
+  },
+  "SLA": {
+    "AirportCode": "SLA",
+    "AirportName": "Gen Belgrano",
+    "CountryCode": "AR",
+    "CountryName": "Argentina",
+    "RegionName": "Latin America"
+  },
+  "YXJ": {
+    "AirportCode": "YXJ",
+    "AirportName": "Fort St John",
+    "CountryCode": "CA",
+    "CountryName": "Canada",
+    "RegionName": "North America"
+  },
+  "BJS": {
+    "AirportCode": "BJS",
+    "AirportName": "Metropolitan Area",
+    "CountryCode": "CN",
+    "CountryName": "China",
+    "RegionName": "Asia Pacific"
+  },
+  "SLC": {
+    "AirportCode": "SLC",
+    "AirportName": "Salt Lake City International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "BJV": {
+    "AirportCode": "BJV",
+    "AirportName": "Milas Airport",
+    "CountryCode": "TR",
+    "CountryName": "Turkey",
+    "RegionName": "Europe"
+  },
+  "BJX": {
+    "AirportCode": "BJX",
+    "AirportName": "Del Bajio",
+    "CountryCode": "MX",
+    "CountryName": "Mexico",
+    "RegionName": "Latin America"
+  },
+  "DNZ": {
+    "AirportCode": "DNZ",
+    "AirportName": "Cardak",
+    "CountryCode": "TR",
+    "CountryName": "Turkey",
+    "RegionName": "Europe"
+  },
+  "YXT": {
+    "AirportCode": "YXT",
+    "AirportName": "Terrace",
+    "CountryCode": "CA",
+    "CountryName": "Canada",
+    "RegionName": "North America"
+  },
+  "YXS": {
+    "AirportCode": "YXS",
+    "AirportName": "Prince George",
+    "CountryCode": "CA",
+    "CountryName": "Canada",
+    "RegionName": "North America"
+  },
+  "SLP": {
+    "AirportCode": "SLP",
+    "AirportName": "San Luis Potosi",
+    "CountryCode": "MX",
+    "CountryName": "Mexico",
+    "RegionName": "Latin America"
+  },
+  "FSD": {
+    "AirportCode": "FSD",
+    "AirportName": "Sioux Falls Regional Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "YXU": {
+    "AirportCode": "YXU",
+    "AirportName": "Metropolitan Area",
+    "CountryCode": "CA",
+    "CountryName": "Canada",
+    "RegionName": "North America"
+  },
+  "FSC": {
+    "AirportCode": "FSC",
+    "AirportName": "Sud Corse",
+    "CountryCode": "FR",
+    "CountryName": "France",
+    "RegionName": "Europe"
+  },
+  "YXX": {
+    "AirportCode": "YXX",
+    "AirportName": "Abbotsford",
+    "CountryCode": "CA",
+    "CountryName": "Canada",
+    "RegionName": "North America"
+  },
+  "YXY": {
+    "AirportCode": "YXY",
+    "AirportName": "Whitehorse",
+    "CountryCode": "CA",
+    "CountryName": "Canada",
+    "RegionName": "North America"
+  },
+  "DOH": {
+    "AirportCode": "DOH",
+    "AirportName": "Doha",
+    "CountryCode": "QA",
+    "CountryName": "Qatar",
+    "RegionName": "Middle East"
+  },
+  "SLW": {
+    "AirportCode": "SLW",
+    "AirportName": "Saltillo",
+    "CountryCode": "MX",
+    "CountryName": "Mexico",
+    "RegionName": "Latin America"
+  },
+  "ODS": {
+    "AirportCode": "ODS",
+    "AirportName": "Central",
+    "CountryCode": "UA",
+    "CountryName": "Ukraine",
+    "RegionName": "Europe"
+  },
+  "SLY": {
+    "AirportCode": "SLY",
+    "AirportName": "#N/A",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "DOK": {
+    "AirportCode": "DOK",
+    "AirportName": "Donetsk",
+    "CountryCode": "UA",
+    "CountryName": "Ukraine",
+    "RegionName": "Europe"
+  },
+  "BKI": {
+    "AirportCode": "BKI",
+    "AirportName": "Kota Kinabalu",
+    "CountryCode": "MY",
+    "CountryName": "Malaysia",
+    "RegionName": "Asia Pacific"
+  },
+  "YYC": {
+    "AirportCode": "YYC",
+    "AirportName": "International",
+    "CountryCode": "CA",
+    "CountryName": "Canada",
+    "RegionName": "North America"
+  },
+  "BKK": {
+    "AirportCode": "BKK",
+    "AirportName": "International",
+    "CountryCode": "TH",
+    "CountryName": "Thailand",
+    "RegionName": "Asia Pacific"
+  },
+  "DOM": {
+    "AirportCode": "DOM",
+    "AirportName": "Melville Hall",
+    "CountryCode": "DM",
+    "CountryName": "Dominica",
+    "RegionName": "North America"
+  },
+  "YYG": {
+    "AirportCode": "YYG",
+    "AirportName": "Charlottetown",
+    "CountryCode": "CA",
+    "CountryName": "Canada",
+    "RegionName": "North America"
+  },
+  "BKO": {
+    "AirportCode": "BKO",
+    "AirportName": "Bamako",
+    "CountryCode": "ML",
+    "CountryName": "Mali",
+    "RegionName": "Africa"
+  },
+  "YYJ": {
+    "AirportCode": "YYJ",
+    "AirportName": "International",
+    "CountryCode": "CA",
+    "CountryName": "Canada",
+    "RegionName": "North America"
+  },
+  "MAA": {
+    "AirportCode": "MAA",
+    "AirportName": "Chennai",
+    "CountryCode": "IN",
+    "CountryName": "India",
+    "RegionName": "Asia Pacific"
+  },
+  "SMF": {
+    "AirportCode": "SMF",
+    "AirportName": "Sacramento International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "SMI": {
+    "AirportCode": "SMI",
+    "AirportName": "Samos",
+    "CountryCode": "GR",
+    "CountryName": "Greece",
+    "RegionName": "Europe"
+  },
+  "MAD": {
+    "AirportCode": "MAD",
+    "AirportName": "Barajas",
+    "CountryCode": "ES",
+    "CountryName": "Spain",
+    "RegionName": "Europe"
+  },
+  "MAF": {
+    "AirportCode": "MAF",
+    "AirportName": "Midland International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "YYT": {
+    "AirportCode": "YYT",
+    "AirportName": "St Johns International Airport",
+    "CountryCode": "CA",
+    "CountryName": "Canada",
+    "RegionName": "North America"
+  },
+  "MAH": {
+    "AirportCode": "MAH",
+    "AirportName": "Menorca",
+    "CountryCode": "ES",
+    "CountryName": "Spain",
+    "RegionName": "Europe"
+  },
+  "MAO": {
+    "AirportCode": "MAO",
+    "AirportName": "Eduardo Gomes Intl",
+    "CountryCode": "BR",
+    "CountryName": "Brazil",
+    "RegionName": "Latin America"
+  },
+  "YYZ": {
+    "AirportCode": "YYZ",
+    "AirportName": "Pearson International",
+    "CountryCode": "CA",
+    "CountryName": "Canada",
+    "RegionName": "North America"
+  },
+  "MAN": {
+    "AirportCode": "MAN",
+    "AirportName": "International",
+    "CountryCode": "GB",
+    "CountryName": "United Kingdom",
+    "RegionName": "Europe"
+  },
+  "BLI": {
+    "AirportCode": "BLI",
+    "AirportName": "Bellingham International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "BLL": {
+    "AirportCode": "BLL",
+    "AirportName": "Billund",
+    "CountryCode": "DK",
+    "CountryName": "Denmark",
+    "RegionName": "Europe"
+  },
+  "YZF": {
+    "AirportCode": "YZF",
+    "AirportName": "Yellowknife",
+    "CountryCode": "CA",
+    "CountryName": "Canada",
+    "RegionName": "North America"
+  },
+  "DPS": {
+    "AirportCode": "DPS",
+    "AirportName": "Ngurah Rai",
+    "CountryCode": "ID",
+    "CountryName": "Indonesia",
+    "RegionName": "Asia Pacific"
+  },
+  "BLQ": {
+    "AirportCode": "BLQ",
+    "AirportName": "Guglielmo Marconi",
+    "CountryCode": "IT",
+    "CountryName": "Italy",
+    "RegionName": "Europe"
+  },
+  "SNA": {
+    "AirportCode": "SNA",
+    "AirportName": "John Wayne Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "URC": {
+    "AirportCode": "URC",
+    "AirportName": "Urumqi",
+    "CountryCode": "CN",
+    "CountryName": "China",
+    "RegionName": "Asia Pacific"
+  },
+  "BLR": {
+    "AirportCode": "BLR",
+    "AirportName": "Hindustan",
+    "CountryCode": "IN",
+    "CountryName": "India",
+    "RegionName": "Asia Pacific"
+  },
+  "MBA": {
+    "AirportCode": "MBA",
+    "AirportName": "Moi International",
+    "CountryCode": "KE",
+    "CountryName": "Kenya",
+    "RegionName": "Africa"
+  },
+  "SNN": {
+    "AirportCode": "SNN",
+    "AirportName": "Shannon",
+    "CountryCode": "IE",
+    "CountryName": "Ireland",
+    "RegionName": "Europe"
+  },
+  "HYD": {
+    "AirportCode": "HYD",
+    "AirportName": "Begumpet",
+    "CountryCode": "IN",
+    "CountryName": "India",
+    "RegionName": "Asia Pacific"
+  },
+  "MBJ": {
+    "AirportCode": "MBJ",
+    "AirportName": "Sangster Intl",
+    "CountryCode": "JM",
+    "CountryName": "Jamaica",
+    "RegionName": "North America"
+  },
+  "URT": {
+    "AirportCode": "URT",
+    "AirportName": "Surat Thani",
+    "CountryCode": "TH",
+    "CountryName": "Thailand",
+    "RegionName": "Asia Pacific"
+  },
+  "FUE": {
+    "AirportCode": "FUE",
+    "AirportName": "Fuerteventura",
+    "CountryCode": "ES",
+    "CountryName": "Spain",
+    "RegionName": "Europe"
+  },
+  "BMA": {
+    "AirportCode": "BMA",
+    "AirportName": "Bromma",
+    "CountryCode": "SE",
+    "CountryName": "Sweden",
+    "RegionName": "Europe"
+  },
+  "SNU": {
+    "AirportCode": "SNU",
+    "AirportName": "Santa Clara",
+    "CountryCode": "CU",
+    "CountryName": "Cuba",
+    "RegionName": "North America"
+  },
+  "FUK": {
+    "AirportCode": "FUK",
+    "AirportName": "Fukuoka",
+    "CountryCode": "JP",
+    "CountryName": "Japan",
+    "RegionName": "Asia Pacific"
+  },
+  "BMI": {
+    "AirportCode": "BMI",
+    "AirportName": "Central Illinois Regional Airport at Blo",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "MBS": {
+    "AirportCode": "MBS",
+    "AirportName": "MBS International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "HYS": {
+    "AirportCode": "HYS",
+    "AirportName": "Hays Regional Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "SOF": {
+    "AirportCode": "SOF",
+    "AirportName": "Vrazhdebna",
+    "CountryCode": "BG",
+    "CountryName": "Bulgaria",
+    "RegionName": "Europe"
+  },
+  "OGG": {
+    "AirportCode": "OGG",
+    "AirportName": "Kahului Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "USM": {
+    "AirportCode": "USM",
+    "AirportName": "Koh Samui",
+    "CountryCode": "TH",
+    "CountryName": "Thailand",
+    "RegionName": "Asia Pacific"
+  },
+  "MCI": {
+    "AirportCode": "MCI",
+    "AirportName": "Kansas City International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "QKL": {
+    "AirportCode": "QKL",
+    "AirportName": "Railway Service",
+    "CountryCode": "DE",
+    "CountryName": "Germany",
+    "RegionName": "Europe"
+  },
+  "BNA": {
+    "AirportCode": "BNA",
+    "AirportName": "Nashville International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "MCO": {
+    "AirportCode": "MCO",
+    "AirportName": "Orlando International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "BNE": {
+    "AirportCode": "BNE",
+    "AirportName": "International",
+    "CountryCode": "AU",
+    "CountryName": "Australia",
+    "RegionName": "Asia Pacific"
+  },
+  "SOU": {
+    "AirportCode": "SOU",
+    "AirportName": "Eastleigh",
+    "CountryCode": "GB",
+    "CountryName": "United Kingdom",
+    "RegionName": "Europe"
+  },
+  "MCT": {
+    "AirportCode": "MCT",
+    "AirportName": "Seeb",
+    "CountryCode": "OM",
+    "CountryName": "Oman",
+    "RegionName": "Middle East"
+  },
+  "DRO": {
+    "AirportCode": "DRO",
+    "AirportName": "DurangoLa Plata County Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "OGZ": {
+    "AirportCode": "OGZ",
+    "AirportName": "Vladikavkaz",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "MCX": {
+    "AirportCode": "MCX",
+    "AirportName": "Makhachkala",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "DRS": {
+    "AirportCode": "DRS",
+    "AirportName": "Dresden Arpt",
+    "CountryCode": "DE",
+    "CountryName": "Germany",
+    "RegionName": "Europe"
+  },
+  "SPC": {
+    "AirportCode": "SPC",
+    "AirportName": "La Palma",
+    "CountryCode": "ES",
+    "CountryName": "Spain",
+    "RegionName": "Europe"
+  },
+  "UTH": {
+    "AirportCode": "UTH",
+    "AirportName": "Udon Thani",
+    "CountryCode": "TH",
+    "CountryName": "Thailand",
+    "RegionName": "Asia Pacific"
+  },
+  "DRW": {
+    "AirportCode": "DRW",
+    "AirportName": "Darwin",
+    "CountryCode": "AU",
+    "CountryName": "Australia",
+    "RegionName": "Asia Pacific"
+  },
+  "SPI": {
+    "AirportCode": "SPI",
+    "AirportName": "Abraham Lincoln Capital Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "BNX": {
+    "AirportCode": "BNX",
+    "AirportName": "Banja Luka",
+    "CountryCode": "BA",
+    "CountryName": "Bosnia And Herzegowina",
+    "RegionName": "Europe"
+  },
+  "MDE": {
+    "AirportCode": "MDE",
+    "AirportName": "Jose Marie Cordova",
+    "CountryCode": "CO",
+    "CountryName": "Colombia",
+    "RegionName": "Latin America"
+  },
+  "SPN": {
+    "AirportCode": "SPN",
+    "AirportName": "International",
+    "CountryCode": "MP",
+    "CountryName": "Northern Mariana Islands",
+    "RegionName": "Asia Pacific"
+  },
+  "FWA": {
+    "AirportCode": "FWA",
+    "AirportName": "Fort Wayne International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "BOB": {
+    "AirportCode": "BOB",
+    "AirportName": "Motu-Mute",
+    "CountryCode": "PF",
+    "CountryName": "French Polynesia",
+    "RegionName": "Asia Pacific"
+  },
+  "BOD": {
+    "AirportCode": "BOD",
+    "AirportName": "Bordeaux Airport",
+    "CountryCode": "FR",
+    "CountryName": "France",
+    "RegionName": "Europe"
+  },
+  "SPU": {
+    "AirportCode": "SPU",
+    "AirportName": "Split",
+    "CountryCode": "HR",
+    "CountryName": "Croatia",
+    "RegionName": "Europe"
+  },
+  "BOH": {
+    "AirportCode": "BOH",
+    "AirportName": "International",
+    "CountryCode": "GB",
+    "CountryName": "United Kingdom",
+    "RegionName": "Europe"
+  },
+  "BOG": {
+    "AirportCode": "BOG",
+    "AirportName": "Eldorado",
+    "CountryCode": "CO",
+    "CountryName": "Colombia",
+    "RegionName": "Latin America"
+  },
+  "MDT": {
+    "AirportCode": "MDT",
+    "AirportName": "Harrisburg International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "BOJ": {
+    "AirportCode": "BOJ",
+    "AirportName": "Bourgas",
+    "CountryCode": "BG",
+    "CountryName": "Bulgaria",
+    "RegionName": "Europe"
+  },
+  "BOI": {
+    "AirportCode": "BOI",
+    "AirportName": "Boise Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "DSM": {
+    "AirportCode": "DSM",
+    "AirportName": "Des Moines International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "BON": {
+    "AirportCode": "BON",
+    "AirportName": "Flamingo International",
+    "CountryCode": "AN",
+    "CountryName": "Netherlands Antilles",
+    "RegionName": "North America"
+  },
+  "MDW": {
+    "AirportCode": "MDW",
+    "AirportName": "Chicago Midway International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "BOM": {
+    "AirportCode": "BOM",
+    "AirportName": "Chhatrapati Shivaji",
+    "CountryCode": "IN",
+    "CountryName": "India",
+    "RegionName": "Asia Pacific"
+  },
+  "MDZ": {
+    "AirportCode": "MDZ",
+    "AirportName": "El Plumerillo",
+    "CountryCode": "AR",
+    "CountryName": "Argentina",
+    "RegionName": "Latin America"
+  },
+  "BOO": {
+    "AirportCode": "BOO",
+    "AirportName": "Bodo",
+    "CountryCode": "NO",
+    "CountryName": "Norway",
+    "RegionName": "Europe"
+  },
+  "UUD": {
+    "AirportCode": "UUD",
+    "AirportName": "Ulan-Ude",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "BOS": {
+    "AirportCode": "BOS",
+    "AirportName": "General Edward Lawrence Logan Internatio",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "MED": {
+    "AirportCode": "MED",
+    "AirportName": "Mohammad Bin Abdulaziz",
+    "CountryCode": "SA",
+    "CountryName": "Saudi Arabia",
+    "RegionName": "Middle East"
+  },
+  "MEI": {
+    "AirportCode": "MEI",
+    "AirportName": "Meridian Regional Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "UUS": {
+    "AirportCode": "UUS",
+    "AirportName": "Yuzhno-Sakhalinsk",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "MEM": {
+    "AirportCode": "MEM",
+    "AirportName": "Memphis International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "MEL": {
+    "AirportCode": "MEL",
+    "AirportName": "Tullamarine",
+    "CountryCode": "AU",
+    "CountryName": "Australia",
+    "RegionName": "Asia Pacific"
+  },
+  "MES": {
+    "AirportCode": "MES",
+    "AirportName": "Polania",
+    "CountryCode": "ID",
+    "CountryName": "Indonesia",
+    "RegionName": "Asia Pacific"
+  },
+  "DTM": {
+    "AirportCode": "DTM",
+    "AirportName": "Dortmund",
+    "CountryCode": "DE",
+    "CountryName": "Germany",
+    "RegionName": "Europe"
+  },
+  "MEX": {
+    "AirportCode": "MEX",
+    "AirportName": "Juarez International",
+    "CountryCode": "MX",
+    "CountryName": "Mexico",
+    "RegionName": "Latin America"
+  },
+  "UVF": {
+    "AirportCode": "UVF",
+    "AirportName": "Hewanorra",
+    "CountryCode": "LC",
+    "CountryName": "Saint Lucia",
+    "RegionName": "North America"
+  },
+  "DTW": {
+    "AirportCode": "DTW",
+    "AirportName": "Detroit Metropolitan Wayne County Airpor",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "MFE": {
+    "AirportCode": "MFE",
+    "AirportName": "McAllen Miller International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "DUB": {
+    "AirportCode": "DUB",
+    "AirportName": "Dublin",
+    "CountryCode": "IE",
+    "CountryName": "Ireland",
+    "RegionName": "Europe"
+  },
+  "SRQ": {
+    "AirportCode": "SRQ",
+    "AirportName": "Sarasota Bradenton International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "KBL": {
+    "AirportCode": "KBL",
+    "AirportName": "Khwaja Rawash",
+    "CountryCode": "AF",
+    "CountryName": "Afghanistan",
+    "RegionName": "Asia Pacific"
+  },
+  "MFM": {
+    "AirportCode": "MFM",
+    "AirportName": "Macau",
+    "CountryCode": "MO",
+    "CountryName": "Macau",
+    "RegionName": "Asia Pacific"
+  },
+  "MFR": {
+    "AirportCode": "MFR",
+    "AirportName": "Rogue Valley International Medford Airpo",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "KBP": {
+    "AirportCode": "KBP",
+    "AirportName": "Borispol",
+    "CountryCode": "UA",
+    "CountryName": "Ukraine",
+    "RegionName": "Europe"
+  },
+  "SRZ": {
+    "AirportCode": "SRZ",
+    "AirportName": "El Trompillo",
+    "CountryCode": "BO",
+    "CountryName": "Bolivia",
+    "RegionName": "Latin America"
+  },
+  "BQN": {
+    "AirportCode": "BQN",
+    "AirportName": "Rafael Hernndez Airport",
+    "CountryCode": "PR",
+    "CountryName": "Puerto Rico",
+    "RegionName": "North America"
+  },
+  "KBV": {
+    "AirportCode": "KBV",
+    "AirportName": "Krabi",
+    "CountryCode": "TH",
+    "CountryName": "Thailand",
+    "RegionName": "Asia Pacific"
+  },
+  "SSA": {
+    "AirportCode": "SSA",
+    "AirportName": "Arpt Luis R. Magalhaes",
+    "CountryCode": "BR",
+    "CountryName": "Brazil",
+    "RegionName": "Latin America"
+  },
+  "DUR": {
+    "AirportCode": "DUR",
+    "AirportName": "Durban International",
+    "CountryCode": "ZA",
+    "CountryName": "South Africa",
+    "RegionName": "Africa"
+  },
+  "DUS": {
+    "AirportCode": "DUS",
+    "AirportName": "International",
+    "CountryCode": "DE",
+    "CountryName": "Germany",
+    "RegionName": "Europe"
+  },
+  "OKA": {
+    "AirportCode": "OKA",
+    "AirportName": "Naha",
+    "CountryCode": "JP",
+    "CountryName": "Japan",
+    "RegionName": "Asia Pacific"
+  },
+  "BQS": {
+    "AirportCode": "BQS",
+    "AirportName": "Blagoveschensk",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "OKC": {
+    "AirportCode": "OKC",
+    "AirportName": "Will Rogers World Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "MGA": {
+    "AirportCode": "MGA",
+    "AirportName": "Augusto C Sandino",
+    "CountryCode": "NI",
+    "CountryName": "Nicaragua",
+    "RegionName": "Latin America"
+  },
+  "SSG": {
+    "AirportCode": "SSG",
+    "AirportName": "Santa Isabel",
+    "CountryCode": "GQ",
+    "CountryName": "Equatorial Guinea",
+    "RegionName": "Africa"
+  },
+  "SSH": {
+    "AirportCode": "SSH",
+    "AirportName": "Ophira",
+    "CountryCode": "EG",
+    "CountryName": "Egypt",
+    "RegionName": "Middle East"
+  },
+  "SSJ": {
+    "AirportCode": "SSJ",
+    "AirportName": "Stokka",
+    "CountryCode": "NO",
+    "CountryName": "Norway",
+    "RegionName": "Europe"
+  },
+  "MGM": {
+    "AirportCode": "MGM",
+    "AirportName": "Montgomery Regional Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "BRE": {
+    "AirportCode": "BRE",
+    "AirportName": "Bremen",
+    "CountryCode": "DE",
+    "CountryName": "Germany",
+    "RegionName": "Europe"
+  },
+  "MGQ": {
+    "AirportCode": "MGQ",
+    "AirportName": "International",
+    "CountryCode": "SO",
+    "CountryName": "Somalia",
+    "RegionName": "Africa"
+  },
+  "BRI": {
+    "AirportCode": "BRI",
+    "AirportName": "Palese",
+    "CountryCode": "IT",
+    "CountryName": "Italy",
+    "RegionName": "Europe"
+  },
+  "SSX": {
+    "AirportCode": "SSX",
+    "AirportName": "Samsun",
+    "CountryCode": "TR",
+    "CountryName": "Turkey",
+    "RegionName": "Europe"
+  },
+  "ZAD": {
+    "AirportCode": "ZAD",
+    "AirportName": "Zadar",
+    "CountryCode": "HR",
+    "CountryName": "Croatia",
+    "RegionName": "Europe"
+  },
+  "DVO": {
+    "AirportCode": "DVO",
+    "AirportName": "Mati",
+    "CountryCode": "PH",
+    "CountryName": "Philippines",
+    "RegionName": "Asia Pacific"
+  },
+  "BRO": {
+    "AirportCode": "BRO",
+    "AirportName": "Brownsville/South Padre Island Internati",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "BRN": {
+    "AirportCode": "BRN",
+    "AirportName": "Belp",
+    "CountryCode": "CH",
+    "CountryName": "Switzerland",
+    "RegionName": "Europe"
+  },
+  "ZAG": {
+    "AirportCode": "ZAG",
+    "AirportName": "Pleso",
+    "CountryCode": "HR",
+    "CountryName": "Croatia",
+    "RegionName": "Europe"
+  },
+  "BRS": {
+    "AirportCode": "BRS",
+    "AirportName": "Bristol",
+    "CountryCode": "GB",
+    "CountryName": "United Kingdom",
+    "RegionName": "Europe"
+  },
+  "BRU": {
+    "AirportCode": "BRU",
+    "AirportName": "National",
+    "CountryCode": "BE",
+    "CountryName": "Belgium",
+    "RegionName": "Europe"
+  },
+  "OLB": {
+    "AirportCode": "OLB",
+    "AirportName": "Costa Smeralda",
+    "CountryCode": "IT",
+    "CountryName": "Italy",
+    "RegionName": "Europe"
+  },
+  "MHD": {
+    "AirportCode": "MHD",
+    "AirportName": "Mashad",
+    "CountryCode": "IR",
+    "CountryName": "Iran (Islamic Republic Of)",
+    "RegionName": "Middle East"
+  },
+  "STI": {
+    "AirportCode": "STI",
+    "AirportName": "Municipal",
+    "CountryCode": "DO",
+    "CountryName": "Dominican Republic",
+    "RegionName": "North America"
+  },
+  "STL": {
+    "AirportCode": "STL",
+    "AirportName": "Lambert-St. Louis International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "MHH": {
+    "AirportCode": "MHH",
+    "AirportName": "International",
+    "CountryCode": "BS",
+    "CountryName": "Bahamas",
+    "RegionName": "North America"
+  },
+  "STN": {
+    "AirportCode": "STN",
+    "AirportName": "Stansted",
+    "CountryCode": "GB",
+    "CountryName": "United Kingdom",
+    "RegionName": "Europe"
+  },
+  "STR": {
+    "AirportCode": "STR",
+    "AirportName": "Echterdingen",
+    "CountryCode": "DE",
+    "CountryName": "Germany",
+    "RegionName": "Europe"
+  },
+  "BSB": {
+    "AirportCode": "BSB",
+    "AirportName": "International",
+    "CountryCode": "BR",
+    "CountryName": "Brazil",
+    "RegionName": "Latin America"
+  },
+  "MHK": {
+    "AirportCode": "MHK",
+    "AirportName": "Manhattan Regional Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "STT": {
+    "AirportCode": "STT",
+    "AirportName": "Cyril E. King Airport",
+    "CountryCode": "VI",
+    "CountryName": "Virgin Islands (U.S.)",
+    "RegionName": "North America"
+  },
+  "STS": {
+    "AirportCode": "STS",
+    "AirportName": "Charles M. SchulzSonoma County Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "STX": {
+    "AirportCode": "STX",
+    "AirportName": "Henry E. Rohlsen Airport",
+    "CountryCode": "VI",
+    "CountryName": "Virgin Islands (U.S.)",
+    "RegionName": "North America"
+  },
+  "STW": {
+    "AirportCode": "STW",
+    "AirportName": "Stavropol",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "MHT": {
+    "AirportCode": "MHT",
+    "AirportName": "Manchester-Boston Regional Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "BSL": {
+    "AirportCode": "BSL",
+    "AirportName": "Euroairport Swiss",
+    "CountryCode": "CH",
+    "CountryName": "Switzerland",
+    "RegionName": "Europe"
+  },
+  "BSR": {
+    "AirportCode": "BSR",
+    "AirportName": "International",
+    "CountryCode": "IQ",
+    "CountryName": "Iraq",
+    "RegionName": "Middle East"
+  },
+  "SUB": {
+    "AirportCode": "SUB",
+    "AirportName": "Juanda",
+    "CountryCode": "ID",
+    "CountryName": "Indonesia",
+    "RegionName": "Asia Pacific"
+  },
+  "OMA": {
+    "AirportCode": "OMA",
+    "AirportName": "Omaha Eppley Airfield",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "MIA": {
+    "AirportCode": "MIA",
+    "AirportName": "Miami International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "SUF": {
+    "AirportCode": "SUF",
+    "AirportName": "S Eufemia",
+    "CountryCode": "IT",
+    "CountryName": "Italy",
+    "RegionName": "Europe"
+  },
+  "MID": {
+    "AirportCode": "MID",
+    "AirportName": "Rejon",
+    "CountryCode": "MX",
+    "CountryName": "Mexico",
+    "RegionName": "Latin America"
+  },
+  "IAD": {
+    "AirportCode": "IAD",
+    "AirportName": "Washington Dulles International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "SUN": {
+    "AirportCode": "SUN",
+    "AirportName": "Friedman Memorial Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "KEF": {
+    "AirportCode": "KEF",
+    "AirportName": "Keflavik International",
+    "CountryCode": "IS",
+    "CountryName": "Iceland",
+    "RegionName": "Europe"
+  },
+  "IAG": {
+    "AirportCode": "IAG",
+    "AirportName": "International",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "DXB": {
+    "AirportCode": "DXB",
+    "AirportName": "Dubai International Airport",
+    "CountryCode": "AE",
+    "CountryName": "United Arab Emirates",
+    "RegionName": "Middle East"
+  },
+  "IAH": {
+    "AirportCode": "IAH",
+    "AirportName": "Houston George Bush Intercontinental Air",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "KEJ": {
+    "AirportCode": "KEJ",
+    "AirportName": "Kemerovo",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "OMS": {
+    "AirportCode": "OMS",
+    "AirportName": "Omsk",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "MIR": {
+    "AirportCode": "MIR",
+    "AirportName": "Habib Bourguiba Int'l",
+    "CountryCode": "TN",
+    "CountryName": "Tunisia",
+    "RegionName": "Africa"
+  },
+  "IAS": {
+    "AirportCode": "IAS",
+    "AirportName": "Iasi",
+    "CountryCode": "RO",
+    "CountryName": "Romania",
+    "RegionName": "Europe"
+  },
+  "SVD": {
+    "AirportCode": "SVD",
+    "AirportName": "E.T. Joshua",
+    "CountryCode": "VC",
+    "CountryName": "Saint Vincent And The Grenadines",
+    "RegionName": "North America"
+  },
+  "BTS": {
+    "AirportCode": "BTS",
+    "AirportName": "Ivanka",
+    "CountryCode": "SK",
+    "CountryName": "Slovakia",
+    "RegionName": "Europe"
+  },
+  "BTR": {
+    "AirportCode": "BTR",
+    "AirportName": "Baton Rouge Metropolitan Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "ZCL": {
+    "AirportCode": "ZCL",
+    "AirportName": "La Calera",
+    "CountryCode": "MX",
+    "CountryName": "Mexico",
+    "RegionName": "Latin America"
+  },
+  "BTV": {
+    "AirportCode": "BTV",
+    "AirportName": "Burlington International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "SVG": {
+    "AirportCode": "SVG",
+    "AirportName": "Sola",
+    "CountryCode": "NO",
+    "CountryName": "Norway",
+    "RegionName": "Europe"
+  },
+  "SVJ": {
+    "AirportCode": "SVJ",
+    "AirportName": "Helle",
+    "CountryCode": "NO",
+    "CountryName": "Norway",
+    "RegionName": "Europe"
+  },
+  "SVO": {
+    "AirportCode": "SVO",
+    "AirportName": "Sheremetyevo",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "QRO": {
+    "AirportCode": "QRO",
+    "AirportName": "Queretaro",
+    "CountryCode": "MX",
+    "CountryName": "Mexico",
+    "RegionName": "Latin America"
+  },
+  "SVQ": {
+    "AirportCode": "SVQ",
+    "AirportName": "Sevilla",
+    "CountryCode": "ES",
+    "CountryName": "Spain",
+    "RegionName": "Europe"
+  },
+  "BUD": {
+    "AirportCode": "BUD",
+    "AirportName": "Ferihegy",
+    "CountryCode": "HU",
+    "CountryName": "Hungary",
+    "RegionName": "Europe"
+  },
+  "BUF": {
+    "AirportCode": "BUF",
+    "AirportName": "Buffalo Niagara International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "ONT": {
+    "AirportCode": "ONT",
+    "AirportName": "LA/Ontario International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "SVX": {
+    "AirportCode": "SVX",
+    "AirportName": "Ekaterinburg",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "BUH": {
+    "AirportCode": "BUH",
+    "AirportName": "Metropolitan Area",
+    "CountryCode": "RO",
+    "CountryName": "Romania",
+    "RegionName": "Europe"
+  },
+  "MJT": {
+    "AirportCode": "MJT",
+    "AirportName": "Mytilene",
+    "CountryCode": "GR",
+    "CountryName": "Greece",
+    "RegionName": "Europe"
+  },
+  "MJV": {
+    "AirportCode": "MJV",
+    "AirportName": "San Javier",
+    "CountryCode": "ES",
+    "CountryName": "Spain",
+    "RegionName": "Europe"
+  },
+  "MJZ": {
+    "AirportCode": "MJZ",
+    "AirportName": "Mirnyj",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "BUR": {
+    "AirportCode": "BUR",
+    "AirportName": "Bob Hope Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "ZDH": {
+    "AirportCode": "ZDH",
+    "AirportName": "Sbb Railway Service",
+    "CountryCode": "CH",
+    "CountryName": "Switzerland",
+    "RegionName": "Europe"
+  },
+  "IBZ": {
+    "AirportCode": "IBZ",
+    "AirportName": "Ibiza",
+    "CountryCode": "ES",
+    "CountryName": "Spain",
+    "RegionName": "Europe"
+  },
+  "DYU": {
+    "AirportCode": "DYU",
+    "AirportName": "Dyu",
+    "CountryCode": "TJ",
+    "CountryName": "Tajikistan",
+    "RegionName": "Europe"
+  },
+  "BUS": {
+    "AirportCode": "BUS",
+    "AirportName": "Batumi",
+    "CountryCode": "GE",
+    "CountryName": "Georgia",
+    "RegionName": "Europe"
+  },
+  "SWF": {
+    "AirportCode": "SWF",
+    "AirportName": "Stewart International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "MKE": {
+    "AirportCode": "MKE",
+    "AirportName": "General Mitchell International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "KGD": {
+    "AirportCode": "KGD",
+    "AirportName": "Kaliningrad",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "KGF": {
+    "AirportCode": "KGF",
+    "AirportName": "Karaganda",
+    "CountryCode": "KZ",
+    "CountryName": "Kazakhstan",
+    "RegionName": "Europe"
+  },
+  "MKK": {
+    "AirportCode": "MKK",
+    "AirportName": "Molokai Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "BVA": {
+    "AirportCode": "BVA",
+    "AirportName": "Beauvais-Tille Airport",
+    "CountryCode": "FR",
+    "CountryName": "France",
+    "RegionName": "Europe"
+  },
+  "OOL": {
+    "AirportCode": "OOL",
+    "AirportName": "Coolangatta",
+    "CountryCode": "AU",
+    "CountryName": "Australia",
+    "RegionName": "Asia Pacific"
+  },
+  "BVC": {
+    "AirportCode": "BVC",
+    "AirportName": "Rabil",
+    "CountryCode": "CV",
+    "CountryName": "Cape Verde",
+    "RegionName": "Africa"
+  },
+  "KGL": {
+    "AirportCode": "KGL",
+    "AirportName": "Gregoire Kayibanda",
+    "CountryCode": "RW",
+    "CountryName": "Rwanda",
+    "RegionName": "Africa"
+  },
+  "ICN": {
+    "AirportCode": "ICN",
+    "AirportName": "Incheon Int'l Airport",
+    "CountryCode": "KR",
+    "CountryName": "Korea - Republic Of",
+    "RegionName": "Asia Pacific"
+  },
+  "KGS": {
+    "AirportCode": "KGS",
+    "AirportName": "Kos",
+    "CountryCode": "GR",
+    "CountryName": "Greece",
+    "RegionName": "Europe"
+  },
+  "ICT": {
+    "AirportCode": "ICT",
+    "AirportName": "Wichita Mid-Continent Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "SXB": {
+    "AirportCode": "SXB",
+    "AirportName": "Entzheim",
+    "CountryCode": "FR",
+    "CountryName": "France",
+    "RegionName": "Europe"
+  },
+  "SXF": {
+    "AirportCode": "SXF",
+    "AirportName": "Schoenefeld",
+    "CountryCode": "DE",
+    "CountryName": "Germany",
+    "RegionName": "Europe"
+  },
+  "MLB": {
+    "AirportCode": "MLB",
+    "AirportName": "Melbourne International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "MLA": {
+    "AirportCode": "MLA",
+    "AirportName": "Luqa",
+    "CountryCode": "MT",
+    "CountryName": "Malta",
+    "RegionName": "Europe"
+  },
+  "MLE": {
+    "AirportCode": "MLE",
+    "AirportName": "International",
+    "CountryCode": "MV",
+    "CountryName": "Maldives",
+    "RegionName": "Asia Pacific"
+  },
+  "SXM": {
+    "AirportCode": "SXM",
+    "AirportName": "Princ. Juliana",
+    "CountryCode": "AN",
+    "CountryName": "Netherlands Antilles",
+    "RegionName": "North America"
+  },
+  "KHH": {
+    "AirportCode": "KHH",
+    "AirportName": "International",
+    "CountryCode": "TW",
+    "CountryName": "Taiwan",
+    "RegionName": "Asia Pacific"
+  },
+  "MLI": {
+    "AirportCode": "MLI",
+    "AirportName": "Quad City International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "SXR": {
+    "AirportCode": "SXR",
+    "AirportName": "Srinagar",
+    "CountryCode": "IN",
+    "CountryName": "India",
+    "RegionName": "Asia Pacific"
+  },
+  "KHI": {
+    "AirportCode": "KHI",
+    "AirportName": "Quaid-E-Azam Intl",
+    "CountryCode": "PK",
+    "CountryName": "Pakistan",
+    "RegionName": "Asia Pacific"
+  },
+  "OPO": {
+    "AirportCode": "OPO",
+    "AirportName": "Porto",
+    "CountryCode": "PT",
+    "CountryName": "Portugal",
+    "RegionName": "Europe"
+  },
+  "MLM": {
+    "AirportCode": "MLM",
+    "AirportName": "Morelia",
+    "CountryCode": "MX",
+    "CountryName": "Mexico",
+    "RegionName": "Latin America"
+  },
+  "MLO": {
+    "AirportCode": "MLO",
+    "AirportName": "Milos",
+    "CountryCode": "GR",
+    "CountryName": "Greece",
+    "RegionName": "Europe"
+  },
+  "BWI": {
+    "AirportCode": "BWI",
+    "AirportName": "Baltimore/Washington International Thurg",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "MLU": {
+    "AirportCode": "MLU",
+    "AirportName": "Monroe Regional Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "MLX": {
+    "AirportCode": "MLX",
+    "AirportName": "Malatya",
+    "CountryCode": "TR",
+    "CountryName": "Turkey",
+    "RegionName": "Europe"
+  },
+  "KHV": {
+    "AirportCode": "KHV",
+    "AirportName": "Novyy",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "SYD": {
+    "AirportCode": "SYD",
+    "AirportName": "Kingsford Smith",
+    "CountryCode": "AU",
+    "CountryName": "Australia",
+    "RegionName": "Asia Pacific"
+  },
+  "MME": {
+    "AirportCode": "MME",
+    "AirportName": "Teesside Intl",
+    "CountryCode": "GB",
+    "CountryName": "United Kingdom",
+    "RegionName": "Europe"
+  },
+  "MMH": {
+    "AirportCode": "MMH",
+    "AirportName": "Mammoth Yosemite Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "MMK": {
+    "AirportCode": "MMK",
+    "AirportName": "Murmansk",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "SYR": {
+    "AirportCode": "SYR",
+    "AirportName": "Syracuse Hancock International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "MML": {
+    "AirportCode": "MML",
+    "AirportName": "Marshall Municipal Airport Ryan Field",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "KIN": {
+    "AirportCode": "KIN",
+    "AirportName": "Norman Manley",
+    "CountryCode": "JM",
+    "CountryName": "Jamaica",
+    "RegionName": "North America"
+  },
+  "SYX": {
+    "AirportCode": "SYX",
+    "AirportName": "Sanya",
+    "CountryCode": "CN",
+    "CountryName": "China",
+    "RegionName": "Asia Pacific"
+  },
+  "SYZ": {
+    "AirportCode": "SYZ",
+    "AirportName": "Shiraz",
+    "CountryCode": "IR",
+    "CountryName": "Iran (Islamic Republic Of)",
+    "RegionName": "Middle East"
+  },
+  "KIR": {
+    "AirportCode": "KIR",
+    "AirportName": "Kerry County Airport",
+    "CountryCode": "IE",
+    "CountryName": "Ireland",
+    "RegionName": "Europe"
+  },
+  "KIT": {
+    "AirportCode": "KIT",
+    "AirportName": "Kithira",
+    "CountryCode": "GR",
+    "CountryName": "Greece",
+    "RegionName": "Europe"
+  },
+  "MMX": {
+    "AirportCode": "MMX",
+    "AirportName": "Sturup",
+    "CountryCode": "SE",
+    "CountryName": "Sweden",
+    "RegionName": "Europe"
+  },
+  "KIV": {
+    "AirportCode": "KIV",
+    "AirportName": "Chisinau",
+    "CountryCode": "MD",
+    "CountryName": "Moldova - Republic Of",
+    "RegionName": "Europe"
+  },
+  "BXN": {
+    "AirportCode": "BXN",
+    "AirportName": "Imsik Airport",
+    "CountryCode": "TR",
+    "CountryName": "Turkey",
+    "RegionName": "Europe"
+  },
+  "KIX": {
+    "AirportCode": "KIX",
+    "AirportName": "Kansai International",
+    "CountryCode": "JP",
+    "CountryName": "Japan",
+    "RegionName": "Asia Pacific"
+  },
+  "IEV": {
+    "AirportCode": "IEV",
+    "AirportName": "Zhulhany",
+    "CountryCode": "UA",
+    "CountryName": "Ukraine",
+    "RegionName": "Europe"
+  },
+  "SZF": {
+    "AirportCode": "SZF",
+    "AirportName": "Carsamba",
+    "CountryCode": "TR",
+    "CountryName": "Turkey",
+    "RegionName": "Europe"
+  },
+  "ORD": {
+    "AirportCode": "ORD",
+    "AirportName": "Chicago O'Hare International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "SZG": {
+    "AirportCode": "SZG",
+    "AirportName": "W.A. Mozart",
+    "CountryCode": "AT",
+    "CountryName": "Austria",
+    "RegionName": "Europe"
+  },
+  "ORF": {
+    "AirportCode": "ORF",
+    "AirportName": "Norfolk International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "KJA": {
+    "AirportCode": "KJA",
+    "AirportName": "Krasnojarsk",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "ORL": {
+    "AirportCode": "ORL",
+    "AirportName": "Herndon",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "ORK": {
+    "AirportCode": "ORK",
+    "AirportName": "Cork",
+    "CountryCode": "IE",
+    "CountryName": "Ireland",
+    "RegionName": "Europe"
+  },
+  "MNL": {
+    "AirportCode": "MNL",
+    "AirportName": "Ninoy Aquino Intl",
+    "CountryCode": "PH",
+    "CountryName": "Philippines",
+    "RegionName": "Asia Pacific"
+  },
+  "ORN": {
+    "AirportCode": "ORN",
+    "AirportName": "Es Senia",
+    "CountryCode": "DZ",
+    "CountryName": "Algeria",
+    "RegionName": "Africa"
+  },
+  "IFN": {
+    "AirportCode": "IFN",
+    "AirportName": "Isfahan",
+    "CountryCode": "IR",
+    "CountryName": "Iran (Islamic Republic Of)",
+    "RegionName": "Middle East"
+  },
+  "ORY": {
+    "AirportCode": "ORY",
+    "AirportName": "Orly",
+    "CountryCode": "FR",
+    "CountryName": "France",
+    "RegionName": "Europe"
+  },
+  "MOB": {
+    "AirportCode": "MOB",
+    "AirportName": "Mobile Regional Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "OSD": {
+    "AirportCode": "OSD",
+    "AirportName": "Froesoe",
+    "CountryCode": "SE",
+    "CountryName": "Sweden",
+    "RegionName": "Europe"
+  },
+  "KKC": {
+    "AirportCode": "KKC",
+    "AirportName": "Khon Kaen",
+    "CountryCode": "TH",
+    "CountryName": "Thailand",
+    "RegionName": "Asia Pacific"
+  },
+  "OSL": {
+    "AirportCode": "OSL",
+    "AirportName": "Oslo Airport",
+    "CountryCode": "NO",
+    "CountryName": "Norway",
+    "RegionName": "Europe"
+  },
+  "MOL": {
+    "AirportCode": "MOL",
+    "AirportName": "Aro",
+    "CountryCode": "NO",
+    "CountryName": "Norway",
+    "RegionName": "Europe"
+  },
+  "BZE": {
+    "AirportCode": "BZE",
+    "AirportName": "Philip S.W.Goldson Int",
+    "CountryCode": "BZ",
+    "CountryName": "Belize",
+    "RegionName": "Latin America"
+  },
+  "GCI": {
+    "AirportCode": "GCI",
+    "AirportName": "Guernsey",
+    "CountryCode": "GB",
+    "CountryName": "United Kingdom",
+    "RegionName": "Europe"
+  },
+  "OSS": {
+    "AirportCode": "OSS",
+    "AirportName": "Osh",
+    "CountryCode": "KG",
+    "CountryName": "Kyrgyzstan",
+    "RegionName": "Europe"
+  },
+  "KKN": {
+    "AirportCode": "KKN",
+    "AirportName": "Hoeybuktmoen",
+    "CountryCode": "NO",
+    "CountryName": "Norway",
+    "RegionName": "Europe"
+  },
+  "GCM": {
+    "AirportCode": "GCM",
+    "AirportName": "Owen Roberts Intl",
+    "CountryCode": "KY",
+    "CountryName": "Cayman Islands",
+    "RegionName": "North America"
+  },
+  "MOT": {
+    "AirportCode": "MOT",
+    "AirportName": "Minot International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "BZN": {
+    "AirportCode": "BZN",
+    "AirportName": "Bozeman Yellowstone International Airpor",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "VAA": {
+    "AirportCode": "VAA",
+    "AirportName": "Vaasa",
+    "CountryCode": "FI",
+    "CountryName": "Finland",
+    "RegionName": "Europe"
+  },
+  "ZIH": {
+    "AirportCode": "ZIH",
+    "AirportName": "Internacional",
+    "CountryCode": "MX",
+    "CountryName": "Mexico",
+    "RegionName": "Latin America"
+  },
+  "MPH": {
+    "AirportCode": "MPH",
+    "AirportName": "Malay",
+    "CountryCode": "PH",
+    "CountryName": "Philippines",
+    "RegionName": "Asia Pacific"
+  },
+  "VAR": {
+    "AirportCode": "VAR",
+    "AirportName": "Varna",
+    "CountryCode": "BG",
+    "CountryName": "Bulgaria",
+    "RegionName": "Europe"
+  },
+  "MPL": {
+    "AirportCode": "MPL",
+    "AirportName": "Meditarranee",
+    "CountryCode": "FR",
+    "CountryName": "France",
+    "RegionName": "Europe"
+  },
+  "OTP": {
+    "AirportCode": "OTP",
+    "AirportName": "Otopeni International",
+    "CountryCode": "RO",
+    "CountryName": "Romania",
+    "RegionName": "Europe"
+  },
+  "GDL": {
+    "AirportCode": "GDL",
+    "AirportName": "Miguel Hidal",
+    "CountryCode": "MX",
+    "CountryName": "Mexico",
+    "RegionName": "Latin America"
+  },
+  "KLO": {
+    "AirportCode": "KLO",
+    "AirportName": "Kalibo",
+    "CountryCode": "PH",
+    "CountryName": "Philippines",
+    "RegionName": "Asia Pacific"
+  },
+  "KLR": {
+    "AirportCode": "KLR",
+    "AirportName": "Kalmar",
+    "CountryCode": "SE",
+    "CountryName": "Sweden",
+    "RegionName": "Europe"
+  },
+  "GDN": {
+    "AirportCode": "GDN",
+    "AirportName": "Rebiechowo",
+    "CountryCode": "PL",
+    "CountryName": "Poland",
+    "RegionName": "Europe"
+  },
+  "KLV": {
+    "AirportCode": "KLV",
+    "AirportName": "Karlovy Vary",
+    "CountryCode": "CZ",
+    "CountryName": "Czech Republic",
+    "RegionName": "Europe"
+  },
+  "KLU": {
+    "AirportCode": "KLU",
+    "AirportName": "Klagenfurt",
+    "CountryCode": "AT",
+    "CountryName": "Austria",
+    "RegionName": "Europe"
+  },
+  "KLX": {
+    "AirportCode": "KLX",
+    "AirportName": "Kalamata",
+    "CountryCode": "GR",
+    "CountryName": "Greece",
+    "RegionName": "Europe"
+  },
+  "OUA": {
+    "AirportCode": "OUA",
+    "AirportName": "Ouagadougou",
+    "CountryCode": "BF",
+    "CountryName": "Burkina Faso",
+    "RegionName": "Africa"
+  },
+  "GDX": {
+    "AirportCode": "GDX",
+    "AirportName": "Magadan",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "GDZ": {
+    "AirportCode": "GDZ",
+    "AirportName": "Gelendzik",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "OUD": {
+    "AirportCode": "OUD",
+    "AirportName": "Les Angades",
+    "CountryCode": "MA",
+    "CountryName": "Morocco",
+    "RegionName": "Africa"
+  },
+  "MQF": {
+    "AirportCode": "MQF",
+    "AirportName": "Magnitogorsk",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "OUL": {
+    "AirportCode": "OUL",
+    "AirportName": "Oulu",
+    "CountryCode": "FI",
+    "CountryName": "Finland",
+    "RegionName": "Europe"
+  },
+  "GEG": {
+    "AirportCode": "GEG",
+    "AirportName": "Spokane International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "MQM": {
+    "AirportCode": "MQM",
+    "AirportName": "#N/A",
+    "CountryCode": "TR",
+    "CountryName": "Turkey",
+    "RegionName": "Europe"
+  },
+  "MQN": {
+    "AirportCode": "MQN",
+    "AirportName": "Mo I Rana",
+    "CountryCode": "NO",
+    "CountryName": "Norway",
+    "RegionName": "Europe"
+  },
+  "VBY": {
+    "AirportCode": "VBY",
+    "AirportName": "Visby",
+    "CountryCode": "SE",
+    "CountryName": "Sweden",
+    "RegionName": "Europe"
+  },
+  "GEO": {
+    "AirportCode": "GEO",
+    "AirportName": "Cheddi Jagan Int'l",
+    "CountryCode": "GY",
+    "CountryName": "Guyana",
+    "RegionName": "Latin America"
+  },
+  "VCE": {
+    "AirportCode": "VCE",
+    "AirportName": "Marco Polo",
+    "CountryCode": "IT",
+    "CountryName": "Italy",
+    "RegionName": "Europe"
+  },
+  "OVB": {
+    "AirportCode": "OVB",
+    "AirportName": "Tolmachevo",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "EBB": {
+    "AirportCode": "EBB",
+    "AirportName": "Entebbe",
+    "CountryCode": "UG",
+    "CountryName": "Uganda",
+    "RegionName": "Africa"
+  },
+  "EBA": {
+    "AirportCode": "EBA",
+    "AirportName": "Marina Di Campo",
+    "CountryCode": "IT",
+    "CountryName": "Italy",
+    "RegionName": "Europe"
+  },
+  "IJK": {
+    "AirportCode": "IJK",
+    "AirportName": "Izhevsk",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "GFK": {
+    "AirportCode": "GFK",
+    "AirportName": "Grand Forks International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "EBL": {
+    "AirportCode": "EBL",
+    "AirportName": "Erbil International Airport",
+    "CountryCode": "IQ",
+    "CountryName": "Iraq",
+    "RegionName": "Middle East"
+  },
+  "MRS": {
+    "AirportCode": "MRS",
+    "AirportName": "Marseille",
+    "CountryCode": "FR",
+    "CountryName": "France",
+    "RegionName": "Europe"
+  },
+  "MRV": {
+    "AirportCode": "MRV",
+    "AirportName": "Mineralnye Vody",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "MRU": {
+    "AirportCode": "MRU",
+    "AirportName": "S.Seewoosagur Ram.Int",
+    "CountryCode": "MU",
+    "CountryName": "Mauritius",
+    "RegionName": "Africa"
+  },
+  "MRY": {
+    "AirportCode": "MRY",
+    "AirportName": "Monterey Peninsula Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "KOA": {
+    "AirportCode": "KOA",
+    "AirportName": "Kona International Airport at Ke?hole",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "ZLO": {
+    "AirportCode": "ZLO",
+    "AirportName": "Manzanillo",
+    "CountryCode": "MX",
+    "CountryName": "Mexico",
+    "RegionName": "Latin America"
+  },
+  "IKA": {
+    "AirportCode": "IKA",
+    "AirportName": "Imam Khomeini",
+    "CountryCode": "IR",
+    "CountryName": "Iran (Islamic Republic Of)",
+    "RegionName": "Middle East"
+  },
+  "MSO": {
+    "AirportCode": "MSO",
+    "AirportName": "Missoula International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "MSN": {
+    "AirportCode": "MSN",
+    "AirportName": "Dane County Regional Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "MSQ": {
+    "AirportCode": "MSQ",
+    "AirportName": "Minsk International 2",
+    "CountryCode": "BY",
+    "CountryName": "Belarus",
+    "RegionName": "Europe"
+  },
+  "MSP": {
+    "AirportCode": "MSP",
+    "AirportName": "Minneapolis-Saint Paul International Air",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "VDZ": {
+    "AirportCode": "VDZ",
+    "AirportName": "Valdez Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "MST": {
+    "AirportCode": "MST",
+    "AirportName": "Maastricht/Aachen",
+    "CountryCode": "NL",
+    "CountryName": "Netherlands",
+    "RegionName": "Europe"
+  },
+  "ECN": {
+    "AirportCode": "ECN",
+    "AirportName": "Ercan",
+    "CountryCode": "CY",
+    "CountryName": "Cyprus",
+    "RegionName": "Middle East"
+  },
+  "MSY": {
+    "AirportCode": "MSY",
+    "AirportName": "New Orleans Louis Armstrong Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "ECP": {
+    "AirportCode": "ECP",
+    "AirportName": "Northwest Florida Beaches International",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "IKT": {
+    "AirportCode": "IKT",
+    "AirportName": "Irkutsk",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "TAB": {
+    "AirportCode": "TAB",
+    "AirportName": "Tobago",
+    "CountryCode": "TT",
+    "CountryName": "Trinidad And Tobago",
+    "RegionName": "North America"
+  },
+  "GGT": {
+    "AirportCode": "GGT",
+    "AirportName": "Exuma International",
+    "CountryCode": "BS",
+    "CountryName": "Bahamas",
+    "RegionName": "North America"
+  },
+  "GHB": {
+    "AirportCode": "GHB",
+    "AirportName": "Governors Harbour",
+    "CountryCode": "BS",
+    "CountryName": "Bahamas",
+    "RegionName": "North America"
+  },
+  "TAM": {
+    "AirportCode": "TAM",
+    "AirportName": "Gen F Javier Mina",
+    "CountryCode": "MX",
+    "CountryName": "Mexico",
+    "RegionName": "Latin America"
+  },
+  "VER": {
+    "AirportCode": "VER",
+    "AirportName": "Las Bajadas",
+    "CountryCode": "MX",
+    "CountryName": "Mexico",
+    "RegionName": "Latin America"
+  },
+  "MTJ": {
+    "AirportCode": "MTJ",
+    "AirportName": "Montrose Regional Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "TAS": {
+    "AirportCode": "TAS",
+    "AirportName": "Vostochny",
+    "CountryCode": "UZ",
+    "CountryName": "Uzbekistan",
+    "RegionName": "Europe"
+  },
+  "ILM": {
+    "AirportCode": "ILM",
+    "AirportName": "Wilmington International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "EDI": {
+    "AirportCode": "EDI",
+    "AirportName": "Turnhouse",
+    "CountryCode": "GB",
+    "CountryName": "United Kingdom",
+    "RegionName": "Europe"
+  },
+  "MTY": {
+    "AirportCode": "MTY",
+    "AirportName": "Gen Mariano Escobedo",
+    "CountryCode": "MX",
+    "CountryName": "Mexico",
+    "RegionName": "Latin America"
+  },
+  "MUC": {
+    "AirportCode": "MUC",
+    "AirportName": "Franz Josef Strauss",
+    "CountryCode": "DE",
+    "CountryName": "Germany",
+    "RegionName": "Europe"
+  },
+  "MUE": {
+    "AirportCode": "MUE",
+    "AirportName": "Waimea-Kohala Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "GIB": {
+    "AirportCode": "GIB",
+    "AirportName": "North Front",
+    "CountryCode": "GI",
+    "CountryName": "Gibraltar",
+    "RegionName": "Europe"
+  },
+  "GIG": {
+    "AirportCode": "GIG",
+    "AirportName": "Internacional",
+    "CountryCode": "BR",
+    "CountryName": "Brazil",
+    "RegionName": "Latin America"
+  },
+  "TBS": {
+    "AirportCode": "TBS",
+    "AirportName": "Novo Alexeyevka",
+    "CountryCode": "GE",
+    "CountryName": "Georgia",
+    "RegionName": "Europe"
+  },
+  "CAE": {
+    "AirportCode": "CAE",
+    "AirportName": "Columbia Metropolitan Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "ZNZ": {
+    "AirportCode": "ZNZ",
+    "AirportName": "Kisauni",
+    "CountryCode": "TZ",
+    "CountryName": "Tanzania - United Republic Of",
+    "RegionName": "Africa"
+  },
+  "CAG": {
+    "AirportCode": "CAG",
+    "AirportName": "Elmas",
+    "CountryCode": "IT",
+    "CountryName": "Italy",
+    "RegionName": "Europe"
+  },
+  "CAI": {
+    "AirportCode": "CAI",
+    "AirportName": "International",
+    "CountryCode": "EG",
+    "CountryName": "Egypt",
+    "RegionName": "Middle East"
+  },
+  "CAK": {
+    "AirportCode": "CAK",
+    "AirportName": "Akron Canton Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "CAN": {
+    "AirportCode": "CAN",
+    "AirportName": "Baiyun",
+    "CountryCode": "CN",
+    "CountryName": "China",
+    "RegionName": "Asia Pacific"
+  },
+  "MVD": {
+    "AirportCode": "MVD",
+    "AirportName": "Carrasco",
+    "CountryCode": "UY",
+    "CountryName": "Uruguay",
+    "RegionName": "Latin America"
+  },
+  "IND": {
+    "AirportCode": "IND",
+    "AirportName": "Indianapolis International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "CBB": {
+    "AirportCode": "CBB",
+    "AirportName": "J Wilsterman",
+    "CountryCode": "BO",
+    "CountryName": "Bolivia",
+    "RegionName": "Latin America"
+  },
+  "KRK": {
+    "AirportCode": "KRK",
+    "AirportName": "J. Paul Ii Balice Intl",
+    "CountryCode": "PL",
+    "CountryName": "Poland",
+    "RegionName": "Europe"
+  },
+  "KRN": {
+    "AirportCode": "KRN",
+    "AirportName": "Kiruna",
+    "CountryCode": "SE",
+    "CountryName": "Sweden",
+    "RegionName": "Europe"
+  },
+  "KRP": {
+    "AirportCode": "KRP",
+    "AirportName": "Karup",
+    "CountryCode": "DK",
+    "CountryName": "Denmark",
+    "RegionName": "Europe"
+  },
+  "INN": {
+    "AirportCode": "INN",
+    "AirportName": "Kranebitten",
+    "CountryCode": "AT",
+    "CountryName": "Austria",
+    "RegionName": "Europe"
+  },
+  "KRO": {
+    "AirportCode": "KRO",
+    "AirportName": "Kurgan",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "KRR": {
+    "AirportCode": "KRR",
+    "AirportName": "Krasnodar",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "EFL": {
+    "AirportCode": "EFL",
+    "AirportName": "Argostolion",
+    "CountryCode": "GR",
+    "CountryName": "Greece",
+    "RegionName": "Europe"
+  },
+  "KRT": {
+    "AirportCode": "KRT",
+    "AirportName": "Civil",
+    "CountryCode": "SD",
+    "CountryName": "Sudan",
+    "RegionName": "Africa"
+  },
+  "KRS": {
+    "AirportCode": "KRS",
+    "AirportName": "Kjevik",
+    "CountryCode": "NO",
+    "CountryName": "Norway",
+    "RegionName": "Europe"
+  },
+  "GJT": {
+    "AirportCode": "GJT",
+    "AirportName": "Grand Junction Regional Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "IOA": {
+    "AirportCode": "IOA",
+    "AirportName": "Ioannina",
+    "CountryCode": "GR",
+    "CountryName": "Greece",
+    "RegionName": "Europe"
+  },
+  "KSD": {
+    "AirportCode": "KSD",
+    "AirportName": "Karlstad",
+    "CountryCode": "SE",
+    "CountryName": "Sweden",
+    "RegionName": "Europe"
+  },
+  "EGE": {
+    "AirportCode": "EGE",
+    "AirportName": "Eagle County Regional Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "CCC": {
+    "AirportCode": "CCC",
+    "AirportName": "Cayo Coco",
+    "CountryCode": "CU",
+    "CountryName": "Cuba",
+    "RegionName": "North America"
+  },
+  "IOM": {
+    "AirportCode": "IOM",
+    "AirportName": "Ronaldsway",
+    "CountryCode": "GB",
+    "CountryName": "United Kingdom",
+    "RegionName": "Europe"
+  },
+  "KSN": {
+    "AirportCode": "KSN",
+    "AirportName": "Kostanay",
+    "CountryCode": "KZ",
+    "CountryName": "Kazakhstan",
+    "RegionName": "Europe"
+  },
+  "CCF": {
+    "AirportCode": "CCF",
+    "AirportName": "Salvaza",
+    "CountryCode": "FR",
+    "CountryName": "France",
+    "RegionName": "Europe"
+  },
+  "KSU": {
+    "AirportCode": "KSU",
+    "AirportName": "Kvernberget",
+    "CountryCode": "NO",
+    "CountryName": "Norway",
+    "RegionName": "Europe"
+  },
+  "EGO": {
+    "AirportCode": "EGO",
+    "AirportName": "Belgorod",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "CCS": {
+    "AirportCode": "CCS",
+    "AirportName": "Simon Bolivar",
+    "CountryCode": "VE",
+    "CountryName": "Venezuela",
+    "RegionName": "Latin America"
+  },
+  "VIE": {
+    "AirportCode": "VIE",
+    "AirportName": "Vienna International",
+    "CountryCode": "AT",
+    "CountryName": "Austria",
+    "RegionName": "Europe"
+  },
+  "CCU": {
+    "AirportCode": "CCU",
+    "AirportName": "Netaji Subhas Chandra",
+    "CountryCode": "IN",
+    "CountryName": "India",
+    "RegionName": "Asia Pacific"
+  },
+  "ZQN": {
+    "AirportCode": "ZQN",
+    "AirportName": "Frankton",
+    "CountryCode": "NZ",
+    "CountryName": "New Zealand",
+    "RegionName": "Asia Pacific"
+  },
+  "XMN": {
+    "AirportCode": "XMN",
+    "AirportName": "Xiamen",
+    "CountryCode": "CN",
+    "CountryName": "China",
+    "RegionName": "Asia Pacific"
+  },
+  "RAI": {
+    "AirportCode": "RAI",
+    "AirportName": "Francisco Mendes",
+    "CountryCode": "CV",
+    "CountryName": "Cape Verde",
+    "RegionName": "Africa"
+  },
+  "RAK": {
+    "AirportCode": "RAK",
+    "AirportName": "Menara",
+    "CountryCode": "MA",
+    "CountryName": "Morocco",
+    "RegionName": "Africa"
+  },
+  "IPC": {
+    "AirportCode": "IPC",
+    "AirportName": "Mataveri Intl",
+    "CountryCode": "CL",
+    "CountryName": "Chile",
+    "RegionName": "Latin America"
+  },
+  "GLA": {
+    "AirportCode": "GLA",
+    "AirportName": "Glasgow International",
+    "CountryCode": "GB",
+    "CountryName": "United Kingdom",
+    "RegionName": "Europe"
+  },
+  "RAP": {
+    "AirportCode": "RAP",
+    "AirportName": "Rapid City Regional Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "KTN": {
+    "AirportCode": "KTN",
+    "AirportName": "Ketchikan International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "MXP": {
+    "AirportCode": "MXP",
+    "AirportName": "Malpensa",
+    "CountryCode": "IT",
+    "CountryName": "Italy",
+    "RegionName": "Europe"
+  },
+  "VIX": {
+    "AirportCode": "VIX",
+    "AirportName": "Eurico Sales",
+    "CountryCode": "BR",
+    "CountryName": "Brazil",
+    "RegionName": "Latin America"
+  },
+  "KTM": {
+    "AirportCode": "KTM",
+    "AirportName": "Tribhuvan",
+    "CountryCode": "NP",
+    "CountryName": "Nepal",
+    "RegionName": "Asia Pacific"
+  },
+  "CDG": {
+    "AirportCode": "CDG",
+    "AirportName": "Ch. De Gaulle",
+    "CountryCode": "FR",
+    "CountryName": "France",
+    "RegionName": "Europe"
+  },
+  "XNA": {
+    "AirportCode": "XNA",
+    "AirportName": "Northwest Arkansas Regional Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "KTT": {
+    "AirportCode": "KTT",
+    "AirportName": "Kittila",
+    "CountryCode": "FI",
+    "CountryName": "Finland",
+    "RegionName": "Europe"
+  },
+  "KTW": {
+    "AirportCode": "KTW",
+    "AirportName": "Pyrzowice",
+    "CountryCode": "PL",
+    "CountryName": "Poland",
+    "RegionName": "Europe"
+  },
+  "RBA": {
+    "AirportCode": "RBA",
+    "AirportName": "Sale",
+    "CountryCode": "MA",
+    "CountryName": "Morocco",
+    "RegionName": "Africa"
+  },
+  "ZRH": {
+    "AirportCode": "ZRH",
+    "AirportName": "Zurich",
+    "CountryCode": "CH",
+    "CountryName": "Switzerland",
+    "RegionName": "Europe"
+  },
+  "TFN": {
+    "AirportCode": "TFN",
+    "AirportName": "Norte Los Rodeos",
+    "CountryCode": "ES",
+    "CountryName": "Spain",
+    "RegionName": "Europe"
+  },
+  "KUF": {
+    "AirportCode": "KUF",
+    "AirportName": "Samara",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "TFS": {
+    "AirportCode": "TFS",
+    "AirportName": "Sur Reina Sofia",
+    "CountryCode": "ES",
+    "CountryName": "Spain",
+    "RegionName": "Europe"
+  },
+  "CEB": {
+    "AirportCode": "CEB",
+    "AirportName": "Mactan International",
+    "CountryCode": "PH",
+    "CountryName": "Philippines",
+    "RegionName": "Asia Pacific"
+  },
+  "CEE": {
+    "AirportCode": "CEE",
+    "AirportName": "Cherepovets",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "KUL": {
+    "AirportCode": "KUL",
+    "AirportName": "Kuala Lumpur Int'l",
+    "CountryCode": "MY",
+    "CountryName": "Malaysia",
+    "RegionName": "Asia Pacific"
+  },
+  "KUN": {
+    "AirportCode": "KUN",
+    "AirportName": "Kaunas",
+    "CountryCode": "LT",
+    "CountryName": "Lithuania",
+    "RegionName": "Europe"
+  },
+  "MYR": {
+    "AirportCode": "MYR",
+    "AirportName": "Myrtle Beach International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "CEK": {
+    "AirportCode": "CEK",
+    "AirportName": "Chelyabinsk",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "ZSA": {
+    "AirportCode": "ZSA",
+    "AirportName": "San Salvador",
+    "CountryCode": "BS",
+    "CountryName": "Bahamas",
+    "RegionName": "North America"
+  },
+  "KUT": {
+    "AirportCode": "KUT",
+    "AirportName": "Kutaisi",
+    "CountryCode": "GE",
+    "CountryName": "Georgia",
+    "RegionName": "Europe"
+  },
+  "EIN": {
+    "AirportCode": "EIN",
+    "AirportName": "Eindhoven",
+    "CountryCode": "NL",
+    "CountryName": "Netherlands",
+    "RegionName": "Europe"
+  },
+  "MYY": {
+    "AirportCode": "MYY",
+    "AirportName": "Miri",
+    "CountryCode": "MY",
+    "CountryName": "Malaysia",
+    "RegionName": "Asia Pacific"
+  },
+  "AAL": {
+    "AirportCode": "AAL",
+    "AirportName": "Aalborg",
+    "CountryCode": "DK",
+    "CountryName": "Denmark",
+    "RegionName": "Europe"
+  },
+  "EIS": {
+    "AirportCode": "EIS",
+    "AirportName": "Beef Island",
+    "CountryCode": "VG",
+    "CountryName": "Virgin Islands (British)",
+    "RegionName": "North America"
+  },
+  "TGD": {
+    "AirportCode": "TGD",
+    "AirportName": "Golubovci",
+    "CountryCode": "RS",
+    "CountryName": "Serbia",
+    "RegionName": "Europe"
+  },
+  "AAQ": {
+    "AirportCode": "AAQ",
+    "AirportName": "Anapa",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "AAR": {
+    "AirportCode": "AAR",
+    "AirportName": "Tirstrup",
+    "CountryCode": "DK",
+    "CountryName": "Denmark",
+    "RegionName": "Europe"
+  },
+  "KVA": {
+    "AirportCode": "KVA",
+    "AirportName": "Megas Alexandros Apt.",
+    "CountryCode": "GR",
+    "CountryName": "Greece",
+    "RegionName": "Europe"
+  },
+  "KVD": {
+    "AirportCode": "KVD",
+    "AirportName": "Gyandzha",
+    "CountryCode": "AZ",
+    "CountryName": "Azerbaijan",
+    "RegionName": "Europe"
+  },
+  "VKO": {
+    "AirportCode": "VKO",
+    "AirportName": "Vnukovo",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "TGM": {
+    "AirportCode": "TGM",
+    "AirportName": "Tirgu Mures",
+    "CountryCode": "RO",
+    "CountryName": "Romania",
+    "RegionName": "Europe"
+  },
+  "GND": {
+    "AirportCode": "GND",
+    "AirportName": "Point Saline Intl",
+    "CountryCode": "GD",
+    "CountryName": "Grenada",
+    "RegionName": "North America"
+  },
+  "ABA": {
+    "AirportCode": "ABA",
+    "AirportName": "Abakan",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "TGU": {
+    "AirportCode": "TGU",
+    "AirportName": "Toncontin",
+    "CountryCode": "HN",
+    "CountryName": "Honduras",
+    "RegionName": "Latin America"
+  },
+  "CFE": {
+    "AirportCode": "CFE",
+    "AirportName": "Aulnat",
+    "CountryCode": "FR",
+    "CountryName": "France",
+    "RegionName": "Europe"
+  },
+  "ABE": {
+    "AirportCode": "ABE",
+    "AirportName": "Lehigh Valley International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "MZT": {
+    "AirportCode": "MZT",
+    "AirportName": "Gen Rafael Buelna",
+    "CountryCode": "MX",
+    "CountryName": "Mexico",
+    "RegionName": "Latin America"
+  },
+  "ABJ": {
+    "AirportCode": "ABJ",
+    "AirportName": "Felix Houphouet Boigny",
+    "CountryCode": "CI",
+    "CountryName": "Cote D'ivoire",
+    "RegionName": "Africa"
+  },
+  "VLC": {
+    "AirportCode": "VLC",
+    "AirportName": "Valencia",
+    "CountryCode": "ES",
+    "CountryName": "Spain",
+    "RegionName": "Europe"
+  },
+  "KVX": {
+    "AirportCode": "KVX",
+    "AirportName": "Kirov",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "GNV": {
+    "AirportCode": "GNV",
+    "AirportName": "Gainesville Regional Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "XPG": {
+    "AirportCode": "XPG",
+    "AirportName": "Gare Du Nord Rail Stn",
+    "CountryCode": "FR",
+    "CountryName": "France",
+    "RegionName": "Europe"
+  },
+  "ZTH": {
+    "AirportCode": "ZTH",
+    "AirportName": "Zakinthos",
+    "CountryCode": "GR",
+    "CountryName": "Greece",
+    "RegionName": "Europe"
+  },
+  "ABQ": {
+    "AirportCode": "ABQ",
+    "AirportName": "Albuquerque International Sunport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "CFU": {
+    "AirportCode": "CFU",
+    "AirportName": "I. Kapodistrias",
+    "CountryCode": "GR",
+    "CountryName": "Greece",
+    "RegionName": "Europe"
+  },
+  "ABV": {
+    "AirportCode": "ABV",
+    "AirportName": "International",
+    "CountryCode": "NG",
+    "CountryName": "Nigeria",
+    "RegionName": "Africa"
+  },
+  "GOA": {
+    "AirportCode": "GOA",
+    "AirportName": "Cristoforo Colombo",
+    "CountryCode": "IT",
+    "CountryName": "Italy",
+    "RegionName": "Europe"
+  },
+  "ISB": {
+    "AirportCode": "ISB",
+    "AirportName": "Islamabad Intl",
+    "CountryCode": "PK",
+    "CountryName": "Pakistan",
+    "RegionName": "Asia Pacific"
+  },
+  "ABZ": {
+    "AirportCode": "ABZ",
+    "AirportName": "Dyce",
+    "CountryCode": "GB",
+    "CountryName": "United Kingdom",
+    "RegionName": "Europe"
+  },
+  "VLN": {
+    "AirportCode": "VLN",
+    "AirportName": "Valencia",
+    "CountryCode": "VE",
+    "CountryName": "Venezuela",
+    "RegionName": "Latin America"
+  },
+  "RDM": {
+    "AirportCode": "RDM",
+    "AirportName": "Redmond Municipal Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "KWI": {
+    "AirportCode": "KWI",
+    "AirportName": "International",
+    "CountryCode": "KW",
+    "CountryName": "Kuwait",
+    "RegionName": "Middle East"
+  },
+  "THR": {
+    "AirportCode": "THR",
+    "AirportName": "Mehrabad",
+    "CountryCode": "IR",
+    "CountryName": "Iran (Islamic Republic Of)",
+    "RegionName": "Middle East"
+  },
+  "ACA": {
+    "AirportCode": "ACA",
+    "AirportName": "Alvarez Int'l",
+    "CountryCode": "MX",
+    "CountryName": "Mexico",
+    "RegionName": "Latin America"
+  },
+  "GOI": {
+    "AirportCode": "GOI",
+    "AirportName": "Dabolim",
+    "CountryCode": "IN",
+    "CountryName": "India",
+    "RegionName": "Asia Pacific"
+  },
+  "ACC": {
+    "AirportCode": "ACC",
+    "AirportName": "Kotoka",
+    "CountryCode": "GH",
+    "CountryName": "Ghana",
+    "RegionName": "Africa"
+  },
+  "GOH": {
+    "AirportCode": "GOH",
+    "AirportName": "Nuuk",
+    "CountryCode": "GL",
+    "CountryName": "Greenland",
+    "RegionName": "Europe"
+  },
+  "RDU": {
+    "AirportCode": "RDU",
+    "AirportName": "Raleigh-Durham International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "GOJ": {
+    "AirportCode": "GOJ",
+    "AirportName": "Nizhniy Novgorod",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "ACE": {
+    "AirportCode": "ACE",
+    "AirportName": "Lanzarote",
+    "CountryCode": "ES",
+    "CountryName": "Spain",
+    "RegionName": "Europe"
+  },
+  "CGK": {
+    "AirportCode": "CGK",
+    "AirportName": "Soekarno-Hatta Intl",
+    "CountryCode": "ID",
+    "CountryName": "Indonesia",
+    "RegionName": "Asia Pacific"
+  },
+  "ACH": {
+    "AirportCode": "ACH",
+    "AirportName": "Altenrhein",
+    "CountryCode": "CH",
+    "CountryName": "Switzerland",
+    "RegionName": "Europe"
+  },
+  "ISP": {
+    "AirportCode": "ISP",
+    "AirportName": "Long Island MacArthur Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "ISU": {
+    "AirportCode": "ISU",
+    "AirportName": "Sulaimaniyah International Airport",
+    "CountryCode": "IQ",
+    "CountryName": "Iraq",
+    "RegionName": "Middle East"
+  },
+  "IST": {
+    "AirportCode": "IST",
+    "AirportName": "Ataturk",
+    "CountryCode": "TR",
+    "CountryName": "Turkey",
+    "RegionName": "Europe"
+  },
+  "CGN": {
+    "AirportCode": "CGN",
+    "AirportName": "Cologne/Bonn",
+    "CountryCode": "DE",
+    "CountryName": "Germany",
+    "RegionName": "Europe"
+  },
+  "TIA": {
+    "AirportCode": "TIA",
+    "AirportName": "Rinas",
+    "CountryCode": "AL",
+    "CountryName": "Albania",
+    "RegionName": "Europe"
+  },
+  "GOT": {
+    "AirportCode": "GOT",
+    "AirportName": "Landvetter",
+    "CountryCode": "SE",
+    "CountryName": "Sweden",
+    "RegionName": "Europe"
+  },
+  "REC": {
+    "AirportCode": "REC",
+    "AirportName": "Guararapes Intl",
+    "CountryCode": "BR",
+    "CountryName": "Brazil",
+    "RegionName": "Latin America"
+  },
+  "PAD": {
+    "AirportCode": "PAD",
+    "AirportName": "Paderborn",
+    "CountryCode": "DE",
+    "CountryName": "Germany",
+    "RegionName": "Europe"
+  },
+  "ACV": {
+    "AirportCode": "ACV",
+    "AirportName": "Arcata-Eureka Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "REG": {
+    "AirportCode": "REG",
+    "AirportName": "Tito Menniti",
+    "CountryCode": "IT",
+    "CountryName": "Italy",
+    "RegionName": "Europe"
+  },
+  "ACY": {
+    "AirportCode": "ACY",
+    "AirportName": "Atlantic City International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "REN": {
+    "AirportCode": "REN",
+    "AirportName": "Orenburg",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "REP": {
+    "AirportCode": "REP",
+    "AirportName": "Siem Reap",
+    "CountryCode": "KH",
+    "CountryName": "Cambodia",
+    "RegionName": "Asia Pacific"
+  },
+  "ITH": {
+    "AirportCode": "ITH",
+    "AirportName": "Ithaca Tompkins Regional Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "CHA": {
+    "AirportCode": "CHA",
+    "AirportName": "Chattanooga Metropolitan Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "PAP": {
+    "AirportCode": "PAP",
+    "AirportName": "Mais Gate",
+    "CountryCode": "HT",
+    "CountryName": "Haiti",
+    "RegionName": "North America"
+  },
+  "ADA": {
+    "AirportCode": "ADA",
+    "AirportName": "Adana",
+    "CountryCode": "TR",
+    "CountryName": "Turkey",
+    "RegionName": "Europe"
+  },
+  "CHC": {
+    "AirportCode": "CHC",
+    "AirportName": "International",
+    "CountryCode": "NZ",
+    "CountryName": "New Zealand",
+    "RegionName": "Asia Pacific"
+  },
+  "ADB": {
+    "AirportCode": "ADB",
+    "AirportName": "Adnan Menderes Arpt",
+    "CountryCode": "TR",
+    "CountryName": "Turkey",
+    "RegionName": "Europe"
+  },
+  "TIV": {
+    "AirportCode": "TIV",
+    "AirportName": "Tivat",
+    "CountryCode": "RS",
+    "CountryName": "Serbia",
+    "RegionName": "Europe"
+  },
+  "ELH": {
+    "AirportCode": "ELH",
+    "AirportName": "International",
+    "CountryCode": "BS",
+    "CountryName": "Bahamas",
+    "RegionName": "North America"
+  },
+  "ADD": {
+    "AirportCode": "ADD",
+    "AirportName": "Bole",
+    "CountryCode": "ET",
+    "CountryName": "Ethiopia",
+    "RegionName": "Africa"
+  },
+  "REU": {
+    "AirportCode": "REU",
+    "AirportName": "Reus",
+    "CountryCode": "ES",
+    "CountryName": "Spain",
+    "RegionName": "Europe"
+  },
+  "PAS": {
+    "AirportCode": "PAS",
+    "AirportName": "Paros",
+    "CountryCode": "GR",
+    "CountryName": "Greece",
+    "RegionName": "Europe"
+  },
+  "ITM": {
+    "AirportCode": "ITM",
+    "AirportName": "Itami",
+    "CountryCode": "JP",
+    "CountryName": "Japan",
+    "RegionName": "Asia Pacific"
+  },
+  "ITO": {
+    "AirportCode": "ITO",
+    "AirportName": "Hilo International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "ELM": {
+    "AirportCode": "ELM",
+    "AirportName": "Elmira/Corning Regional Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "ELP": {
+    "AirportCode": "ELP",
+    "AirportName": "El Paso International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "ADL": {
+    "AirportCode": "ADL",
+    "AirportName": "Adelaide",
+    "CountryCode": "AU",
+    "CountryName": "Australia",
+    "RegionName": "Asia Pacific"
+  },
+  "GPT": {
+    "AirportCode": "GPT",
+    "AirportName": "Gulfport Biloxi International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "CHO": {
+    "AirportCode": "CHO",
+    "AirportName": "Charlottesville Albemarle Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "CHQ": {
+    "AirportCode": "CHQ",
+    "AirportName": "Souda",
+    "CountryCode": "GR",
+    "CountryName": "Greece",
+    "RegionName": "Europe"
+  },
+  "ADQ": {
+    "AirportCode": "ADQ",
+    "AirportName": "Kodiak Benny Benson State Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "CHS": {
+    "AirportCode": "CHS",
+    "AirportName": "Charleston International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "KYA": {
+    "AirportCode": "KYA",
+    "AirportName": "Konya",
+    "CountryCode": "TR",
+    "CountryName": "Turkey",
+    "RegionName": "Europe"
+  },
+  "PBG": {
+    "AirportCode": "PBG",
+    "AirportName": "Plattsburgh International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "PBI": {
+    "AirportCode": "PBI",
+    "AirportName": "Palm Beach International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "VNO": {
+    "AirportCode": "VNO",
+    "AirportName": "Vilnius",
+    "CountryCode": "LT",
+    "CountryName": "Lithuania",
+    "RegionName": "Europe"
+  },
+  "TJM": {
+    "AirportCode": "TJM",
+    "AirportName": "Tyumen",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "EMA": {
+    "AirportCode": "EMA",
+    "AirportName": "East Midlands",
+    "CountryCode": "GB",
+    "CountryName": "United Kingdom",
+    "RegionName": "Europe"
+  },
+  "PBM": {
+    "AirportCode": "PBM",
+    "AirportName": "Zanderij Intl",
+    "CountryCode": "SR",
+    "CountryName": "Suriname",
+    "RegionName": "Latin America"
+  },
+  "CIA": {
+    "AirportCode": "CIA",
+    "AirportName": "Ciampino",
+    "CountryCode": "IT",
+    "CountryName": "Italy",
+    "RegionName": "Europe"
+  },
+  "XRY": {
+    "AirportCode": "XRY",
+    "AirportName": "La Parra",
+    "CountryCode": "ES",
+    "CountryName": "Spain",
+    "RegionName": "Europe"
+  },
+  "CID": {
+    "AirportCode": "CID",
+    "AirportName": "Eastern Iowa Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "AER": {
+    "AirportCode": "AER",
+    "AirportName": "Adler/Sochi",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "VOG": {
+    "AirportCode": "VOG",
+    "AirportName": "Volgograd",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "AES": {
+    "AirportCode": "AES",
+    "AirportName": "Vigra",
+    "CountryCode": "NO",
+    "CountryName": "Norway",
+    "RegionName": "Europe"
+  },
+  "VOL": {
+    "AirportCode": "VOL",
+    "AirportName": "Nea Anchialos",
+    "CountryCode": "GR",
+    "CountryName": "Greece",
+    "RegionName": "Europe"
+  },
+  "AEX": {
+    "AirportCode": "AEX",
+    "AirportName": "Alexandria International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "GRB": {
+    "AirportCode": "GRB",
+    "AirportName": "Austin Straubel International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "RGN": {
+    "AirportCode": "RGN",
+    "AirportName": "Mingaladon",
+    "CountryCode": "MM",
+    "CountryName": "Myanmar",
+    "RegionName": "Asia Pacific"
+  },
+  "ENA": {
+    "AirportCode": "ENA",
+    "AirportName": "Kenai Municipal Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "KZN": {
+    "AirportCode": "KZN",
+    "AirportName": "Kazan",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "TKU": {
+    "AirportCode": "TKU",
+    "AirportName": "Turku",
+    "CountryCode": "FI",
+    "CountryName": "Finland",
+    "RegionName": "Europe"
+  },
+  "VOZ": {
+    "AirportCode": "VOZ",
+    "AirportName": "Voronezh",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "GRK": {
+    "AirportCode": "GRK",
+    "AirportName": "Killeen Fort Hood Regional Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "GRO": {
+    "AirportCode": "GRO",
+    "AirportName": "Costa Brava",
+    "CountryCode": "ES",
+    "CountryName": "Spain",
+    "RegionName": "Europe"
+  },
+  "GRR": {
+    "AirportCode": "GRR",
+    "AirportName": "Gerald R Ford International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "TLC": {
+    "AirportCode": "TLC",
+    "AirportName": "Toluca",
+    "CountryCode": "MX",
+    "CountryName": "Mexico",
+    "RegionName": "Latin America"
+  },
+  "GRV": {
+    "AirportCode": "GRV",
+    "AirportName": "Groznyj",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "GRU": {
+    "AirportCode": "GRU",
+    "AirportName": "Guarulhos Intl",
+    "CountryCode": "BR",
+    "CountryName": "Brazil",
+    "RegionName": "Latin America"
+  },
+  "GRX": {
+    "AirportCode": "GRX",
+    "AirportName": "Granada",
+    "CountryCode": "ES",
+    "CountryName": "Spain",
+    "RegionName": "Europe"
+  },
+  "GRZ": {
+    "AirportCode": "GRZ",
+    "AirportName": "Thalerhof",
+    "CountryCode": "AT",
+    "CountryName": "Austria",
+    "RegionName": "Europe"
+  },
+  "TLH": {
+    "AirportCode": "TLH",
+    "AirportName": "Tallahassee Regional Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "IWA": {
+    "AirportCode": "IWA",
+    "AirportName": "Ivanova",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "TLL": {
+    "AirportCode": "TLL",
+    "AirportName": "Ulemiste",
+    "CountryCode": "EE",
+    "CountryName": "Estonia",
+    "RegionName": "Europe"
+  },
+  "VPS": {
+    "AirportCode": "VPS",
+    "AirportName": "Northwest Florida Regional Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "RHO": {
+    "AirportCode": "RHO",
+    "AirportName": "Diagoras Airport",
+    "CountryCode": "GR",
+    "CountryName": "Greece",
+    "RegionName": "Europe"
+  },
+  "GSE": {
+    "AirportCode": "GSE",
+    "AirportName": "Saeve",
+    "CountryCode": "SE",
+    "CountryName": "Sweden",
+    "RegionName": "Europe"
+  },
+  "PDL": {
+    "AirportCode": "PDL",
+    "AirportName": "Nordela",
+    "CountryCode": "PT",
+    "CountryName": "Portugal",
+    "RegionName": "Europe"
+  },
+  "TLS": {
+    "AirportCode": "TLS",
+    "AirportName": "Blagnac",
+    "CountryCode": "FR",
+    "CountryName": "France",
+    "RegionName": "Europe"
+  },
+  "AGA": {
+    "AirportCode": "AGA",
+    "AirportName": "Agadir Almassira",
+    "CountryCode": "MA",
+    "CountryName": "Morocco",
+    "RegionName": "Africa"
+  },
+  "TLV": {
+    "AirportCode": "TLV",
+    "AirportName": "Ben Gurion Intl",
+    "CountryCode": "IL",
+    "CountryName": "Israel",
+    "RegionName": "Middle East"
+  },
+  "GSO": {
+    "AirportCode": "GSO",
+    "AirportName": "Piedmont Triad International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "AGH": {
+    "AirportCode": "AGH",
+    "AirportName": "Angelholm",
+    "CountryCode": "SE",
+    "CountryName": "Sweden",
+    "RegionName": "Europe"
+  },
+  "PDX": {
+    "AirportCode": "PDX",
+    "AirportName": "Portland International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "GSP": {
+    "AirportCode": "GSP",
+    "AirportName": "Greenville Spartanburg International Air",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "AGP": {
+    "AirportCode": "AGP",
+    "AirportName": "Malaga",
+    "CountryCode": "ES",
+    "CountryName": "Spain",
+    "RegionName": "Europe"
+  },
+  "RIC": {
+    "AirportCode": "RIC",
+    "AirportName": "Richmond International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "AGS": {
+    "AirportCode": "AGS",
+    "AirportName": "Augusta Regional Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "AGU": {
+    "AirportCode": "AGU",
+    "AirportName": "Aguascalients",
+    "CountryCode": "MX",
+    "CountryName": "Mexico",
+    "RegionName": "Latin America"
+  },
+  "PEE": {
+    "AirportCode": "PEE",
+    "AirportName": "Perm",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "ZYR": {
+    "AirportCode": "ZYR",
+    "AirportName": "Midi Railway Station",
+    "CountryCode": "BE",
+    "CountryName": "Belgium",
+    "RegionName": "Europe"
+  },
+  "PEG": {
+    "AirportCode": "PEG",
+    "AirportName": "Sant Egidio",
+    "CountryCode": "IT",
+    "CountryName": "Italy",
+    "RegionName": "Europe"
+  },
+  "PEI": {
+    "AirportCode": "PEI",
+    "AirportName": "Matecana",
+    "CountryCode": "CO",
+    "CountryName": "Colombia",
+    "RegionName": "Latin America"
+  },
+  "TMP": {
+    "AirportCode": "TMP",
+    "AirportName": "Tampere-Pirkkala",
+    "CountryCode": "FI",
+    "CountryName": "Finland",
+    "RegionName": "Europe"
+  },
+  "PEK": {
+    "AirportCode": "PEK",
+    "AirportName": "Capital",
+    "CountryCode": "CN",
+    "CountryName": "China",
+    "RegionName": "Asia Pacific"
+  },
+  "GTF": {
+    "AirportCode": "GTF",
+    "AirportName": "Great Falls International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "PEN": {
+    "AirportCode": "PEN",
+    "AirportName": "Penang International",
+    "CountryCode": "MY",
+    "CountryName": "Malaysia",
+    "RegionName": "Asia Pacific"
+  },
+  "VQS": {
+    "AirportCode": "VQS",
+    "AirportName": "Antonio Rivera Rodrguez Airport",
+    "CountryCode": "PR",
+    "CountryName": "Puerto Rico",
+    "RegionName": "North America"
+  },
+  "NAN": {
+    "AirportCode": "NAN",
+    "AirportName": "International",
+    "CountryCode": "FJ",
+    "CountryName": "Fiji",
+    "RegionName": "Asia Pacific"
+  },
+  "PER": {
+    "AirportCode": "PER",
+    "AirportName": "Perth",
+    "CountryCode": "AU",
+    "CountryName": "Australia",
+    "RegionName": "Asia Pacific"
+  },
+  "NAP": {
+    "AirportCode": "NAP",
+    "AirportName": "Naples",
+    "CountryCode": "IT",
+    "CountryName": "Italy",
+    "RegionName": "Europe"
+  },
+  "CLE": {
+    "AirportCode": "CLE",
+    "AirportName": "Cleveland Hopkins International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "RIX": {
+    "AirportCode": "RIX",
+    "AirportName": "Riga",
+    "CountryCode": "LV",
+    "CountryName": "Latvia",
+    "RegionName": "Europe"
+  },
+  "NAT": {
+    "AirportCode": "NAT",
+    "AirportName": "Augusto Severo",
+    "CountryCode": "BR",
+    "CountryName": "Brazil",
+    "RegionName": "Latin America"
+  },
+  "CLJ": {
+    "AirportCode": "CLJ",
+    "AirportName": "Napoca",
+    "CountryCode": "RO",
+    "CountryName": "Romania",
+    "RegionName": "Europe"
+  },
+  "NAS": {
+    "AirportCode": "NAS",
+    "AirportName": "Intl",
+    "CountryCode": "BS",
+    "CountryName": "Bahamas",
+    "RegionName": "North America"
+  },
+  "NAV": {
+    "AirportCode": "NAV",
+    "AirportName": "#N/A",
+    "CountryCode": "TR",
+    "CountryName": "Turkey",
+    "RegionName": "Europe"
+  },
+  "PEW": {
+    "AirportCode": "PEW",
+    "AirportName": "Peshawar",
+    "CountryCode": "PK",
+    "CountryName": "Pakistan",
+    "RegionName": "Asia Pacific"
+  },
+  "VRA": {
+    "AirportCode": "VRA",
+    "AirportName": "Juan Gualberto Gomez",
+    "CountryCode": "CU",
+    "CountryName": "Cuba",
+    "RegionName": "North America"
+  },
+  "PEZ": {
+    "AirportCode": "PEZ",
+    "AirportName": "Penza",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "GTR": {
+    "AirportCode": "GTR",
+    "AirportName": "Golden Triangle Regional Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "CLO": {
+    "AirportCode": "CLO",
+    "AirportName": "Alfonso B. Aragon",
+    "CountryCode": "CO",
+    "CountryName": "Colombia",
+    "RegionName": "Latin America"
+  },
+  "AHO": {
+    "AirportCode": "AHO",
+    "AirportName": "Fertilia",
+    "CountryCode": "IT",
+    "CountryName": "Italy",
+    "RegionName": "Europe"
+  },
+  "CLT": {
+    "AirportCode": "CLT",
+    "AirportName": "Charlotte Douglas International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "TNG": {
+    "AirportCode": "TNG",
+    "AirportName": "Boukhalef",
+    "CountryCode": "MA",
+    "CountryName": "Morocco",
+    "RegionName": "Africa"
+  },
+  "NBC": {
+    "AirportCode": "NBC",
+    "AirportName": "Naberevnye Chelny",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "CLY": {
+    "AirportCode": "CLY",
+    "AirportName": "Ste Catherine",
+    "CountryCode": "FR",
+    "CountryName": "France",
+    "RegionName": "Europe"
+  },
+  "GUA": {
+    "AirportCode": "GUA",
+    "AirportName": "La Aurora",
+    "CountryCode": "GT",
+    "CountryName": "Guatemala",
+    "RegionName": "Latin America"
+  },
+  "VRN": {
+    "AirportCode": "VRN",
+    "AirportName": "Verona",
+    "CountryCode": "IT",
+    "CountryName": "Italy",
+    "RegionName": "Europe"
+  },
+  "GUC": {
+    "AirportCode": "GUC",
+    "AirportName": "Gunnison Crested Butte Regional Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "PFO": {
+    "AirportCode": "PFO",
+    "AirportName": "International",
+    "CountryCode": "CY",
+    "CountryName": "Cyprus",
+    "RegionName": "Middle East"
+  },
+  "CMB": {
+    "AirportCode": "CMB",
+    "AirportName": "Bandaranayake Int'l",
+    "CountryCode": "LK",
+    "CountryName": "Sri Lanka",
+    "RegionName": "Asia Pacific"
+  },
+  "TNR": {
+    "AirportCode": "TNR",
+    "AirportName": "Antananarivo",
+    "CountryCode": "MG",
+    "CountryName": "Madagascar",
+    "RegionName": "Africa"
+  },
+  "NBO": {
+    "AirportCode": "NBO",
+    "AirportName": "Jomo Kenyatta Intl",
+    "CountryCode": "KE",
+    "CountryName": "Kenya",
+    "RegionName": "Africa"
+  },
+  "CME": {
+    "AirportCode": "CME",
+    "AirportName": "Ciudad Del Carmen",
+    "CountryCode": "MX",
+    "CountryName": "Mexico",
+    "RegionName": "Latin America"
+  },
+  "GUM": {
+    "AirportCode": "GUM",
+    "AirportName": "A.B. Won Pat Int'l",
+    "CountryCode": "GU",
+    "CountryName": "Guam",
+    "RegionName": "North America"
+  },
+  "CMI": {
+    "AirportCode": "CMI",
+    "AirportName": "University of Illinios Willard Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "CMH": {
+    "AirportCode": "CMH",
+    "AirportName": "Port Columbus International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "VSA": {
+    "AirportCode": "VSA",
+    "AirportName": "Capitan Carlos Perez",
+    "CountryCode": "MX",
+    "CountryName": "Mexico",
+    "RegionName": "Latin America"
+  },
+  "CMN": {
+    "AirportCode": "CMN",
+    "AirportName": "Mohamed V",
+    "CountryCode": "MA",
+    "CountryName": "Morocco",
+    "RegionName": "Africa"
+  },
+  "GUW": {
+    "AirportCode": "GUW",
+    "AirportName": "Atyrau",
+    "CountryCode": "KZ",
+    "CountryName": "Kazakhstan",
+    "RegionName": "Europe"
+  },
+  "TOF": {
+    "AirportCode": "TOF",
+    "AirportName": "Tomsk",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "CMW": {
+    "AirportCode": "CMW",
+    "AirportName": "Ign Agramonte Intl",
+    "CountryCode": "CU",
+    "CountryName": "Cuba",
+    "RegionName": "North America"
+  },
+  "PGF": {
+    "AirportCode": "PGF",
+    "AirportName": "Llabanere",
+    "CountryCode": "FR",
+    "CountryName": "France",
+    "RegionName": "Europe"
+  },
+  "TOL": {
+    "AirportCode": "TOL",
+    "AirportName": "Toledo Express Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "NCE": {
+    "AirportCode": "NCE",
+    "AirportName": "Cote D'azur",
+    "CountryCode": "FR",
+    "CountryName": "France",
+    "RegionName": "Europe"
+  },
+  "GVA": {
+    "AirportCode": "GVA",
+    "AirportName": "Geneve-Cointrin",
+    "CountryCode": "CH",
+    "CountryName": "Switzerland",
+    "RegionName": "Europe"
+  },
+  "VST": {
+    "AirportCode": "VST",
+    "AirportName": "Vasteras/Hasslo",
+    "CountryCode": "SE",
+    "CountryName": "Sweden",
+    "RegionName": "Europe"
+  },
+  "NCL": {
+    "AirportCode": "NCL",
+    "AirportName": "Newcastle Airport",
+    "CountryCode": "GB",
+    "CountryName": "United Kingdom",
+    "RegionName": "Europe"
+  },
+  "AJA": {
+    "AirportCode": "AJA",
+    "AirportName": "Campo Dell Oro",
+    "CountryCode": "FR",
+    "CountryName": "France",
+    "RegionName": "Europe"
+  },
+  "TOS": {
+    "AirportCode": "TOS",
+    "AirportName": "Tromso/Langnes",
+    "CountryCode": "NO",
+    "CountryName": "Norway",
+    "RegionName": "Europe"
+  },
+  "CNF": {
+    "AirportCode": "CNF",
+    "AirportName": "Tancredo Neves Int'l.",
+    "CountryCode": "BR",
+    "CountryName": "Brazil",
+    "RegionName": "Latin America"
+  },
+  "ERI": {
+    "AirportCode": "ERI",
+    "AirportName": "Erie International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "PGV": {
+    "AirportCode": "PGV",
+    "AirportName": "Pitt-Greenville Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "TPA": {
+    "AirportCode": "TPA",
+    "AirportName": "Tampa International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "VTE": {
+    "AirportCode": "VTE",
+    "AirportName": "Wattay",
+    "CountryCode": "LA",
+    "CountryName": "Lao People's Democratic Republic",
+    "RegionName": "Asia Pacific"
+  },
+  "TPE": {
+    "AirportCode": "TPE",
+    "AirportName": "Chiang Kai Shek",
+    "CountryCode": "TW",
+    "CountryName": "Taiwan",
+    "RegionName": "Asia Pacific"
+  },
+  "CNS": {
+    "AirportCode": "CNS",
+    "AirportName": "Cairns",
+    "CountryCode": "AU",
+    "CountryName": "Australia",
+    "RegionName": "Asia Pacific"
+  },
+  "RLG": {
+    "AirportCode": "RLG",
+    "AirportName": "Laage",
+    "CountryCode": "DE",
+    "CountryName": "Germany",
+    "RegionName": "Europe"
+  },
+  "CNX": {
+    "AirportCode": "CNX",
+    "AirportName": "International",
+    "CountryCode": "TH",
+    "CountryName": "Thailand",
+    "RegionName": "Asia Pacific"
+  },
+  "PHF": {
+    "AirportCode": "PHF",
+    "AirportName": "Newport News/Williamsburg International",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "PHL": {
+    "AirportCode": "PHL",
+    "AirportName": "Philadelphia International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "ESB": {
+    "AirportCode": "ESB",
+    "AirportName": "Esenboga",
+    "CountryCode": "TR",
+    "CountryName": "Turkey",
+    "RegionName": "Europe"
+  },
+  "TPS": {
+    "AirportCode": "TPS",
+    "AirportName": "Birgi",
+    "CountryCode": "IT",
+    "CountryName": "Italy",
+    "RegionName": "Europe"
+  },
+  "NDR": {
+    "AirportCode": "NDR",
+    "AirportName": "Nador",
+    "CountryCode": "MA",
+    "CountryName": "Morocco",
+    "RegionName": "Africa"
+  },
+  "COK": {
+    "AirportCode": "COK",
+    "AirportName": "Cochin International Airport",
+    "CountryCode": "IN",
+    "CountryName": "India",
+    "RegionName": "Asia Pacific"
+  },
+  "ESM": {
+    "AirportCode": "ESM",
+    "AirportName": "Esmeraldas",
+    "CountryCode": "EC",
+    "CountryName": "Ecuador",
+    "RegionName": "Latin America"
+  },
+  "PHX": {
+    "AirportCode": "PHX",
+    "AirportName": "Phoenix Sky Harbor International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "AKL": {
+    "AirportCode": "AKL",
+    "AirportName": "International",
+    "CountryCode": "NZ",
+    "CountryName": "New Zealand",
+    "RegionName": "Asia Pacific"
+  },
+  "AKN": {
+    "AirportCode": "AKN",
+    "AirportName": "King Salmon Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "GWT": {
+    "AirportCode": "GWT",
+    "AirportName": "Westerland",
+    "CountryCode": "DE",
+    "CountryName": "Germany",
+    "RegionName": "Europe"
+  },
+  "COS": {
+    "AirportCode": "COS",
+    "AirportName": "Colorado Springs Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "COR": {
+    "AirportCode": "COR",
+    "AirportName": "Pajas Blancas",
+    "CountryCode": "AR",
+    "CountryName": "Argentina",
+    "RegionName": "Latin America"
+  },
+  "PIA": {
+    "AirportCode": "PIA",
+    "AirportName": "Peoria General Downing International Air",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "PIE": {
+    "AirportCode": "PIE",
+    "AirportName": "International",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "LAD": {
+    "AirportCode": "LAD",
+    "AirportName": "4 De Fevereiro",
+    "CountryCode": "AO",
+    "CountryName": "Angola",
+    "RegionName": "Africa"
+  },
+  "RMI": {
+    "AirportCode": "RMI",
+    "AirportName": "Miramare",
+    "CountryCode": "IT",
+    "CountryName": "Italy",
+    "RegionName": "Europe"
+  },
+  "PIK": {
+    "AirportCode": "PIK",
+    "AirportName": "Prestwick",
+    "CountryCode": "GB",
+    "CountryName": "United Kingdom",
+    "RegionName": "Europe"
+  },
+  "ALA": {
+    "AirportCode": "ALA",
+    "AirportName": "Alma-Ata",
+    "CountryCode": "KZ",
+    "CountryName": "Kazakhstan",
+    "RegionName": "Europe"
+  },
+  "ALB": {
+    "AirportCode": "ALB",
+    "AirportName": "Albany International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "LAN": {
+    "AirportCode": "LAN",
+    "AirportName": "Lansing Capital Region Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "ETH": {
+    "AirportCode": "ETH",
+    "AirportName": "Elat",
+    "CountryCode": "IL",
+    "CountryName": "Israel",
+    "RegionName": "Middle East"
+  },
+  "ALC": {
+    "AirportCode": "ALC",
+    "AirportName": "Alicante",
+    "CountryCode": "ES",
+    "CountryName": "Spain",
+    "RegionName": "Europe"
+  },
+  "PIT": {
+    "AirportCode": "PIT",
+    "AirportName": "Pittsburgh International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "CPH": {
+    "AirportCode": "CPH",
+    "AirportName": "Copenhagen Airport",
+    "CountryCode": "DK",
+    "CountryName": "Denmark",
+    "RegionName": "Europe"
+  },
+  "NER": {
+    "AirportCode": "NER",
+    "AirportName": "Neryungri",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "LAP": {
+    "AirportCode": "LAP",
+    "AirportName": "Leon",
+    "CountryCode": "MX",
+    "CountryName": "Mexico",
+    "RegionName": "Latin America"
+  },
+  "LAO": {
+    "AirportCode": "LAO",
+    "AirportName": "Laoag",
+    "CountryCode": "PH",
+    "CountryName": "Philippines",
+    "RegionName": "Asia Pacific"
+  },
+  "ALF": {
+    "AirportCode": "ALF",
+    "AirportName": "Alta",
+    "CountryCode": "NO",
+    "CountryName": "Norway",
+    "RegionName": "Europe"
+  },
+  "ALG": {
+    "AirportCode": "ALG",
+    "AirportName": "Houari Boumediene",
+    "CountryCode": "DZ",
+    "CountryName": "Algeria",
+    "RegionName": "Africa"
+  },
+  "LAS": {
+    "AirportCode": "LAS",
+    "AirportName": "McCarran International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "LAX": {
+    "AirportCode": "LAX",
+    "AirportName": "Los Angeles International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "TRC": {
+    "AirportCode": "TRC",
+    "AirportName": "Torreon",
+    "CountryCode": "MX",
+    "CountryName": "Mexico",
+    "RegionName": "Latin America"
+  },
+  "CPR": {
+    "AirportCode": "CPR",
+    "AirportName": "Casper Natrona International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "CPT": {
+    "AirportCode": "CPT",
+    "AirportName": "Cape Town Internationa",
+    "CountryCode": "ZA",
+    "CountryName": "South Africa",
+    "RegionName": "Africa"
+  },
+  "TRD": {
+    "AirportCode": "TRD",
+    "AirportName": "Vaernes",
+    "CountryCode": "NO",
+    "CountryName": "Norway",
+    "RegionName": "Europe"
+  },
+  "VVI": {
+    "AirportCode": "VVI",
+    "AirportName": "Viru Viru Intl",
+    "CountryCode": "BO",
+    "CountryName": "Bolivia",
+    "RegionName": "Latin America"
+  },
+  "TRF": {
+    "AirportCode": "TRF",
+    "AirportName": "Sandefjord",
+    "CountryCode": "NO",
+    "CountryName": "Norway",
+    "RegionName": "Europe"
+  },
+  "TRI": {
+    "AirportCode": "TRI",
+    "AirportName": "Tri-Cities Regional Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "LBA": {
+    "AirportCode": "LBA",
+    "AirportName": "Leeds/Bradford",
+    "CountryCode": "GB",
+    "CountryName": "United Kingdom",
+    "RegionName": "Europe"
+  },
+  "ETZ": {
+    "AirportCode": "ETZ",
+    "AirportName": "Metz-Nancy-Lorraine",
+    "CountryCode": "FR",
+    "CountryName": "France",
+    "RegionName": "Europe"
+  },
+  "ALW": {
+    "AirportCode": "ALW",
+    "AirportName": "Walla Walla Regional Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "LBB": {
+    "AirportCode": "LBB",
+    "AirportName": "Lubbock Preston Smith International Airp",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "VVO": {
+    "AirportCode": "VVO",
+    "AirportName": "Vladivostok",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "LBE": {
+    "AirportCode": "LBE",
+    "AirportName": "Arnold Palmer Regional Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "LBD": {
+    "AirportCode": "LBD",
+    "AirportName": "Khudzhand",
+    "CountryCode": "TJ",
+    "CountryName": "Tajikistan",
+    "RegionName": "Europe"
+  },
+  "TRN": {
+    "AirportCode": "TRN",
+    "AirportName": "Citta Di Torino",
+    "CountryCode": "IT",
+    "CountryName": "Italy",
+    "RegionName": "Europe"
+  },
+  "RNO": {
+    "AirportCode": "RNO",
+    "AirportName": "Reno-Tahoe International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "GYE": {
+    "AirportCode": "GYE",
+    "AirportName": "Simon Bolivar",
+    "CountryCode": "EC",
+    "CountryName": "Ecuador",
+    "RegionName": "Latin America"
+  },
+  "RNN": {
+    "AirportCode": "RNN",
+    "AirportName": "Bornholm",
+    "CountryCode": "DK",
+    "CountryName": "Denmark",
+    "RegionName": "Europe"
+  },
+  "GYD": {
+    "AirportCode": "GYD",
+    "AirportName": "Heydar Aliyev",
+    "CountryCode": "AZ",
+    "CountryName": "Azerbaijan",
+    "RegionName": "Europe"
+  },
+  "TRS": {
+    "AirportCode": "TRS",
+    "AirportName": "Dei Legionari",
+    "CountryCode": "IT",
+    "CountryName": "Italy",
+    "RegionName": "Europe"
+  },
+  "AMA": {
+    "AirportCode": "AMA",
+    "AirportName": "Rick Husband Amarillo International Airp",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "EUG": {
+    "AirportCode": "EUG",
+    "AirportName": "Eugene Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "RNS": {
+    "AirportCode": "RNS",
+    "AirportName": "St Jacques",
+    "CountryCode": "FR",
+    "CountryName": "France",
+    "RegionName": "Europe"
+  },
+  "AMD": {
+    "AirportCode": "AMD",
+    "AirportName": "Ahmedabad",
+    "CountryCode": "IN",
+    "CountryName": "India",
+    "RegionName": "Asia Pacific"
+  },
+  "TRV": {
+    "AirportCode": "TRV",
+    "AirportName": "International",
+    "CountryCode": "IN",
+    "CountryName": "India",
+    "RegionName": "Asia Pacific"
+  },
+  "AMM": {
+    "AirportCode": "AMM",
+    "AirportName": "Queen Alia Intl",
+    "CountryCode": "JO",
+    "CountryName": "Jordan",
+    "RegionName": "Middle East"
+  },
+  "LBV": {
+    "AirportCode": "LBV",
+    "AirportName": "Libreville",
+    "CountryCode": "GA",
+    "CountryName": "Gabon",
+    "RegionName": "Africa"
+  },
+  "ROB": {
+    "AirportCode": "ROB",
+    "AirportName": "Roberts Intl",
+    "CountryCode": "LR",
+    "CountryName": "Liberia",
+    "RegionName": "Africa"
+  },
+  "ROA": {
+    "AirportCode": "ROA",
+    "AirportName": "Roanoke Regional Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "TSF": {
+    "AirportCode": "TSF",
+    "AirportName": "Treviso",
+    "CountryCode": "IT",
+    "CountryName": "Italy",
+    "RegionName": "Europe"
+  },
+  "ROC": {
+    "AirportCode": "ROC",
+    "AirportName": "Greater Rochester International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "AMS": {
+    "AirportCode": "AMS",
+    "AirportName": "Amsterdam-Schiphol",
+    "CountryCode": "NL",
+    "CountryName": "Netherlands",
+    "RegionName": "Europe"
+  },
+  "TSE": {
+    "AirportCode": "TSE",
+    "AirportName": "Astana",
+    "CountryCode": "KZ",
+    "CountryName": "Kazakhstan",
+    "RegionName": "Europe"
+  },
+  "PKC": {
+    "AirportCode": "PKC",
+    "AirportName": "Petropavlovsk-Kamchats",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "LCA": {
+    "AirportCode": "LCA",
+    "AirportName": "Larnaca",
+    "CountryCode": "CY",
+    "CountryName": "Cyprus",
+    "RegionName": "Middle East"
+  },
+  "LCH": {
+    "AirportCode": "LCH",
+    "AirportName": "Lake Charles Regional Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "TSR": {
+    "AirportCode": "TSR",
+    "AirportName": "Timisoara",
+    "CountryCode": "RO",
+    "CountryName": "Romania",
+    "RegionName": "Europe"
+  },
+  "ROR": {
+    "AirportCode": "ROR",
+    "AirportName": "Airai",
+    "CountryCode": "PW",
+    "CountryName": "Palau",
+    "RegionName": "Asia Pacific"
+  },
+  "EVE": {
+    "AirportCode": "EVE",
+    "AirportName": "Evenes",
+    "CountryCode": "NO",
+    "CountryName": "Norway",
+    "RegionName": "Europe"
+  },
+  "ANC": {
+    "AirportCode": "ANC",
+    "AirportName": "Ted Stevens Anchorage International Airp",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "NGO": {
+    "AirportCode": "NGO",
+    "AirportName": "Komaki Afb",
+    "CountryCode": "JP",
+    "CountryName": "Japan",
+    "RegionName": "Asia Pacific"
+  },
+  "ROV": {
+    "AirportCode": "ROV",
+    "AirportName": "Rostov",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "EVN": {
+    "AirportCode": "EVN",
+    "AirportName": "Yerevan",
+    "CountryCode": "AM",
+    "CountryName": "Armenia",
+    "RegionName": "Europe"
+  },
+  "CRL": {
+    "AirportCode": "CRL",
+    "AirportName": "Charleroi Brussels So",
+    "CountryCode": "BE",
+    "CountryName": "Belgium",
+    "RegionName": "Europe"
+  },
+  "CRK": {
+    "AirportCode": "CRK",
+    "AirportName": "Clark Field",
+    "CountryCode": "PH",
+    "CountryName": "Philippines",
+    "RegionName": "Asia Pacific"
+  },
+  "CRP": {
+    "AirportCode": "CRP",
+    "AirportName": "Corpus Christi International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "GZT": {
+    "AirportCode": "GZT",
+    "AirportName": "Gaziantep",
+    "CountryCode": "TR",
+    "CountryName": "Turkey",
+    "RegionName": "Europe"
+  },
+  "VXE": {
+    "AirportCode": "VXE",
+    "AirportName": "San Pedro",
+    "CountryCode": "CV",
+    "CountryName": "Cape Verde",
+    "RegionName": "Africa"
+  },
+  "LCY": {
+    "AirportCode": "LCY",
+    "AirportName": "London City Airport",
+    "CountryCode": "GB",
+    "CountryName": "United Kingdom",
+    "RegionName": "Europe"
+  },
+  "EVV": {
+    "AirportCode": "EVV",
+    "AirportName": "Evansville Regional Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "NHA": {
+    "AirportCode": "NHA",
+    "AirportName": "Nha Trang",
+    "CountryCode": "VN",
+    "CountryName": "Viet Nam",
+    "RegionName": "Asia Pacific"
+  },
+  "ANU": {
+    "AirportCode": "ANU",
+    "AirportName": "V.C. Bird Intl",
+    "CountryCode": "AG",
+    "CountryName": "Antigua And Barbuda",
+    "RegionName": "North America"
+  },
+  "CRW": {
+    "AirportCode": "CRW",
+    "AirportName": "Charleston Yeager Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "VXO": {
+    "AirportCode": "VXO",
+    "AirportName": "Vaxjo",
+    "CountryCode": "SE",
+    "CountryName": "Sweden",
+    "RegionName": "Europe"
+  },
+  "PLS": {
+    "AirportCode": "PLS",
+    "AirportName": "International",
+    "CountryCode": "TC",
+    "CountryName": "Turks And Caicos Islands",
+    "RegionName": "North America"
+  },
+  "AOI": {
+    "AirportCode": "AOI",
+    "AirportName": "Falconara",
+    "CountryCode": "IT",
+    "CountryName": "Italy",
+    "RegionName": "Europe"
+  },
+  "EWN": {
+    "AirportCode": "EWN",
+    "AirportName": "Coastal Carolina Regional Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "AOK": {
+    "AirportCode": "AOK",
+    "AirportName": "Karpathos",
+    "CountryCode": "GR",
+    "CountryName": "Greece",
+    "RegionName": "Europe"
+  },
+  "PLZ": {
+    "AirportCode": "PLZ",
+    "AirportName": "Port Elizabeth",
+    "CountryCode": "ZA",
+    "CountryName": "South Africa",
+    "RegionName": "Africa"
+  },
+  "EWR": {
+    "AirportCode": "EWR",
+    "AirportName": "Newark Liberty International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "PMC": {
+    "AirportCode": "PMC",
+    "AirportName": "Tepual",
+    "CountryCode": "CL",
+    "CountryName": "Chile",
+    "RegionName": "Latin America"
+  },
+  "CSY": {
+    "AirportCode": "CSY",
+    "AirportName": "Cheboksary",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "TUL": {
+    "AirportCode": "TUL",
+    "AirportName": "Tulsa International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "LED": {
+    "AirportCode": "LED",
+    "AirportName": "Pulkovo",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "TUN": {
+    "AirportCode": "TUN",
+    "AirportName": "Carthage",
+    "CountryCode": "TN",
+    "CountryName": "Tunisia",
+    "RegionName": "Africa"
+  },
+  "JAC": {
+    "AirportCode": "JAC",
+    "AirportName": "Jackson Hole Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "PMI": {
+    "AirportCode": "PMI",
+    "AirportName": "Palma Mallorca",
+    "CountryCode": "ES",
+    "CountryName": "Spain",
+    "RegionName": "Europe"
+  },
+  "LEJ": {
+    "AirportCode": "LEJ",
+    "AirportName": "Leipzig/Halle Airport",
+    "CountryCode": "DE",
+    "CountryName": "Germany",
+    "RegionName": "Europe"
+  },
+  "LEI": {
+    "AirportCode": "LEI",
+    "AirportName": "Almeria",
+    "CountryCode": "ES",
+    "CountryName": "Spain",
+    "RegionName": "Europe"
+  },
+  "CTA": {
+    "AirportCode": "CTA",
+    "AirportName": "Fontanarossa",
+    "CountryCode": "IT",
+    "CountryName": "Italy",
+    "RegionName": "Europe"
+  },
+  "TUS": {
+    "AirportCode": "TUS",
+    "AirportName": "Tucson International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "PMO": {
+    "AirportCode": "PMO",
+    "AirportName": "Punta Raisi",
+    "CountryCode": "IT",
+    "CountryName": "Italy",
+    "RegionName": "Europe"
+  },
+  "JAN": {
+    "AirportCode": "JAN",
+    "AirportName": "Jackson-Medgar Wiley Evers International",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "CTG": {
+    "AirportCode": "CTG",
+    "AirportName": "Rafael Nunez",
+    "CountryCode": "CO",
+    "CountryName": "Colombia",
+    "RegionName": "Latin America"
+  },
+  "LEX": {
+    "AirportCode": "LEX",
+    "AirportName": "Lexington Blue Grass Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "JAX": {
+    "AirportCode": "JAX",
+    "AirportName": "Jacksonville International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "TVC": {
+    "AirportCode": "TVC",
+    "AirportName": "Cherry Capital Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "EXT": {
+    "AirportCode": "EXT",
+    "AirportName": "Exeter",
+    "CountryCode": "GB",
+    "CountryName": "United Kingdom",
+    "RegionName": "Europe"
+  },
+  "CTS": {
+    "AirportCode": "CTS",
+    "AirportName": "Chitose",
+    "CountryCode": "JP",
+    "CountryName": "Japan",
+    "RegionName": "Asia Pacific"
+  },
+  "CTU": {
+    "AirportCode": "CTU",
+    "AirportName": "Chengdu",
+    "CountryCode": "CN",
+    "CountryName": "China",
+    "RegionName": "Asia Pacific"
+  },
+  "NJC": {
+    "AirportCode": "NJC",
+    "AirportName": "Nizhnevartovsk",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "APW": {
+    "AirportCode": "APW",
+    "AirportName": "Faleolo",
+    "CountryCode": "WS",
+    "CountryName": "Samoa",
+    "RegionName": "Asia Pacific"
+  },
+  "PNH": {
+    "AirportCode": "PNH",
+    "AirportName": "Pochentong",
+    "CountryCode": "KH",
+    "CountryName": "Cambodia",
+    "RegionName": "Asia Pacific"
+  },
+  "NJF": {
+    "AirportCode": "NJF",
+    "AirportName": "Al-Najaf International",
+    "CountryCode": "IQ",
+    "CountryName": "Iraq",
+    "RegionName": "Middle East"
+  },
+  "PNL": {
+    "AirportCode": "PNL",
+    "AirportName": "Pantelleria",
+    "CountryCode": "IT",
+    "CountryName": "Italy",
+    "RegionName": "Europe"
+  },
+  "CUC": {
+    "AirportCode": "CUC",
+    "AirportName": "Camilo Dazo",
+    "CountryCode": "CO",
+    "CountryName": "Colombia",
+    "RegionName": "Latin America"
+  },
+  "CUE": {
+    "AirportCode": "CUE",
+    "AirportName": "Cuenca",
+    "CountryCode": "EC",
+    "CountryName": "Ecuador",
+    "RegionName": "Latin America"
+  },
+  "PNS": {
+    "AirportCode": "PNS",
+    "AirportName": "Pensacola International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "AQJ": {
+    "AirportCode": "AQJ",
+    "AirportName": "King Hussein Int;'l",
+    "CountryCode": "JO",
+    "CountryName": "Jordan",
+    "RegionName": "Middle East"
+  },
+  "LFT": {
+    "AirportCode": "LFT",
+    "AirportName": "Lafayette Regional Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "CUL": {
+    "AirportCode": "CUL",
+    "AirportName": "Fedl De Bachigualato",
+    "CountryCode": "MX",
+    "CountryName": "Mexico",
+    "RegionName": "Latin America"
+  },
+  "CUN": {
+    "AirportCode": "CUN",
+    "AirportName": "Cancun",
+    "CountryCode": "MX",
+    "CountryName": "Mexico",
+    "RegionName": "Latin America"
+  },
+  "CUR": {
+    "AirportCode": "CUR",
+    "AirportName": "Aeropuerto Hato",
+    "CountryCode": "AN",
+    "CountryName": "Netherlands Antilles",
+    "RegionName": "North America"
+  },
+  "EYW": {
+    "AirportCode": "EYW",
+    "AirportName": "Key West International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "CUU": {
+    "AirportCode": "CUU",
+    "AirportName": "Gen Fierro Villalobos",
+    "CountryCode": "MX",
+    "CountryName": "Mexico",
+    "RegionName": "Latin America"
+  },
+  "POA": {
+    "AirportCode": "POA",
+    "AirportName": "Salgado Filho",
+    "CountryCode": "BR",
+    "CountryName": "Brazil",
+    "RegionName": "Latin America"
+  },
+  "LGB": {
+    "AirportCode": "LGB",
+    "AirportName": "Long Beach Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "LGA": {
+    "AirportCode": "LGA",
+    "AirportName": "LaGuardia Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "CUZ": {
+    "AirportCode": "CUZ",
+    "AirportName": "Velazco Astete",
+    "CountryCode": "PE",
+    "CountryName": "Peru",
+    "RegionName": "Latin America"
+  },
+  "POP": {
+    "AirportCode": "POP",
+    "AirportName": "La Union",
+    "CountryCode": "DO",
+    "CountryName": "Dominican Republic",
+    "RegionName": "North America"
+  },
+  "EZE": {
+    "AirportCode": "EZE",
+    "AirportName": "Ministro Pistarini",
+    "CountryCode": "AR",
+    "CountryName": "Argentina",
+    "RegionName": "Latin America"
+  },
+  "LGK": {
+    "AirportCode": "LGK",
+    "AirportName": "Langkawi",
+    "CountryCode": "MY",
+    "CountryName": "Malaysia",
+    "RegionName": "Asia Pacific"
+  },
+  "RST": {
+    "AirportCode": "RST",
+    "AirportName": "Rochester International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "CVG": {
+    "AirportCode": "CVG",
+    "AirportName": "Cincinnati Northern Kentucky Internation",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "POS": {
+    "AirportCode": "POS",
+    "AirportName": "Piarco",
+    "CountryCode": "TT",
+    "CountryName": "Trinidad And Tobago",
+    "RegionName": "North America"
+  },
+  "RSW": {
+    "AirportCode": "RSW",
+    "AirportName": "Fort Myers Southwest Florida Internation",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "ARH": {
+    "AirportCode": "ARH",
+    "AirportName": "Arkhangelsk",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "POZ": {
+    "AirportCode": "POZ",
+    "AirportName": "Lawica",
+    "CountryCode": "PL",
+    "CountryName": "Poland",
+    "RegionName": "Europe"
+  },
+  "ARN": {
+    "AirportCode": "ARN",
+    "AirportName": "Arlanda",
+    "CountryCode": "SE",
+    "CountryName": "Sweden",
+    "RegionName": "Europe"
+  },
+  "LGW": {
+    "AirportCode": "LGW",
+    "AirportName": "Gatwick",
+    "CountryCode": "GB",
+    "CountryName": "United Kingdom",
+    "RegionName": "Europe"
+  },
+  "EZS": {
+    "AirportCode": "EZS",
+    "AirportName": "Elazig",
+    "CountryCode": "TR",
+    "CountryName": "Turkey",
+    "RegionName": "Europe"
+  },
+  "RTB": {
+    "AirportCode": "RTB",
+    "AirportName": "Roatan",
+    "CountryCode": "HN",
+    "CountryName": "Honduras",
+    "RegionName": "Latin America"
+  },
+  "PPG": {
+    "AirportCode": "PPG",
+    "AirportName": "International",
+    "CountryCode": "AS",
+    "CountryName": "American Samoa",
+    "RegionName": "Asia Pacific"
+  },
+  "LHE": {
+    "AirportCode": "LHE",
+    "AirportName": "Lahore",
+    "CountryCode": "PK",
+    "CountryName": "Pakistan",
+    "RegionName": "Asia Pacific"
+  },
+  "TXL": {
+    "AirportCode": "TXL",
+    "AirportName": "Tegel",
+    "CountryCode": "DE",
+    "CountryName": "Germany",
+    "RegionName": "Europe"
+  },
+  "RTM": {
+    "AirportCode": "RTM",
+    "AirportName": "Rotterdam The Hague",
+    "CountryCode": "NL",
+    "CountryName": "Netherlands",
+    "RegionName": "Europe"
+  },
+  "CWA": {
+    "AirportCode": "CWA",
+    "AirportName": "Central Wisconsin Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "CWC": {
+    "AirportCode": "CWC",
+    "AirportName": "Chernovtsy",
+    "CountryCode": "UA",
+    "CountryName": "Ukraine",
+    "RegionName": "Europe"
+  },
+  "CWB": {
+    "AirportCode": "CWB",
+    "AirportName": "Afonso Pena",
+    "CountryCode": "BR",
+    "CountryName": "Brazil",
+    "RegionName": "Latin America"
+  },
+  "PPS": {
+    "AirportCode": "PPS",
+    "AirportName": "Puerto Princesa",
+    "CountryCode": "PH",
+    "CountryName": "Philippines",
+    "RegionName": "Asia Pacific"
+  },
+  "ASE": {
+    "AirportCode": "ASE",
+    "AirportName": "Aspen",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "RTW": {
+    "AirportCode": "RTW",
+    "AirportName": "Saratov",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "ASF": {
+    "AirportCode": "ASF",
+    "AirportName": "Astrakhan",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "PPT": {
+    "AirportCode": "PPT",
+    "AirportName": "Faaa",
+    "CountryCode": "PF",
+    "CountryName": "French Polynesia",
+    "RegionName": "Asia Pacific"
+  },
+  "LHR": {
+    "AirportCode": "LHR",
+    "AirportName": "Heathrow",
+    "CountryCode": "GB",
+    "CountryName": "United Kingdom",
+    "RegionName": "Europe"
+  },
+  "CWL": {
+    "AirportCode": "CWL",
+    "AirportName": "Cardiff-Wales Arpt",
+    "CountryCode": "GB",
+    "CountryName": "United Kingdom",
+    "RegionName": "Europe"
+  },
+  "ASM": {
+    "AirportCode": "ASM",
+    "AirportName": "Asmara International",
+    "CountryCode": "ER",
+    "CountryName": "Eritrea",
+    "RegionName": "Africa"
+  },
+  "ASP": {
+    "AirportCode": "ASP",
+    "AirportName": "Alice Springs",
+    "CountryCode": "AU",
+    "CountryName": "Australia",
+    "RegionName": "Asia Pacific"
+  },
+  "ASR": {
+    "AirportCode": "ASR",
+    "AirportName": "Kayseri",
+    "CountryCode": "TR",
+    "CountryName": "Turkey",
+    "RegionName": "Europe"
+  },
+  "PQC": {
+    "AirportCode": "PQC",
+    "AirportName": "Duong Dang",
+    "CountryCode": "VN",
+    "CountryName": "Viet Nam",
+    "RegionName": "Asia Pacific"
+  },
+  "NMA": {
+    "AirportCode": "NMA",
+    "AirportName": "Namangan",
+    "CountryCode": "UZ",
+    "CountryName": "Uzbekistan",
+    "RegionName": "Europe"
+  },
+  "ASU": {
+    "AirportCode": "ASU",
+    "AirportName": "Silvio Pettirossi",
+    "CountryCode": "PY",
+    "CountryName": "Paraguay",
+    "RegionName": "Latin America"
+  },
+  "RUH": {
+    "AirportCode": "RUH",
+    "AirportName": "King Khaled Intl",
+    "CountryCode": "SA",
+    "CountryName": "Saudi Arabia",
+    "RegionName": "Middle East"
+  },
+  "JED": {
+    "AirportCode": "JED",
+    "AirportName": "King Abdulaziz Intl",
+    "CountryCode": "SA",
+    "CountryName": "Saudi Arabia",
+    "RegionName": "Middle East"
+  },
+  "LIH": {
+    "AirportCode": "LIH",
+    "AirportName": "Lihue Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "RUN": {
+    "AirportCode": "RUN",
+    "AirportName": "Gillot",
+    "CountryCode": "RE",
+    "CountryName": "Reunion",
+    "RegionName": "Africa"
+  },
+  "HAD": {
+    "AirportCode": "HAD",
+    "AirportName": "Halmstad",
+    "CountryCode": "SE",
+    "CountryName": "Sweden",
+    "RegionName": "Europe"
+  },
+  "LIG": {
+    "AirportCode": "LIG",
+    "AirportName": "Bellegarde",
+    "CountryCode": "FR",
+    "CountryName": "France",
+    "RegionName": "Europe"
+  },
+  "LIL": {
+    "AirportCode": "LIL",
+    "AirportName": "Lesquin",
+    "CountryCode": "FR",
+    "CountryName": "France",
+    "RegionName": "Europe"
+  },
+  "TYS": {
+    "AirportCode": "TYS",
+    "AirportName": "McGhee Tyson Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "LIN": {
+    "AirportCode": "LIN",
+    "AirportName": "Linate",
+    "CountryCode": "IT",
+    "CountryName": "Italy",
+    "RegionName": "Europe"
+  },
+  "HAJ": {
+    "AirportCode": "HAJ",
+    "AirportName": "Hanover Arpt",
+    "CountryCode": "DE",
+    "CountryName": "Germany",
+    "RegionName": "Europe"
+  },
+  "LIM": {
+    "AirportCode": "LIM",
+    "AirportName": "J Chavez Intl",
+    "CountryCode": "PE",
+    "CountryName": "Peru",
+    "RegionName": "Latin America"
+  },
+  "LIR": {
+    "AirportCode": "LIR",
+    "AirportName": "Liberia",
+    "CountryCode": "CR",
+    "CountryName": "Costa Rica",
+    "RegionName": "Latin America"
+  },
+  "HAN": {
+    "AirportCode": "HAN",
+    "AirportName": "Noibai",
+    "CountryCode": "VN",
+    "CountryName": "Viet Nam",
+    "RegionName": "Asia Pacific"
+  },
+  "HAM": {
+    "AirportCode": "HAM",
+    "AirportName": "Fuhlsbuettel",
+    "CountryCode": "DE",
+    "CountryName": "Germany",
+    "RegionName": "Europe"
+  },
+  "ATH": {
+    "AirportCode": "ATH",
+    "AirportName": "Eleftherios Venizelos",
+    "CountryCode": "GR",
+    "CountryName": "Greece",
+    "RegionName": "Europe"
+  },
+  "LIT": {
+    "AirportCode": "LIT",
+    "AirportName": "Clinton National Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "JER": {
+    "AirportCode": "JER",
+    "AirportName": "States",
+    "CountryCode": "GB",
+    "CountryName": "United Kingdom",
+    "RegionName": "Europe"
+  },
+  "LIS": {
+    "AirportCode": "LIS",
+    "AirportName": "Lisboa",
+    "CountryCode": "PT",
+    "CountryName": "Portugal",
+    "RegionName": "Europe"
+  },
+  "ATL": {
+    "AirportCode": "ATL",
+    "AirportName": "Hartsfield-Jackson Atlanta International",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "YCD": {
+    "AirportCode": "YCD",
+    "AirportName": "Nanaimo Arpt",
+    "CountryCode": "CA",
+    "CountryName": "Canada",
+    "RegionName": "North America"
+  },
+  "HAV": {
+    "AirportCode": "HAV",
+    "AirportName": "Jose Marti Intl",
+    "CountryCode": "CU",
+    "CountryName": "Cuba",
+    "RegionName": "North America"
+  },
+  "CXR": {
+    "AirportCode": "CXR",
+    "AirportName": "Cam Ranh International",
+    "CountryCode": "VN",
+    "CountryName": "Viet Nam",
+    "RegionName": "Asia Pacific"
+  },
+  "HAU": {
+    "AirportCode": "HAU",
+    "AirportName": "Haugesund",
+    "CountryCode": "NO",
+    "CountryName": "Norway",
+    "RegionName": "Europe"
+  },
+  "ATQ": {
+    "AirportCode": "ATQ",
+    "AirportName": "Raja Sansi",
+    "CountryCode": "IN",
+    "CountryName": "India",
+    "RegionName": "Asia Pacific"
+  },
+  "ATW": {
+    "AirportCode": "ATW",
+    "AirportName": "Outagamie County Regional Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "PRG": {
+    "AirportCode": "PRG",
+    "AirportName": "Ruzyne",
+    "CountryCode": "CZ",
+    "CountryName": "Czech Republic",
+    "RegionName": "Europe"
+  },
+  "NNG": {
+    "AirportCode": "NNG",
+    "AirportName": "Nanning",
+    "CountryCode": "CN",
+    "CountryName": "China",
+    "RegionName": "Asia Pacific"
+  },
+  "HBA": {
+    "AirportCode": "HBA",
+    "AirportName": "Hobart",
+    "CountryCode": "AU",
+    "CountryName": "Australia",
+    "RegionName": "Asia Pacific"
+  },
+  "RVN": {
+    "AirportCode": "RVN",
+    "AirportName": "Rovaniemi",
+    "CountryCode": "FI",
+    "CountryName": "Finland",
+    "RegionName": "Europe"
+  },
+  "NNM": {
+    "AirportCode": "NNM",
+    "AirportName": "Naryan-Mar",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "AUA": {
+    "AirportCode": "AUA",
+    "AirportName": "Reina Beatrix",
+    "CountryCode": "AW",
+    "CountryName": "Aruba",
+    "RegionName": "North America"
+  },
+  "PRN": {
+    "AirportCode": "PRN",
+    "AirportName": "Pristina",
+    "CountryCode": "RS",
+    "CountryName": "Serbia",
+    "RegionName": "Europe"
+  },
+  "JFK": {
+    "AirportCode": "JFK",
+    "AirportName": "John F. Kennedy International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "TZX": {
+    "AirportCode": "TZX",
+    "AirportName": "Trabzon",
+    "CountryCode": "TR",
+    "CountryName": "Turkey",
+    "RegionName": "Europe"
+  },
+  "AUH": {
+    "AirportCode": "AUH",
+    "AirportName": "Abu Dhabi Intl",
+    "CountryCode": "AE",
+    "CountryName": "United Arab Emirates",
+    "RegionName": "Middle East"
+  },
+  "LJU": {
+    "AirportCode": "LJU",
+    "AirportName": "Brnik",
+    "CountryCode": "SI",
+    "CountryName": "Slovenia",
+    "RegionName": "Europe"
+  },
+  "YDF": {
+    "AirportCode": "YDF",
+    "AirportName": "Deer Lake",
+    "CountryCode": "CA",
+    "CountryName": "Canada",
+    "RegionName": "North America"
+  },
+  "AUS": {
+    "AirportCode": "AUS",
+    "AirportName": "AustinBergstrom International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "PSA": {
+    "AirportCode": "PSA",
+    "AirportName": "Gal Galilei",
+    "CountryCode": "IT",
+    "CountryName": "Italy",
+    "RegionName": "Europe"
+  },
+  "PSC": {
+    "AirportCode": "PSC",
+    "AirportName": "Tri-Cities Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "PSE": {
+    "AirportCode": "PSE",
+    "AirportName": "Mercedita Airport",
+    "CountryCode": "PR",
+    "CountryName": "Puerto Rico",
+    "RegionName": "North America"
+  },
+  "NOJ": {
+    "AirportCode": "NOJ",
+    "AirportName": "Nojabrxsk",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "PSP": {
+    "AirportCode": "PSP",
+    "AirportName": "Palm Springs Municipal Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "PSR": {
+    "AirportCode": "PSR",
+    "AirportName": "Liberi",
+    "CountryCode": "IT",
+    "CountryName": "Italy",
+    "RegionName": "Europe"
+  },
+  "LKN": {
+    "AirportCode": "LKN",
+    "AirportName": "Leknes",
+    "CountryCode": "NO",
+    "CountryName": "Norway",
+    "RegionName": "Europe"
+  },
+  "AVL": {
+    "AirportCode": "AVL",
+    "AirportName": "Asheville Regional Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "CZM": {
+    "AirportCode": "CZM",
+    "AirportName": "Cozumel",
+    "CountryCode": "MX",
+    "CountryName": "Mexico",
+    "RegionName": "Latin America"
+  },
+  "NOZ": {
+    "AirportCode": "NOZ",
+    "AirportName": "Novokuznetsk",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "YEG": {
+    "AirportCode": "YEG",
+    "AirportName": "International",
+    "CountryCode": "CA",
+    "CountryName": "Canada",
+    "RegionName": "North America"
+  },
+  "AVP": {
+    "AirportCode": "AVP",
+    "AirportName": "Wilkes-Barre/Scranton International Airp",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "LLA": {
+    "AirportCode": "LLA",
+    "AirportName": "Kallax",
+    "CountryCode": "SE",
+    "CountryName": "Sweden",
+    "RegionName": "Europe"
+  },
+  "WAW": {
+    "AirportCode": "WAW",
+    "AirportName": "Okecie",
+    "CountryCode": "PL",
+    "CountryName": "Poland",
+    "RegionName": "Europe"
+  },
+  "PTP": {
+    "AirportCode": "PTP",
+    "AirportName": "Le Raizet",
+    "CountryCode": "GP",
+    "CountryName": "Guadeloupe",
+    "RegionName": "North America"
+  },
+  "JHM": {
+    "AirportCode": "JHM",
+    "AirportName": "Kapalua Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "HDN": {
+    "AirportCode": "HDN",
+    "AirportName": "Yampa Valley Regional Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "PTY": {
+    "AirportCode": "PTY",
+    "AirportName": "Tocumen International",
+    "CountryCode": "PA",
+    "CountryName": "Panama",
+    "RegionName": "Latin America"
+  },
+  "LLW": {
+    "AirportCode": "LLW",
+    "AirportName": "Lilongwe International",
+    "CountryCode": "MW",
+    "CountryName": "Malawi",
+    "RegionName": "Africa"
+  },
+  "HDS": {
+    "AirportCode": "HDS",
+    "AirportName": "Hoedspruit Airport",
+    "CountryCode": "ZA",
+    "CountryName": "South Africa",
+    "RegionName": "Africa"
+  },
+  "YFC": {
+    "AirportCode": "YFC",
+    "AirportName": "Fredericton",
+    "CountryCode": "CA",
+    "CountryName": "Canada",
+    "RegionName": "North America"
+  },
+  "HDY": {
+    "AirportCode": "HDY",
+    "AirportName": "Hat Yai",
+    "CountryCode": "TH",
+    "CountryName": "Thailand",
+    "RegionName": "Asia Pacific"
+  },
+  "JIB": {
+    "AirportCode": "JIB",
+    "AirportName": "Ambouli",
+    "CountryCode": "DJ",
+    "CountryName": "Djibouti",
+    "RegionName": "Africa"
+  },
+  "PUJ": {
+    "AirportCode": "PUJ",
+    "AirportName": "Punta Cana",
+    "CountryCode": "DO",
+    "CountryName": "Dominican Republic",
+    "RegionName": "North America"
+  },
+  "AXA": {
+    "AirportCode": "AXA",
+    "AirportName": "Wallblake",
+    "CountryCode": "AI",
+    "CountryName": "Anguilla",
+    "RegionName": "North America"
+  },
+  "FAE": {
+    "AirportCode": "FAE",
+    "AirportName": "Vagar",
+    "CountryCode": "FO",
+    "CountryName": "Faroe Islands",
+    "RegionName": "Europe"
+  },
+  "JIK": {
+    "AirportCode": "JIK",
+    "AirportName": "Ikaria",
+    "CountryCode": "GR",
+    "CountryName": "Greece",
+    "RegionName": "Europe"
+  },
+  "AXD": {
+    "AirportCode": "AXD",
+    "AirportName": "Demokritos Airport",
+    "CountryCode": "GR",
+    "CountryName": "Greece",
+    "RegionName": "Europe"
+  },
+  "HEL": {
+    "AirportCode": "HEL",
+    "AirportName": "Helsinki-Vantaa",
+    "CountryCode": "FI",
+    "CountryName": "Finland",
+    "RegionName": "Europe"
+  },
+  "LMP": {
+    "AirportCode": "LMP",
+    "AirportName": "Lampedusa",
+    "CountryCode": "IT",
+    "CountryName": "Italy",
+    "RegionName": "Europe"
+  },
+  "FAI": {
+    "AirportCode": "FAI",
+    "AirportName": "Fairbanks International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "PUS": {
+    "AirportCode": "PUS",
+    "AirportName": "Gimhae",
+    "CountryCode": "KR",
+    "CountryName": "Korea - Republic Of",
+    "RegionName": "Asia Pacific"
+  },
+  "PUW": {
+    "AirportCode": "PUW",
+    "AirportName": "Pullman-Moscow Regional Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "HER": {
+    "AirportCode": "HER",
+    "AirportName": "N. Kazantzakis Apt.",
+    "CountryCode": "GR",
+    "CountryName": "Greece",
+    "RegionName": "Europe"
+  },
+  "PUY": {
+    "AirportCode": "PUY",
+    "AirportName": "Pula",
+    "CountryCode": "HR",
+    "CountryName": "Croatia",
+    "RegionName": "Europe"
+  },
+  "FAO": {
+    "AirportCode": "FAO",
+    "AirportName": "Faro",
+    "CountryCode": "PT",
+    "CountryName": "Portugal",
+    "RegionName": "Europe"
+  },
+  "FAR": {
+    "AirportCode": "FAR",
+    "AirportName": "Hector International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "AXM": {
+    "AirportCode": "AXM",
+    "AirportName": "El Eden",
+    "CountryCode": "CO",
+    "CountryName": "Colombia",
+    "RegionName": "Latin America"
+  },
+  "NQY": {
+    "AirportCode": "NQY",
+    "AirportName": "St Mawgan",
+    "CountryCode": "GB",
+    "CountryName": "United Kingdom",
+    "RegionName": "Europe"
+  },
+  "FAT": {
+    "AirportCode": "FAT",
+    "AirportName": "Fresno Yosemite International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "RZE": {
+    "AirportCode": "RZE",
+    "AirportName": "Jasionka",
+    "CountryCode": "PL",
+    "CountryName": "Poland",
+    "RegionName": "Europe"
+  },
+  "PVD": {
+    "AirportCode": "PVD",
+    "AirportName": "Theodore Francis Green Memorial State Ai",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "FAY": {
+    "AirportCode": "FAY",
+    "AirportName": "Fayetteville Regional Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "PVG": {
+    "AirportCode": "PVG",
+    "AirportName": "Pu Dong",
+    "CountryCode": "CN",
+    "CountryName": "China",
+    "RegionName": "Asia Pacific"
+  },
+  "PVK": {
+    "AirportCode": "PVK",
+    "AirportName": "Aktion",
+    "CountryCode": "GR",
+    "CountryName": "Greece",
+    "RegionName": "Europe"
+  },
+  "NRK": {
+    "AirportCode": "NRK",
+    "AirportName": "Kungsangen",
+    "CountryCode": "SE",
+    "CountryName": "Sweden",
+    "RegionName": "Europe"
+  },
+  "LNK": {
+    "AirportCode": "LNK",
+    "AirportName": "Lincoln Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "NRN": {
+    "AirportCode": "NRN",
+    "AirportName": "Weeze",
+    "CountryCode": "DE",
+    "CountryName": "Germany",
+    "RegionName": "Europe"
+  },
+  "PVR": {
+    "AirportCode": "PVR",
+    "AirportName": "Ordaz",
+    "CountryCode": "MX",
+    "CountryName": "Mexico",
+    "RegionName": "Latin America"
+  },
+  "NRT": {
+    "AirportCode": "NRT",
+    "AirportName": "Narita",
+    "CountryCode": "JP",
+    "CountryName": "Japan",
+    "RegionName": "Asia Pacific"
+  },
+  "LNY": {
+    "AirportCode": "LNY",
+    "AirportName": "Lanai Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "LNZ": {
+    "AirportCode": "LNZ",
+    "AirportName": "Hoersching",
+    "CountryCode": "AT",
+    "CountryName": "Austria",
+    "RegionName": "Europe"
+  },
+  "AYQ": {
+    "AirportCode": "AYQ",
+    "AirportName": "Connellan",
+    "CountryCode": "AU",
+    "CountryName": "Australia",
+    "RegionName": "Asia Pacific"
+  },
+  "WDH": {
+    "AirportCode": "WDH",
+    "AirportName": "Hosea Kutako Int'l",
+    "CountryCode": "NA",
+    "CountryName": "Namibia",
+    "RegionName": "Africa"
+  },
+  "AYT": {
+    "AirportCode": "AYT",
+    "AirportName": "Antalya",
+    "CountryCode": "TR",
+    "CountryName": "Turkey",
+    "RegionName": "Europe"
+  },
+  "YHM": {
+    "AirportCode": "YHM",
+    "AirportName": "Hamilton",
+    "CountryCode": "CA",
+    "CountryName": "Canada",
+    "RegionName": "North America"
+  },
+  "HGA": {
+    "AirportCode": "HGA",
+    "AirportName": "Hargeisa",
+    "CountryCode": "SO",
+    "CountryName": "Somalia",
+    "RegionName": "Africa"
+  },
+  "FCA": {
+    "AirportCode": "FCA",
+    "AirportName": "Glacier Park International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "NSI": {
+    "AirportCode": "NSI",
+    "AirportName": "Nsimalen",
+    "CountryCode": "CM",
+    "CountryName": "Cameroon",
+    "RegionName": "Africa"
+  },
+  "JKH": {
+    "AirportCode": "JKH",
+    "AirportName": "Chios",
+    "CountryCode": "GR",
+    "CountryName": "Greece",
+    "RegionName": "Europe"
+  },
+  "PWM": {
+    "AirportCode": "PWM",
+    "AirportName": "Portland International Jetport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "NSK": {
+    "AirportCode": "NSK",
+    "AirportName": "Noril'sk",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "JKG": {
+    "AirportCode": "JKG",
+    "AirportName": "Axamo",
+    "CountryCode": "SE",
+    "CountryName": "Sweden",
+    "RegionName": "Europe"
+  },
+  "NSN": {
+    "AirportCode": "NSN",
+    "AirportName": "Nelson",
+    "CountryCode": "NZ",
+    "CountryName": "New Zealand",
+    "RegionName": "Asia Pacific"
+  },
+  "YHZ": {
+    "AirportCode": "YHZ",
+    "AirportName": "Halifax International",
+    "CountryCode": "CA",
+    "CountryName": "Canada",
+    "RegionName": "North America"
+  },
+  "LOS": {
+    "AirportCode": "LOS",
+    "AirportName": "Murtala Muhammed",
+    "CountryCode": "NG",
+    "CountryName": "Nigeria",
+    "RegionName": "Africa"
+  },
+  "JKT": {
+    "AirportCode": "JKT",
+    "AirportName": "Metropolitan Area",
+    "CountryCode": "ID",
+    "CountryName": "Indonesia",
+    "RegionName": "Asia Pacific"
+  },
+  "FCO": {
+    "AirportCode": "FCO",
+    "AirportName": "Fiumicino",
+    "CountryCode": "IT",
+    "CountryName": "Italy",
+    "RegionName": "Europe"
+  },
+  "AZO": {
+    "AirportCode": "AZO",
+    "AirportName": "Kalamazoo/Battle Creek International Air",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "AZS": {
+    "AirportCode": "AZS",
+    "AirportName": "Samana El Catey Airport",
+    "CountryCode": "DO",
+    "CountryName": "Dominican Republic",
+    "RegionName": "North America"
+  },
+  "LPA": {
+    "AirportCode": "LPA",
+    "AirportName": "Arpt De Gran Canaria",
+    "CountryCode": "ES",
+    "CountryName": "Spain",
+    "RegionName": "Europe"
+  },
+  "NTE": {
+    "AirportCode": "NTE",
+    "AirportName": "Nantes Atlantique",
+    "CountryCode": "FR",
+    "CountryName": "France",
+    "RegionName": "Europe"
+  },
+  "LPB": {
+    "AirportCode": "LPB",
+    "AirportName": "El Alto",
+    "CountryCode": "BO",
+    "CountryName": "Bolivia",
+    "RegionName": "Latin America"
+  },
+  "LPI": {
+    "AirportCode": "LPI",
+    "AirportName": "Linkoping",
+    "CountryCode": "SE",
+    "CountryName": "Sweden",
+    "RegionName": "Europe"
+  },
+  "PXO": {
+    "AirportCode": "PXO",
+    "AirportName": "Porto Santo",
+    "CountryCode": "PT",
+    "CountryName": "Portugal",
+    "RegionName": "Europe"
+  },
+  "FDE": {
+    "AirportCode": "FDE",
+    "AirportName": "Bringeland",
+    "CountryCode": "NO",
+    "CountryName": "Norway",
+    "RegionName": "Europe"
+  },
+  "LPL": {
+    "AirportCode": "LPL",
+    "AirportName": "Liverpool John Lennon",
+    "CountryCode": "GB",
+    "CountryName": "United Kingdom",
+    "RegionName": "Europe"
+  },
+  "HHH": {
+    "AirportCode": "HHH",
+    "AirportName": "Hilton Head Island Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "FDF": {
+    "AirportCode": "FDF",
+    "AirportName": "Lamentin",
+    "CountryCode": "MQ",
+    "CountryName": "Martinique",
+    "RegionName": "North America"
+  },
+  "FDH": {
+    "AirportCode": "FDH",
+    "AirportName": "Friedrichshafen",
+    "CountryCode": "DE",
+    "CountryName": "Germany",
+    "RegionName": "Europe"
+  },
+  "LPQ": {
+    "AirportCode": "LPQ",
+    "AirportName": "Luang Prabang",
+    "CountryCode": "LA",
+    "CountryName": "Lao People's Democratic Republic",
+    "RegionName": "Asia Pacific"
+  },
+  "LPP": {
+    "AirportCode": "LPP",
+    "AirportName": "Lappeenranta",
+    "CountryCode": "FI",
+    "CountryName": "Finland",
+    "RegionName": "Europe"
+  },
+  "HHN": {
+    "AirportCode": "HHN",
+    "AirportName": "Hahn",
+    "CountryCode": "DE",
+    "CountryName": "Germany",
+    "RegionName": "Europe"
+  },
+  "NUE": {
+    "AirportCode": "NUE",
+    "AirportName": "Metropolitan Area",
+    "CountryCode": "DE",
+    "CountryName": "Germany",
+    "RegionName": "Europe"
+  },
+  "DAB": {
+    "AirportCode": "DAB",
+    "AirportName": "Daytona Beach International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "DAD": {
+    "AirportCode": "DAD",
+    "AirportName": "Da Nang",
+    "CountryCode": "VN",
+    "CountryName": "Viet Nam",
+    "RegionName": "Asia Pacific"
+  },
+  "DAC": {
+    "AirportCode": "DAC",
+    "AirportName": "Zia International",
+    "CountryCode": "BD",
+    "CountryName": "Bangladesh",
+    "RegionName": "Asia Pacific"
+  },
+  "JMK": {
+    "AirportCode": "JMK",
+    "AirportName": "Mikonos",
+    "CountryCode": "GR",
+    "CountryName": "Greece",
+    "RegionName": "Europe"
+  },
+  "FEG": {
+    "AirportCode": "FEG",
+    "AirportName": "Fergana",
+    "CountryCode": "UZ",
+    "CountryName": "Uzbekistan",
+    "RegionName": "Europe"
+  },
+  "DAL": {
+    "AirportCode": "DAL",
+    "AirportName": "Dallas Love Field",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "NUX": {
+    "AirportCode": "NUX",
+    "AirportName": "Novy Urengoy",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "DAR": {
+    "AirportCode": "DAR",
+    "AirportName": "International",
+    "CountryCode": "TZ",
+    "CountryName": "Tanzania - United Republic Of",
+    "RegionName": "Africa"
+  },
+  "YKF": {
+    "AirportCode": "YKF",
+    "AirportName": "Kitchener-Waterloo Reg",
+    "CountryCode": "CA",
+    "CountryName": "Canada",
+    "RegionName": "North America"
+  },
+  "YKM": {
+    "AirportCode": "YKM",
+    "AirportName": "Yakima Air Terminal",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "FEZ": {
+    "AirportCode": "FEZ",
+    "AirportName": "Sais",
+    "CountryCode": "MA",
+    "CountryName": "Morocco",
+    "RegionName": "Africa"
+  },
+  "DAY": {
+    "AirportCode": "DAY",
+    "AirportName": "James M. Cox Dayton International Airpor",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "JNB": {
+    "AirportCode": "JNB",
+    "AirportName": "Johannesburg Int'l",
+    "CountryCode": "ZA",
+    "CountryName": "South Africa",
+    "RegionName": "Africa"
+  },
+  "LRD": {
+    "AirportCode": "LRD",
+    "AirportName": "Laredo International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "YKS": {
+    "AirportCode": "YKS",
+    "AirportName": "Yakutsk",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "LRM": {
+    "AirportCode": "LRM",
+    "AirportName": "La Romana",
+    "CountryCode": "DO",
+    "CountryName": "Dominican Republic",
+    "RegionName": "North America"
+  },
+  "UCT": {
+    "AirportCode": "UCT",
+    "AirportName": "Ukhta",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "LRS": {
+    "AirportCode": "LRS",
+    "AirportName": "Leros",
+    "CountryCode": "GR",
+    "CountryName": "Greece",
+    "RegionName": "Europe"
+  },
+  "LRT": {
+    "AirportCode": "LRT",
+    "AirportName": "Lann Bihoue",
+    "CountryCode": "FR",
+    "CountryName": "France",
+    "RegionName": "Europe"
+  },
+  "JNU": {
+    "AirportCode": "JNU",
+    "AirportName": "Juneau International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "JNX": {
+    "AirportCode": "JNX",
+    "AirportName": "Naxos Airport",
+    "CountryCode": "GR",
+    "CountryName": "Greece",
+    "RegionName": "Europe"
+  },
+  "DBV": {
+    "AirportCode": "DBV",
+    "AirportName": "Dubrovnik",
+    "CountryCode": "HR",
+    "CountryName": "Croatia",
+    "RegionName": "Europe"
+  },
+  "LSE": {
+    "AirportCode": "LSE",
+    "AirportName": "La Crosse Regional Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "NWI": {
+    "AirportCode": "NWI",
+    "AirportName": "Norwich Arpt",
+    "CountryCode": "GB",
+    "CountryName": "United Kingdom",
+    "RegionName": "Europe"
+  },
+  "DCA": {
+    "AirportCode": "DCA",
+    "AirportName": "Ronald Reagan Washington National Airpor",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "JOG": {
+    "AirportCode": "JOG",
+    "AirportName": "Adisutjipto",
+    "CountryCode": "ID",
+    "CountryName": "Indonesia",
+    "RegionName": "Asia Pacific"
+  },
+  "HKG": {
+    "AirportCode": "HKG",
+    "AirportName": "Hong Kong Int'l",
+    "CountryCode": "HK",
+    "CountryName": "Hong Kong",
+    "RegionName": "Asia Pacific"
+  },
+  "YLW": {
+    "AirportCode": "YLW",
+    "AirportName": "Kelowna",
+    "CountryCode": "CA",
+    "CountryName": "Canada",
+    "RegionName": "North America"
+  },
+  "HKT": {
+    "AirportCode": "HKT",
+    "AirportName": "International",
+    "CountryCode": "TH",
+    "CountryName": "Thailand",
+    "RegionName": "Asia Pacific"
+  },
+  "YMM": {
+    "AirportCode": "YMM",
+    "AirportName": "Fort Mcmurray",
+    "CountryCode": "CA",
+    "CountryName": "Canada",
+    "RegionName": "North America"
+  },
+  "SAF": {
+    "AirportCode": "SAF",
+    "AirportName": "Santa Fe Municipal Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "SAL": {
+    "AirportCode": "SAL",
+    "AirportName": "Comalapa International",
+    "CountryCode": "SV",
+    "CountryName": "El Salvador",
+    "RegionName": "Latin America"
+  },
+  "SAN": {
+    "AirportCode": "SAN",
+    "AirportName": "San Diego International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "SAP": {
+    "AirportCode": "SAP",
+    "AirportName": "Ramon Villeda Morales",
+    "CountryCode": "HN",
+    "CountryName": "Honduras",
+    "RegionName": "Latin America"
+  },
+  "SAT": {
+    "AirportCode": "SAT",
+    "AirportName": "San Antonio International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "LTN": {
+    "AirportCode": "LTN",
+    "AirportName": "Luton Airport",
+    "CountryCode": "GB",
+    "CountryName": "United Kingdom",
+    "RegionName": "Europe"
+  },
+  "SAW": {
+    "AirportCode": "SAW",
+    "AirportName": "Sabilha Gokcen",
+    "CountryCode": "TR",
+    "CountryName": "Turkey",
+    "RegionName": "Europe"
+  },
+  "SAV": {
+    "AirportCode": "SAV",
+    "AirportName": "Savannah Municipal Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "HLN": {
+    "AirportCode": "HLN",
+    "AirportName": "Helena Regional Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "UFA": {
+    "AirportCode": "UFA",
+    "AirportName": "Ufa",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "SBA": {
+    "AirportCode": "SBA",
+    "AirportName": "Santa Barbara Municipal Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "HMA": {
+    "AirportCode": "HMA",
+    "AirportName": "#N/A",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "SBN": {
+    "AirportCode": "SBN",
+    "AirportName": "South Bend Regional Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "SBP": {
+    "AirportCode": "SBP",
+    "AirportName": "San Luis Obispo County Regional Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "NYM": {
+    "AirportCode": "NYM",
+    "AirportName": "Nadym",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "LUN": {
+    "AirportCode": "LUN",
+    "AirportName": "Lusaka",
+    "CountryCode": "ZM",
+    "CountryName": "Zambia",
+    "RegionName": "Africa"
+  },
+  "NYO": {
+    "AirportCode": "NYO",
+    "AirportName": "Skavsta",
+    "CountryCode": "SE",
+    "CountryName": "Sweden",
+    "RegionName": "Europe"
+  },
+  "BAH": {
+    "AirportCode": "BAH",
+    "AirportName": "Bahrain International",
+    "CountryCode": "BH",
+    "CountryName": "Bahrain",
+    "RegionName": "Middle East"
+  },
+  "DEL": {
+    "AirportCode": "DEL",
+    "AirportName": "Indira Gandhi Intl",
+    "CountryCode": "IN",
+    "CountryName": "India",
+    "RegionName": "Asia Pacific"
+  },
+  "SBZ": {
+    "AirportCode": "SBZ",
+    "AirportName": "Sibiu",
+    "CountryCode": "RO",
+    "CountryName": "Romania",
+    "RegionName": "Europe"
+  },
+  "HMO": {
+    "AirportCode": "HMO",
+    "AirportName": "Gen Pesqueira Garcia",
+    "CountryCode": "MX",
+    "CountryName": "Mexico",
+    "RegionName": "Latin America"
+  },
+  "SBY": {
+    "AirportCode": "SBY",
+    "AirportName": "Wicomico Regional Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "DEN": {
+    "AirportCode": "DEN",
+    "AirportName": "Denver International Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "LUX": {
+    "AirportCode": "LUX",
+    "AirportName": "Luxembourg",
+    "CountryCode": "LU",
+    "CountryName": "Luxembourg",
+    "RegionName": "Europe"
+  },
+  "UGC": {
+    "AirportCode": "UGC",
+    "AirportName": "Urgench",
+    "CountryCode": "UZ",
+    "CountryName": "Uzbekistan",
+    "RegionName": "Europe"
+  },
+  "SCC": {
+    "AirportCode": "SCC",
+    "AirportName": "Deadhorse Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "BAQ": {
+    "AirportCode": "BAQ",
+    "AirportName": "E Cortissoz",
+    "CountryCode": "CO",
+    "CountryName": "Colombia",
+    "RegionName": "Latin America"
+  },
+  "SCE": {
+    "AirportCode": "SCE",
+    "AirportName": "University Park Airport",
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "RegionName": "North America"
+  },
+  "BAX": {
+    "AirportCode": "BAX",
+    "AirportName": "Barnaul",
+    "CountryCode": "RU",
+    "CountryName": "Russian Federation",
+    "RegionName": "Europe"
+  },
+  "SCL": {
+    "AirportCode": "SCL",
+    "AirportName": "Arturo Merino Benitez",
+    "CountryCode": "CL",
+    "CountryName": "Chile",
+    "RegionName": "Latin America"
+  },
+  "HND": {
+    "AirportCode": "HND",
+    "AirportName": "Haneda",
+    "CountryCode": "JP",
+    "CountryName": "Japan",
+    "RegionName": "Asia Pacific"
+  },
+  "SCN": {
+    "AirportCode": "SCN",
+    "AirportName": "Ensheim",
+    "CountryCode": "DE",
+    "CountryName": "Germany",
+    "RegionName": "Europe"
+  }
+}

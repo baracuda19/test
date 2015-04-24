@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<momconfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="momconfig.xsd">
+	<infrastructures>
+		<!-- Development -->
+		<infrastructure name="development-SHSService" host="ctovmxxx.dev.sabre.com"
+			port="1914" channel="CHLMOM.SAAP.2SG" connectionFactory="DMOMQM01"
+			contextFactory="com.ibm.mq.jms.context.WMQInitialContextFactory"
+			reconnectInterval="30" reconnectIntervalTimeUnit="SECONDS"
+			reconnectAttempts="100000" />
+
+		<!-- DEV/OCM -->
+		<infrastructure name="development-WMQ01-SHS" host="ctovm1998.dev.sabre.com"
+			port="1914" channel="CHLMOM.P_SHS.VIS" connectionFactory="DPUBQM01"
+			contextFactory="com.ibm.mq.jms.context.WMQInitialContextFactory"
+			reconnectInterval="30" reconnectIntervalTimeUnit="SECONDS"
+			reconnectAttempts="100000" connectionType="WMQ_TOPIC" />
+
+		<!-- Performance -->
+		<infrastructure name="performance-shs1" host="plabqxx.dev.sabre.com"
+			port="1934" channel="CHLMOM.SAAP.2SG" connectionFactory="PSAAPQM01"
+			contextFactory="com.ibm.mq.jms.context.WMQInitialContextFactory"
+			reconnectInterval="30" reconnectIntervalTimeUnit="SECONDS"
+			reconnectAttempts="100000" />
+
+		<!-- PERF/OCM -->
+		<infrastructure name="performance-WMQ01-SHS" host="plabb289.dev.sabre.com"
+			port="1921" channel="CHLMOM.P_SHS.VIS" connectionFactory="PLABPUBQM01"
+			contextFactory="com.ibm.mq.jms.context.WMQInitialContextFactory"
+			reconnectInterval="30" reconnectIntervalTimeUnit="SECONDS"
+			reconnectAttempts="100000" connectionType="WMQ_TOPIC" />
+
+		<!-- Certification -->
+		<infrastructure name="certification-shs1" host="momhlcxxx.sabre.com"
+			port="1914" channel="CHLMOM.SAAP.2SG" connectionFactory="CSAAPQM01"
+			contextFactory="com.ibm.mq.jms.context.WMQInitialContextFactory"
+			reconnectInterval="30" reconnectIntervalTimeUnit="SECONDS"
+			reconnectAttempts="100000" />
+
+		<!-- CERT/OCM -->
+		<infrastructure name="certification-WMQ01-SHS" host="cpubqm01.cert.sabre.com"
+			port="1914" channel="CHLMOM.P_SHS.VIS" connectionFactory="CPUBQM01"
+			contextFactory="com.ibm.mq.jms.context.WMQInitialContextFactory"
+			reconnectInterval="30" reconnectIntervalTimeUnit="SECONDS"
+			reconnectAttempts="100000" connectionType="WMQ_TOPIC" />
+		<infrastructure name="certification-WMQ02-SHS" host="cpubqm07.cert.sabre.com"
+			port="1917" channel="CHLMOM.P_SHS.VIS" connectionFactory="CPUBQM07"
+			contextFactory="com.ibm.mq.jms.context.WMQInitialContextFactory"
+			reconnectInterval="30" reconnectIntervalTimeUnit="SECONDS"
+			reconnectAttempts="100000" connectionType="WMQ_TOPIC" />
+
+		<infrastructure name="certification-WMQ03-SHS" host="cpubqm101.cert.sabre.com"
+			port="1914" channel="CHLMOM.P_SHS.VIS" connectionFactory="CPUBQM101"
+			contextFactory="com.ibm.mq.jms.context.WMQInitialContextFactory"
+			reconnectInterval="30" reconnectIntervalTimeUnit="SECONDS"
+			reconnectAttempts="100000" connectionType="WMQ_TOPIC" />
+		<infrastructure name="certification-WMQ04-SHS" host="cpubqm107.cert.sabre.com"
+			port="1917" channel="CHLMOM.P_SHS.VIS" connectionFactory="CPUBQM107"
+			contextFactory="com.ibm.mq.jms.context.WMQInitialContextFactory"
+			reconnectInterval="30" reconnectIntervalTimeUnit="SECONDS"
+			reconnectAttempts="100000" connectionType="WMQ_TOPIC" />
+
+		<!-- Production -->
+		<infrastructure name="production-shs1" host="momhlpxxx.sabre.com"
+			port="1914" channel="CHLMOM.SAAP.2SG" connectionFactory="PSAAPQM01"
+			contextFactory="com.ibm.mq.jms.context.WMQInitialContextFactory"
+			reconnectInterval="30" reconnectIntervalTimeUnit="SECONDS"
+			reconnectAttempts="100000" />
+
+		<!-- PROD/OCM -->
+		<infrastructure name="production-WMQ01-SHS" host="ppubqm01.prod.sabre.com"
+			port="1914" channel="CHLMOM.P_SHS.VIS" connectionFactory="PPUBQM01"
+			contextFactory="com.ibm.mq.jms.context.WMQInitialContextFactory"
+			reconnectInterval="30" reconnectIntervalTimeUnit="SECONDS"
+			reconnectAttempts="100000" connectionType="WMQ_TOPIC" />
+		<infrastructure name="production-WMQ02-SHS" host="ppubqm07.prod.sabre.com"
+			port="1917" channel="CHLMOM.P_SHS.VIS" connectionFactory="PPUBQM07"
+			contextFactory="com.ibm.mq.jms.context.WMQInitialContextFactory"
+			reconnectInterval="30" reconnectIntervalTimeUnit="SECONDS"
+			reconnectAttempts="100000" connectionType="WMQ_TOPIC" />
+
+		<infrastructure name="production-WMQ03-SHS" host="ppubqm101.prod.sabre.com"
+			port="1914" channel="CHLMOM.P_SHS.VIS" connectionFactory="PPUBQM101"
+			contextFactory="com.ibm.mq.jms.context.WMQInitialContextFactory"
+			reconnectInterval="30" reconnectIntervalTimeUnit="SECONDS"
+			reconnectAttempts="100000" connectionType="WMQ_TOPIC" />
+		<infrastructure name="production-WMQ04-SHS" host="ppubqm107.prod.sabre.com"
+			port="1917" channel="CHLMOM.P_SHS.VIS" connectionFactory="PPUBQM107"
+			contextFactory="com.ibm.mq.jms.context.WMQInitialContextFactory"
+			reconnectInterval="30" reconnectIntervalTimeUnit="SECONDS"
+			reconnectAttempts="100000" connectionType="WMQ_TOPIC" />
+
+	</infrastructures>
+	<!-- ############### DEFINITIONS ############### -->
+	<serviceDefinitions>
+		<!-- ############### OCM ############### -->
+		<serviceDefinition name="local-OCM"
+			infrastructure="development-WMQ01-SHS,development-WMQ02-SHS"
+			recvTimeOut="10000" recvTimeOutTimeUnit="MILLISECONDS" oneway="true"
+			sendTransformation="COMPRESS" receiveTransformation="COMPRESS">
+			<destination request="VIS/OCM/CIO/SHS" />
+			<serviceOptions>
+				<send minThreads="10" maxThreads="20" timeToLive="180000"
+					timeToLiveTimeUnit="MILLISECONDS" compressionThreshold="512000"
+					compressionThresholdUnit="BYTES" deliveryMode="PERSISTENT"
+					producerPooled="false" />
+				<receive minThreads="1" maxThreads="1" />
+			</serviceOptions>
+		</serviceDefinition>
+
+		<serviceDefinition name="development-OCM"
+			infrastructure="development-WMQ01-SHS,development-WMQ02-SHS"
+			recvTimeOut="10000" recvTimeOutTimeUnit="MILLISECONDS" oneway="true"
+			sendTransformation="COMPRESS" receiveTransformation="COMPRESS">
+			<destination request="VIS/OCM/CIO/SHS" />
+			<serviceOptions>
+				<send minThreads="10" maxThreads="20" timeToLive="180000"
+					timeToLiveTimeUnit="MILLISECONDS" compressionThreshold="512000"
+					compressionThresholdUnit="BYTES" deliveryMode="PERSISTENT"
+					producerPooled="false" />
+				<receive minThreads="1" maxThreads="1" />
+			</serviceOptions>
+		</serviceDefinition>
+
+		<serviceDefinition name="performance-OCM"
+			infrastructure="performance-WMQ01-SHS,performance-WMQ02-SHS"
+			recvTimeOut="10000" recvTimeOutTimeUnit="MILLISECONDS" oneway="true"
+			sendTransformation="COMPRESS" receiveTransformation="COMPRESS">
+			<destination request="VIS/OCM/CIO/SHS" />
+			<serviceOptions>
+				<send minThreads="10" maxThreads="20" timeToLive="180000"
+					timeToLiveTimeUnit="MILLISECONDS" compressionThreshold="512000"
+					compressionThresholdUnit="BYTES" deliveryMode="PERSISTENT"
+					producerPooled="false" />
+				<receive minThreads="1" maxThreads="1" />
+			</serviceOptions>
+		</serviceDefinition>
+
+		<serviceDefinition name="ci-OCM"
+			infrastructure="development-WMQ01-SHS,development-WMQ02-SHS"
+			recvTimeOut="10000" recvTimeOutTimeUnit="MILLISECONDS" oneway="true"
+			sendTransformation="COMPRESS" receiveTransformation="COMPRESS">
+			<destination request="VIS/OCM/CIO/SHS" />
+			<serviceOptions>
+				<send minThreads="10" maxThreads="20" timeToLive="180000"
+					timeToLiveTimeUnit="MILLISECONDS" compressionThreshold="512000"
+					compressionThresholdUnit="BYTES" deliveryMode="PERSISTENT"
+					producerPooled="false" />
+				<receive minThreads="1" maxThreads="1" />
+			</serviceOptions>
+		</serviceDefinition>
+
+		<serviceDefinition name="certification-OCM"
+			infrastructure="certification-WMQ01-SHS,certification-WMQ02-SHS,certification-WMQ03-SHS,certification-WMQ04-SHS"
+			recvTimeOut="10000" recvTimeOutTimeUnit="MILLISECONDS" oneway="true"
+			sendTransformation="COMPRESS" receiveTransformation="COMPRESS">
+			<destination request="VIS/OCM/CIO/SHS" />
+			<serviceOptions>
+				<send minThreads="10" maxThreads="20" timeToLive="180000"
+					timeToLiveTimeUnit="MILLISECONDS" compressionThreshold="512000"
+					compressionThresholdUnit="BYTES" deliveryMode="PERSISTENT"
+					producerPooled="false" />
+				<receive minThreads="1" maxThreads="1" />
+			</serviceOptions>
+		</serviceDefinition>
+
+		<serviceDefinition name="production-OCM"
+			infrastructure="production-WMQ01-SHS,production-WMQ02-SHS,production-WMQ03-SHS,production-WMQ04-SHS"
+			recvTimeOut="10000" recvTimeOutTimeUnit="MILLISECONDS" oneway="true"
+			sendTransformation="COMPRESS" receiveTransformation="COMPRESS">
+			<destination request="VIS/OCM/CIO/SHS" />
+			<serviceOptions>
+				<send minThreads="10" maxThreads="20" timeToLive="180000"
+					timeToLiveTimeUnit="MILLISECONDS" compressionThreshold="512000"
+					compressionThresholdUnit="BYTES" deliveryMode="PERSISTENT"
+					producerPooled="false" />
+				<receive minThreads="1" maxThreads="1" />
+			</serviceOptions>
+		</serviceDefinition>
+		<!-- ############### SHSService ############### -->
+
+		<serviceDefinition name="local-SHSService"
+			infrastructure="development-SHSService,development-shs2" recvTimeOut="20"
+			recvTimeOutTimeUnit="SECONDS" sendTransformation="COMPRESS"
+			receiveTransformation="COMPRESS">
+			<destination request="QMOM.2SG.RQ.SAAP.ALL" reply="QMOM.SAAP.RS.2SG.ALL" />
+			<serviceOptions>
+				<send minThreads="10" maxThreads="20" timeToLive="20"
+					timeToLiveTimeUnit="SECONDS" compressionThresholdUnit="KILOBYTES"
+					compressionThreshold="128" />
+				<receive minThreads="10" maxThreads="20" selector="EnvType = 'local'" />
+			</serviceOptions>
+		</serviceDefinition>
+		<serviceDefinition name="ci-shsService"
+			infrastructure="development-SHSService,development-shs2" recvTimeOut="20"
+			recvTimeOutTimeUnit="SECONDS" sendTransformation="COMPRESS"
+			receiveTransformation="COMPRESS">
+			<destination request="QMOM.2SG.RQ.SAAP.ALL" reply="QMOM.SAAP.RS.2SG.ALL" />
+			<serviceOptions>
+				<send minThreads="10" maxThreads="20" timeToLive="20"
+					timeToLiveTimeUnit="SECONDS" compressionThresholdUnit="KILOBYTES"
+					compressionThreshold="128" />
+				<receive minThreads="10" maxThreads="20" selector="EnvType = 'ci'" />
+			</serviceOptions>
+		</serviceDefinition>
+		<serviceDefinition name="development-shsService"
+			infrastructure="development-SHSService" recvTimeOut="20"
+			recvTimeOutTimeUnit="SECONDS" sendTransformation="COMPRESS"
+			receiveTransformation="COMPRESS">
+			<destination request="QMOM.2SG.RQ.SAAP.ALL" reply="QMOM.SAAP.RS.2SG.ALL" />
+			<serviceOptions>
+				<send minThreads="10" maxThreads="20" timeToLive="20"
+					timeToLiveTimeUnit="SECONDS" compressionThresholdUnit="KILOBYTES"
+					compressionThreshold="128" />
+				<receive minThreads="10" maxThreads="20" />
+			</serviceOptions>
+		</serviceDefinition>
+		<serviceDefinition name="performance-shsService"
+			infrastructure="performance-shs1" recvTimeOut="20"
+			recvTimeOutTimeUnit="SECONDS" sendTransformation="COMPRESS"
+			receiveTransformation="COMPRESS">
+			<destination request="QMOM.2SG.RQ.SAAP.ALL" reply="QMOM.SAAP.RS.2SG.ALL" />
+			<serviceOptions>
+				<send minThreads="10" maxThreads="150" timeToLive="20"
+					timeToLiveTimeUnit="SECONDS" compressionThresholdUnit="KILOBYTES"
+					compressionThreshold="128" />
+				<receive minThreads="10" maxThreads="150" />
+			</serviceOptions>
+		</serviceDefinition>
+		<serviceDefinition name="certification-shsService"
+			infrastructure="certification-shs1,certification-shs2,certification-shs3,certification-shs4"
+			recvTimeOut="20" recvTimeOutTimeUnit="SECONDS" sendTransformation="COMPRESS"
+			receiveTransformation="COMPRESS">
+			<destination request="QMOM.2SG.RQ.SAAP.ALL" reply="QMOM.SAAP.RS.2SG.ALL" />
+			<serviceOptions>
+				<send minThreads="10" maxThreads="150" timeToLive="20"
+					timeToLiveTimeUnit="SECONDS" compressionThresholdUnit="KILOBYTES"
+					compressionThreshold="128" />
+				<receive minThreads="10" maxThreads="150" />
+			</serviceOptions>
+		</serviceDefinition>
+		<serviceDefinition name="production-shsService"
+			infrastructure="production-shs1,production-shs2,production-shs3,production-shs4"
+			recvTimeOut="20" recvTimeOutTimeUnit="SECONDS" sendTransformation="COMPRESS"
+			receiveTransformation="COMPRESS">
+			<destination request="QMOM.2SG.RQ.SAAP.ALL" reply="QMOM.SAAP.RS.2SG.ALL" />
+			<serviceOptions>
+				<send minThreads="10" maxThreads="150" timeToLive="20"
+					timeToLiveTimeUnit="SECONDS" compressionThresholdUnit="KILOBYTES"
+					compressionThreshold="128" />
+				<receive minThreads="10" maxThreads="150" />
+			</serviceOptions>
+		</serviceDefinition>
+	</serviceDefinitions>
+</momconfig>

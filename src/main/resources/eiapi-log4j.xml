@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+
+<!-- XML file for EIAPI (logs to Pub-Sub using MOM). -->
+
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+	<param name="com.sabre.ei.logging.mom.configuration" value="momconfig.xml" />
+	<param name="com.sabre.ei.logging.AppID" value="shs-template" />
+	<param name="com.sabre.ei.logging.metric.reporting.group" value="${environment}" />
+	
+	<param name="log4j.appender.METRICS.MetricsType" value="Ocm" />
+	
+	<param name="ExistTime" value="1000,2000,3000,4000" />
+	<param name="OutMsgSz" value="100,300,500,700" />
+	<param name="InMsgSz" value="100,300,500,700" />
+
+	<appender class="org.apache.log4j.DailyRollingFileAppender"
+		name="METRICS">
+		<param name="CollectionReportingInterval" value="5" />
+		<param value=".yyyy-MM-dd-HH" name="DatePattern" />
+		<param value="${catalina.base}/logs/metrics.log" name="File" />
+		<layout class="com.sabre.ei.logging.LogRecordLayout">
+			<param value="yyyy-MM-dd HH:mm:ss.SSS" name="DateFormat" />
+			<param value="true" name="PrintThreadName" />
+		</layout>
+	</appender>
+	
+
+	<appender name="OCM-FileCached"
+		class="com.sabre.ei.logging.ocm.appenders.CachedAppender">
+		<param name="interval" value="30" />
+		<appender-ref ref="OCM-File" />
+	</appender>
+
+	<appender name="OCM-MomCached"
+		class="com.sabre.ei.logging.psappender.appender.MomAggregator">
+		<errorHandler class="com.sabre.ei.logging.failover.EIAPIErrorHandler">
+			<appender-ref ref="FAILOVER" />
+		</errorHandler>
+		<param name="service" value="${environment}-OCM" />
+		<param name="Interval" value="60" />
+	</appender>
+
+
+
+	<appender name="FAILOVER" class="org.apache.log4j.FileAppender">
+		<param name="file" value="${catalina.base}/logs/eiapi-failover.log" />
+		<param name="append" value="true" />
+		<param name="encoding" value="UTF-8" />
+		<layout class="com.sabre.ei.logging.ocm.OcmLayout">
+			<param name="prettyFormat" value="false" />
+			<param name="showDate" value="false" />
+
+		</layout>
+	</appender>
+
+	<appender class="org.apache.log4j.DailyRollingFileAppender"
+		name="OCM-File">
+		<param name="DatePattern" value="'.'yyMMddHH" />
+		<param name="File" value="${catalina.base}/logs/shs-template-ocm.log" />
+		<layout class="com.sabre.ei.logging.ocm.OcmLayout">
+			<param name="showDate" value="true" />
+			<param name="prettyFormat" value="true" />
+		</layout>
+	</appender>
+
+
+
+	<logger name="ei.logging.publisher.OCM" additivity="false">
+		<level value="ERROR" />
+		<appender-ref ref="OCM-MomCached" />
+	</logger>
+	<logger name="ei.logging.publisher.METRICS" additivity="false">
+		<level value="DEBUG" />
+		<appender-ref ref="METRICS" />
+	</logger>
+	<logger name="com.sabre.ei.logging" additivity="false">
+		<level value="WARN" />
+	</logger>
+
+	<categoryFactory class="com.sabre.ei.logging.LoggerFactory" />
+
+</log4j:configuration>

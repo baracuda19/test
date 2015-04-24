@@ -1,0 +1,1792 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2014 rel. 2 (x64) (http://www.altova.com) by arjaree kusuwan (SABRE) -->
+<xs:schema xmlns="http://www.opentravel.org/OTA/2003/05/beta" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.opentravel.org/OTA/2003/05/beta" elementFormDefault="qualified" version="1.0.0" id="OTA2003B">
+	<xs:simpleType name="ISO3166">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">2 character country code as defined in ISO3166.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[a-zA-Z]{2}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="Money">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Used for amounts, max 3 decimals</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:decimal">
+			<xs:fractionDigits value="3"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="OTA_CodeType">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Used for codes in the OTA code tables.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[0-9A-Z]{1,3}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:attributeGroup name="BalanceUsageGroup">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Balance amount for each Usage type</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="Usage" type="xs:string"/>
+		<xs:attribute name="Balance" type="Money"/>
+	</xs:attributeGroup>
+	<xs:attributeGroup name="CurrencyAmountGroup">
+		<xs:annotation>
+			<xs:documentation>Provides a monetary amount and the currency code to reflect the currency in which this amount is expressed.</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="Amount" type="Money" use="optional"/>
+		<xs:attribute name="CurrencyCode" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>3 alpha ISO 4217</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="NumericCurrencyCode" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>3 numeric ISO 4217</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="DecimalPlaces" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Indicates the number of decimal places for a particular currency. This is equivalent to the ISO 4217 standard &quot;minor unit&quot;.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="ExchangeRate" type="xs:double" use="optional">
+			<xs:annotation>
+				<xs:documentation>Rate of exchange when CurrencyCode is different than Account currency.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:attributeGroup>
+	<xs:attributeGroup name="CurrencyCodeGroup">
+		<xs:annotation>
+			<xs:documentation>Provides a currency code to reflect the currency in which an amount may be expressed.</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="CurrencyCode" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>3 alpha ISO 4217</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="NumericCurrencyCode" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>3 numeric ISO 4217</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="DecimalPlaces" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Indicates the number of decimal places for a particular currency. This is equivalent to the ISO 4217 standard &quot;minor unit&quot;.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:attributeGroup>
+	<xs:attributeGroup name="IssuerNameGroup">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Name of bank or organization issuing the card (e.g., alumni association, bank, fraternal organization, etc.).</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="BankName" type="xs:string" use="optional"/>
+		<xs:attribute name="BankID" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation xml:lang="en">Code of bank issuing the card.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:attributeGroup>
+	<xs:attributeGroup name="PersonNameGroup">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Name of a person.</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="Name" type="xs:string" use="optional"/>
+		<xs:attribute name="FirstName" type="xs:string" use="optional"/>
+		<xs:attribute name="LastName" type="xs:string" use="optional"/>
+	</xs:attributeGroup>
+	<xs:attributeGroup name="OriginDestinationGroup">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Origin and Destination City</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="OriginCity" type="xs:string" use="optional"/>
+		<xs:attribute name="DestinationCity" type="xs:string" use="optional"/>
+	</xs:attributeGroup>
+	<xs:attributeGroup name="UserNameGroup">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Username and Password</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="UserName" type="xs:string"/>
+		<xs:attribute name="Password" type="xs:string"/>
+	</xs:attributeGroup>
+	<xs:complexType name="AccountDetailType">
+		<xs:attribute name="AccountType" type="xs:string"/>
+		<xs:attribute name="AccountNbr" type="xs:string" use="optional"/>
+		<xs:attribute name="PIN" type="xs:string"/>
+		<xs:attribute name="AccountHolderName" type="xs:string" use="optional"/>
+		<xs:attributeGroup ref="UserNameGroup"/>
+		<xs:attribute name="ExpireDate" type="xs:string"/>
+		<xs:attribute name="AccountCurrencyCode" type="xs:string">
+			<xs:annotation>
+				<xs:documentation>Account currency</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="CurrencyCode" type="xs:string">
+			<xs:annotation>
+				<xs:documentation>Transaction currency</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="IssuerName" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Name of account issuer such as bank name</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="BusinessIdentifierCode" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>BIC for SEPA</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="SortCode" type="xs:string" use="optional"/>
+		<xs:attribute name="CountryCode" type="ISO3166" use="optional"/>
+	</xs:complexType>
+	<xs:complexType name="AddressType">
+		<xs:sequence>
+			<xs:element name="StreetNmbr" type="StreetNmbrType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Street Name and Number within the address</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="BldgRoom" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Building name, room, apartment, or suite number.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="AddressLine1" type="xs:string" minOccurs="0"/>
+			<xs:element name="AddressLine2" type="xs:string" minOccurs="0"/>
+			<xs:element name="CityName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">City name eg. Dublin</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PostalCode" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Post Office Code number.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="County" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">County Name eg. Fairfax</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="StateProv" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="StateProvType"/>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Country" type="CountryNameType" minOccurs="0"/>
+		</xs:sequence>
+		<xs:attribute name="Type" type="OTA_CodeType" use="optional">
+			<xs:annotation>
+				<xs:documentation>Defines the type of address (e.g. home, business, other). Refer to OTA Code List Communication Location Type (CLT).</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="Description" type="OTA_CodeType" use="optional">
+			<xs:annotation>
+				<xs:documentation>Can be used to further describe the address or location such as "Airport", "Downtown", etc.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="AVS_ResultType">
+		<xs:attribute name="AVS_ResultCode" type="xs:string" use="optional"/>
+		<xs:attribute name="AVS_Remarks" type="xs:string" use="optional"/>
+	</xs:complexType>
+	<xs:complexType name="CarRentalType">
+		<xs:sequence>
+			<xs:element name="Pickup">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="PickupAddress" type="AddressType"/>
+					</xs:sequence>
+					<xs:attribute name="PickupDateTime" type="xs:dateTime" use="required"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Return">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="ReturnAddress" type="AddressType"/>
+					</xs:sequence>
+					<xs:attribute name="ReturnDateTime" type="xs:dateTime" use="required"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Renter">
+				<xs:complexType>
+					<xs:attributeGroup ref="PersonNameGroup"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="ProviderInfo" type="ProviderInfoType"/>
+			<xs:element name="Cost" type="CostType"/>
+			<xs:element name="PaymentInfo" type="PaymentInfoType" minOccurs="0"/>
+			<xs:element name="ServiceNote" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+		<xs:attribute name="AgreementNbr" type="xs:string" use="required">
+			<xs:annotation>
+				<xs:documentation>Required by Amex (max 14 chars)</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="ReferenceNbr" type="xs:string" use="required"/>
+		<xs:attribute name="VehicleClassID" type="xs:string" use="optional"/>
+		<xs:attribute name="Distance" type="xs:int" use="optional"/>
+		<xs:attribute name="DistanceUnit" type="xs:string" use="optional"/>
+	</xs:complexType>
+	<xs:complexType name="ContactInfoType">
+		<xs:sequence>
+			<xs:element name="EmailAddress" type="xs:string" minOccurs="0" maxOccurs="2"/>
+			<xs:element name="PhoneNumber" type="PhoneType" minOccurs="0" maxOccurs="7"/>
+		</xs:sequence>
+		<xs:attributeGroup ref="PersonNameGroup"/>
+	</xs:complexType>
+	<xs:complexType name="CostType">
+		<xs:annotation>
+			<xs:documentation>Cost breakdown</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="CurrencyCode" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>3 alpha ISO 4217</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="TotalAmount" type="Money" use="required"/>
+		<xs:attribute name="BaseAmount" type="Money" use="optional"/>
+		<xs:attribute name="Taxes" type="Money" use="optional"/>
+		<xs:attribute name="Fees" type="Money" use="optional"/>
+		<xs:attribute name="Commission" type="Money" use="optional"/>
+	</xs:complexType>
+	<xs:complexType name="CountryNameType">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">The name or code of a country (e.g. as used in an address or to specify citizenship of a traveller).</xs:documentation>
+		</xs:annotation>
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="Code" type="ISO3166" use="optional">
+					<xs:annotation>
+						<xs:documentation xml:lang="en">ISO 3166 code for a country.</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+				<xs:attribute name="Name" type="xs:string" use="optional">
+					<xs:annotation>
+						<xs:documentation>Country name e.g. Canada</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="CSC_ResultType">
+		<xs:attribute name="CSC_ResultCode" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>CardSecurityCode verification result code:
+I: Card verification number failed processor&apos;s
+data validation check.
+M: Card verification number matched.
+N: Card verification number not matched.
+P: Card verification number not processed.
+S: Card verification number is on the card but
+was not included in the request.
+U: Card verification is not supported by the
+issuing bank.
+X: Card verification is not supported by the card
+association.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="CSC_Remarks" type="xs:string" use="optional"/>
+	</xs:complexType>
+	<xs:complexType name="CurrencyAmountType">
+		<xs:annotation>
+			<xs:documentation>Provides a monetary amount and the code of the currency in which this amount is expressed.</xs:documentation>
+		</xs:annotation>
+		<xs:attributeGroup ref="CurrencyAmountGroup"/>
+	</xs:complexType>
+	<xs:complexType name="DCCType">
+		<xs:annotation>
+			<xs:documentation>Dynamic Currency Conversion</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="DCC_TransID" type="xs:string" use="required">
+			<xs:annotation>
+				<xs:documentation>SabreTransactionID as returned in DCC response</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="OptedIn" type="xs:boolean" use="optional">
+			<xs:annotation>
+				<xs:documentation>"true" if cardholder opted to pay in card currency.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="DocumentType">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Document detail</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="FOP_Amount" type="FOP_FareBreakType" minOccurs="0" maxOccurs="20"/>
+			<xs:element name="TaxBreak" type="TaxType" minOccurs="0" maxOccurs="99"/>
+			<xs:element name="FeeBreak" type="FeeType" minOccurs="0" maxOccurs="99"/>
+			<xs:element name="MiscItem" type="MiscItemType" minOccurs="0" maxOccurs="99"/>
+			<xs:element name="FareCalc" type="xs:string" minOccurs="0"/>
+			<xs:element name="EMD_CouponDetail" minOccurs="0" maxOccurs="99">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Fare" type="FareBreakType" minOccurs="0"/>
+						<xs:element name="TaxBreak" type="TaxType" minOccurs="0" maxOccurs="99"/>
+						<xs:element name="Remarks" type="xs:string" minOccurs="0"/>
+					</xs:sequence>
+					<xs:attribute name="RFIC_SubCode" type="xs:string" use="optional"/>
+					<xs:attribute name="AssociatedDocNumber" type="xs:string" use="optional"/>
+					<xs:attribute name="AssociatedSegmentNumber" type="xs:string" use="optional"/>
+					<xs:attribute name="ConsumedAtIssuanceInd" type="xs:string" use="optional"/>
+					<xs:attribute name="Quantity" type="xs:int" use="optional"/>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="DocType" type="xs:string" use="required">
+			<xs:annotation>
+				<xs:documentation>TKT - Ticket
+EMD 
+MSR - Misc Sales Receipt
+EXB - Excess Baggage
+RFD - Refund, 
+VCH - Voucher</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="DocStatus" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>N - New (Default)
+O - Original (the one being exchanged or refunded)</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="IssueLocation" type="xs:string" use="optional"/>
+		<xs:attribute name="IssueDateTime" type="xs:dateTime" use="optional"/>
+		<xs:attribute name="eTicketInd" type="xs:boolean" use="optional"/>
+		<xs:attribute name="NetFareInd" type="xs:boolean" use="optional"/>
+		<xs:attribute name="DocNumber" type="xs:string" use="optional"/>
+		<xs:attribute name="CouponNumber" type="xs:string" use="optional"/>
+		<xs:attribute name="BaseFare" type="Money" use="optional"/>
+		<xs:attribute name="NetFare" type="Money" use="optional"/>
+		<xs:attribute name="Taxes" type="Money" use="optional"/>
+		<xs:attribute name="Fees" type="Money" use="optional"/>
+		<xs:attribute name="Points" type="xs:integer" use="optional"/>
+		<xs:attribute name="CategoryCode" type="xs:string" use="optional"/>
+		<xs:attribute name="FlightDetailIndex" type="xs:integer" use="optional"/>
+		<xs:attribute name="InitialDocNumber" type="xs:string" use="optional"/>
+		<xs:attribute name="InitialDocType" type="xs:string" use="required"/>
+		<xs:attribute name="AssociatedDocNumber" type="xs:string" use="optional"/>
+		<xs:attribute name="DocSubType" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>For EMD, this could be A or S.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="RFI_Code" type="xs:string" use="optional"/>
+	</xs:complexType>
+	<xs:complexType name="FareBreakType">
+		<xs:annotation>
+			<xs:documentation>Provides a monetary amount and the code of the currency in which this amount is expressed.</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="BaseFare" type="Money" use="optional"/>
+		<xs:attribute name="Taxes" type="Money" use="optional"/>
+		<xs:attribute name="Fees" type="Money" use="optional"/>
+		<xs:attribute name="CurrencyCode" type="xs:string" use="optional"/>
+		<xs:attribute name="EquivalentBaseFare" type="Money" use="optional"/>
+		<xs:attribute name="EquivalentCurrencyCode" type="xs:string" use="optional"/>
+	</xs:complexType>
+	<xs:complexType name="FlightDetailType">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Flight detail</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="AirlineCode" type="xs:string" minOccurs="0"/>
+			<xs:element name="OperatingAirlineCode" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>For codeshare flight.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="FlightNumber" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>1 - 4 digits flight number or OPEN or ARNK</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ClassOfService" type="xs:string" minOccurs="0"/>
+			<xs:element name="DepartureInfo" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="DepartureAirport" type="xs:string" use="required">
+						<xs:annotation>
+							<xs:documentation>3-alpha IATA airport city code.</xs:documentation>
+						</xs:annotation>
+					</xs:attribute>
+					<xs:attribute name="DepartureDateTime" type="xs:dateTime" use="required"/>
+					<xs:attribute name="CurrentLocalDateTime" type="xs:dateTime" use="optional">
+						<xs:annotation>
+							<xs:documentation>Current local date/time of the departure city.</xs:documentation>
+						</xs:annotation>
+					</xs:attribute>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="ArrivalInfo" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="ArrivalAirport" type="xs:string" use="required">
+						<xs:annotation>
+							<xs:documentation>3-alpha IATA airport city code.</xs:documentation>
+						</xs:annotation>
+					</xs:attribute>
+					<xs:attribute name="ArrivalDateTime" type="xs:dateTime" use="optional"/>
+					<xs:attribute name="FinalDestinationInd" type="xs:boolean" use="optional">
+						<xs:annotation>
+							<xs:documentation>Indicates if the arrival city is the final destination.</xs:documentation>
+						</xs:annotation>
+					</xs:attribute>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="DocNumber" type="xs:string" use="optional"/>
+		<xs:attribute name="FareBasisCode" type="xs:string" use="optional"/>
+		<xs:attribute name="TicketDesignator" type="xs:string" use="optional"/>
+		<xs:attribute name="ReturnFlightInd" type="xs:boolean" use="optional"/>
+		<xs:attribute name="PNR_SegmentNbr" type="xs:integer" use="optional"/>
+		<xs:attribute name="ConnectingFlightInd" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>'X' - Transit, 'O' - Stopover</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="CouponUseIndicator" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>'F' - Flight, 'S' - Surface</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="FOP_FareBreakType">
+		<xs:annotation>
+			<xs:documentation>Farebreak at FOP level</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="FOP_Type" type="xs:string" use="required"/>
+		<xs:attribute name="FOP_Code" type="xs:string" use="optional"/>
+		<xs:attribute name="CardNbr" type="xs:string" use="optional"/>
+		<xs:attribute name="TokenizedCardNbr" type="xs:string" use="optional"/>
+		<xs:attribute name="ExpireDate" type="xs:string" use="optional"/>
+		<xs:attribute name="ApprovalCode" type="xs:string"/>
+		<xs:attribute name="CurrencyCode" type="xs:string" use="optional"/>
+		<xs:attribute name="FOP_TotalAmt" type="Money" use="required"/>
+		<xs:attribute name="BaseFare" type="Money" use="optional"/>
+		<xs:attribute name="Taxes" type="Money" use="optional"/>
+		<xs:attribute name="Fees" type="Money" use="optional"/>
+		<xs:attribute name="PaymentCurrencyCode" type="xs:string" use="optional"/>
+		<xs:attribute name="PaymentCurrencyAmt" type="Money" use="optional"/>
+		<xs:attribute name="FOP_TotalPoints" type="xs:integer" use="optional"/>
+		<xs:attribute name="BasePoints" type="xs:integer" use="optional"/>
+		<xs:attribute name="TaxPoints" type="xs:integer" use="optional"/>
+		<xs:attribute name="FeePoints" type="xs:integer" use="optional"/>
+	</xs:complexType>
+	<xs:complexType name="GuestType">
+		<xs:attribute name="AgeQualifyingCode" type="OTA_CodeType" use="optional">
+			<xs:annotation>
+				<xs:documentation xml:lang="en">A code representing a business rule that determines the charges for a guest based upon age rannge (e.g. Adult, Child, Senior, Child With Adult, Child Without Adult). This attribute allows for an increase in rate by occupant class. Refer to OTA Code List Age Qualifying Code (AQC).</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="VIP" type="xs:boolean" use="optional">
+			<xs:annotation>
+				<xs:documentation xml:lang="en">Guest is VIP indicator. </xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="PrimaryIndicator" type="xs:boolean" use="optional">
+			<xs:annotation>
+				<xs:documentation xml:lang="en">When true indicates this is the primary guest.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attributeGroup ref="PersonNameGroup"/>
+	</xs:complexType>
+	<xs:complexType name="HotelType">
+		<xs:sequence>
+			<xs:element name="ProviderInfo" type="ProviderInfoType"/>
+			<xs:element name="Room" type="RoomStayType" minOccurs="0" maxOccurs="5"/>
+			<xs:element name="Cost" type="CostType"/>
+			<xs:element name="PaymentInfo" type="PaymentInfoType" minOccurs="0"/>
+			<xs:element name="ServiceNote" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+		<xs:attribute name="AgreementNbr" type="xs:string" use="required"/>
+		<xs:attribute name="LodgingType" type="xs:string" use="optional"/>
+		<xs:attribute name="CheckInCity" type="xs:string" use="optional"/>
+		<xs:attribute name="CheckInDate" type="xs:date" use="required"/>
+		<xs:attribute name="CheckOutDate" type="xs:date" use="required"/>
+		<xs:attribute name="ReferenceNbr" type="xs:string" use="required">
+			<xs:annotation>
+				<xs:documentation>External Voucher Number for EY</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="IssuerNameType">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Name of bank or organization issuing the card (e.g., alumni association, bank, fraternal organization, etc.).</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="BankID" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation xml:lang="en">Code of bank issuing the card.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="MiscItemType">
+		<xs:annotation>
+			<xs:documentation>Misc doc detail</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="CategoryCode" type="xs:string" use="required"/>
+		<xs:attribute name="UnitPrice" type="Money" use="required"/>
+		<xs:attribute name="Quantity" type="xs:int" use="required"/>
+		<xs:attribute name="Description" type="xs:string" use="optional"/>
+	</xs:complexType>
+	<xs:complexType name="PassengerDetailType">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Passenger detail</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Identifications" type="PersonID_Type" minOccurs="0"/>
+			<xs:element name="Document" minOccurs="0" maxOccurs="99">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="DocumentType"/>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="FlightDetail" type="FlightDetailType" minOccurs="0" maxOccurs="32"/>
+		</xs:sequence>
+		<xs:attribute name="NameInPNR" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>e.g. SMITH/JOHN MR</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="NameNumberInPNR" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>e.g. 1.1</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attributeGroup ref="PersonNameGroup"/>
+		<xs:attribute name="PsgrType" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>ADT - Adult
+CHD - Child
+INF - Infant
+MIL - Military
+etc.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="Gender" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>M/F</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="BirthDate" type="xs:date" use="optional">
+			<xs:annotation>
+				<xs:documentation>1980-07-31</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="FrequentFlyerID" type="xs:string" use="optional"/>
+		<xs:attribute name="FrequentFlyerStatus" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>e.g. PLATINUM</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="FrequentFlierID" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Deprecated</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="FrequentFlierStatus" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Deprecated</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="PaymentCardType">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Identification about a specific credit card</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="DCC" type="DCCType" minOccurs="0"/>
+			<xs:element name="T3DS" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="CAVV" type="xs:string" use="optional">
+						<xs:annotation>
+							<xs:documentation>A string token provided by Issuing bank as a response from 3DSecure authentication request for Verified By Visa or MasterCard Secure Code.</xs:documentation>
+						</xs:annotation>
+					</xs:attribute>
+					<xs:attribute name="CAVV_Algorithm" type="xs:string" use="optional"/>
+					<xs:attribute name="ECI" type="xs:string" use="optional">
+						<xs:annotation>
+							<xs:documentation>Authentication Result</xs:documentation>
+						</xs:annotation>
+					</xs:attribute>
+					<xs:attribute name="XID" type="xs:string" use="optional">
+						<xs:annotation>
+							<xs:documentation>Authentication Transaction ID</xs:documentation>
+						</xs:annotation>
+					</xs:attribute>
+					<xs:attribute name="CaseNumber" type="xs:int"/>
+					<xs:attribute name="MD" type="xs:string" use="optional">
+						<xs:annotation>
+							<xs:documentation>Merchant Datafield</xs:documentation>
+						</xs:annotation>
+					</xs:attribute>
+					<xs:attribute name="PA_Response" type="xs:string" use="optional"/>
+					<xs:attribute name="VerificationResult" type="xs:string" use="optional"/>
+					<xs:attribute name="AuthenticationResult" type="xs:string" use="optional"/>
+					<xs:attribute name="MachineCookie" type="xs:string" use="optional"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="CardReader" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="TokensType">
+							<xs:attribute name="DeviceType" type="xs:string" use="optional"/>
+							<xs:attribute name="DeviceID" type="xs:string" use="optional"/>
+							<xs:attribute name="ChipCardInd" type="xs:boolean"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="CardHolderName" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Name of the card holder.</xs:documentation>
+				</xs:annotation>
+				<xs:complexType>
+					<xs:attributeGroup ref="PersonNameGroup"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="CardIssuerName" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Issuer of the card.</xs:documentation>
+				</xs:annotation>
+				<xs:complexType>
+					<xs:attributeGroup ref="IssuerNameGroup">
+						<xs:annotation>
+							<xs:documentation xml:lang="en">Name of bank or organization issuing the card (e.g., alumni association, bank, fraternal organization).</xs:documentation>
+						</xs:annotation>
+					</xs:attributeGroup>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Address" type="AddressType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Card holder&apos;s address.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="EmailAddress" type="xs:string" minOccurs="0" maxOccurs="2">
+				<xs:annotation>
+					<xs:documentation>Card holder&apos;s email address</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PhoneNumber" type="PhoneType" minOccurs="0" maxOccurs="3">
+				<xs:annotation>
+					<xs:documentation>Card holder&apos;s phone numbers</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DOB" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Date of Birth in YYYY-MM-DD format</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="SSN" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Last 4 Social Sec Number</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Authenticated" type="xs:boolean" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Indicates if customer logged into merchant website successfully.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CustomerType" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>&quot;N&quot; - New
+&quot;E&quot; - Existing</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="VCL_Info" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="MCC" type="xs:string" use="optional"/>
+					<xs:attribute name="AID" type="xs:string" use="optional"/>
+					<xs:attribute name="CAI" type="xs:string" use="optional"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="ApplePayCryptogram" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+		<xs:attribute name="CardType" type="OTA_CodeType" use="optional">
+			<xs:annotation>
+				<xs:documentation xml:lang="en">Indicates the type of magnetic striped card. Refer to OTA Code ListCard Type (CDT).</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="CardCode" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation xml:lang="en">The 2 character code of the credit card issuer or any code  expected by service provider.
+For BML, use BL card code.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="CardNumber" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation xml:lang="en">Credit card number embossed on the card.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="IssueNumber" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>1 to 2 digits Issue Number on certain cards such as Maestro.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="PIN" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Personal Idetification Number</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="CardSecurityCode" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation xml:lang="en">Verification digits printed on the card following the embossed number. This may also accommodate the customer identification/batch number (CID), card verification value (CVV2 ), card validation code number (CVC2) on credit card.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="T3DS_Ind" type="xs:boolean" use="optional">
+			<xs:annotation>
+				<xs:documentation>3DS Indicator</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="EffectiveDate" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Indicates the starting date. Use YYYY-MM-DD format.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="ExpireDate" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Indicates the ending date.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="MaskedCardNumber" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation xml:lang="en">May be used to send a concealed credit card number (e.g., xxxxxxxxxxxx9922).</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="TokenizedCardNumber" type="xs:string" use="optional"/>
+		<xs:attribute name="ExtendPayment" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation xml:lang="en">Number of months or installments.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="Track1" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Track 1 Mag Stripe Data</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="Track2" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Track 2 Mag Stripe Data</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="ReturnTokenInd" type="xs:boolean" use="optional">
+			<xs:annotation>
+				<xs:documentation>If true, TokenizedCardNumber will be returned in PaymentRS.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="PaymentDetailType">
+		<xs:sequence>
+			<xs:element name="FOP" type="FOPType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Form of Payment</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PaymentCard" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="PaymentCardType"/>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="AmountDetail" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Total transaction amount</xs:documentation>
+				</xs:annotation>
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="CurrencyAmountType">
+							<xs:attribute name="BonusAmount" type="Money" use="optional"/>
+							<xs:attribute name="Points" type="xs:integer" use="optional"/>
+							<xs:attribute name="TicketingCurrencyCode" type="xs:string" use="optional"/>
+							<xs:attribute name="TicketingAmount" type="Money" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="AuthorizationResult" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="ResponseCode" type="xs:string" use="optional"/>
+					<xs:attribute name="ApprovalCode" type="xs:string"/>
+					<xs:attribute name="AVS_ResultCode" type="xs:string">
+						<xs:annotation>
+							<xs:documentation>AddressVerification Result Code as returned by CC vendor.</xs:documentation>
+						</xs:annotation>
+					</xs:attribute>
+					<xs:attribute name="CSC_ResultCode" type="xs:string">
+						<xs:annotation>
+							<xs:documentation>CardSecurityCode verification result code:
+I: Card verification number failed processor&apos;s
+data validation check.
+M: Card verification number matched.
+N: Card verification number not matched.
+P: Card verification number not processed.
+S: Card verification number is on the card but
+was not included in the request.
+U: Card verification is not supported by the
+issuing bank.
+X: Card verification is not supported by the card
+association.
+1: CyberSource does not support card
+verification for this processor or card type.
+2: The processor returned an unrecognized
+value for the card verification response.
+3: The processor did not return a card
+verification result code.</xs:documentation>
+						</xs:annotation>
+					</xs:attribute>
+					<xs:attribute name="CAVV_ResultCode" type="xs:string"/>
+					<xs:attribute name="SupplierID" type="xs:string" use="optional"/>
+					<xs:attribute name="SupplierTransID" type="xs:string" use="optional"/>
+					<xs:attribute name="SupplierFOP_Code" type="xs:string" use="optional"/>
+					<xs:attribute name="SupplierResponseCode" type="xs:string" use="optional"/>
+					<xs:attribute name="MerchantAccountNumber" type="xs:string" use="optional"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="CardUsageResult" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="ResponseCode" type="xs:string" use="optional"/>
+					<xs:attribute name="ReferenceNbr" type="xs:string"/>
+					<xs:attribute name="CardDeploymentID" type="xs:string">
+						<xs:annotation>
+							<xs:documentation>As returned in GetCard response</xs:documentation>
+						</xs:annotation>
+					</xs:attribute>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="ReturnURLs" type="ReturnURLsType" minOccurs="0"/>
+			<xs:element name="RoutingDetail" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="SupplierID" type="xs:string" use="required"/>
+					<xs:attribute name="MerchantAccountNumber" type="xs:string" use="optional"/>
+					<xs:attributeGroup ref="UserNameGroup"/>
+					<xs:attribute name="PSP_HostedID" type="xs:string" use="optional"/>
+					<xs:attribute name="SignatureKey" type="xs:string" use="optional"/>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="FOP_RPH"/>
+		<xs:attribute name="PaymentRef"/>
+		<xs:attribute name="DeferredPaymentPeriod"/>
+	</xs:complexType>
+	<xs:complexType name="PaymentInfoType">
+		<xs:attribute name="PaymentMethod" type="xs:string" use="optional"/>
+		<xs:attribute name="PaymentSite" type="xs:string" use="optional"/>
+		<xs:attribute name="PurchaseSite" type="xs:string" use="optional"/>
+		<xs:attribute name="PaymentTerm" type="xs:string" use="optional"/>
+		<xs:attribute name="PayDateLookupCode" type="xs:string" use="optional"/>
+		<xs:attribute name="TermDateBasis" type="xs:string" use="optional"/>
+	</xs:complexType>
+	<xs:complexType name="PersonID_Type">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Document detail</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Passport" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="CountryOfIssue" type="xs:string" use="required"/>
+					<xs:attribute name="Nationality" type="xs:string" use="required"/>
+					<xs:attribute name="Number" type="xs:string" use="required"/>
+					<xs:attribute name="ExpireDate" type="xs:date" use="required"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Visa" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="PlaceOfIssue" type="xs:string" use="required"/>
+					<xs:attribute name="IssueDate" type="xs:date" use="required"/>
+					<xs:attribute name="Number" type="xs:string" use="required"/>
+					<xs:attribute name="ApplicableCountry" type="xs:string" use="required"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Other" minOccurs="0" maxOccurs="3">
+				<xs:complexType>
+					<xs:attribute name="Type" type="xs:string" use="required"/>
+					<xs:attribute name="ID" type="xs:string" use="required"/>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="PhoneType">
+		<xs:annotation>
+			<xs:documentation>Identifies type of phone.</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="Number" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>e.g. 
+682-605-1818
+6826051818</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="Type" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Type of phone:
+H - Home or Origin
+D - Destination
+M - Mobile
+C - Cell
+O - Office
+W - Work
+F - Fax
+I - ID</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="POS_Type">
+		<xs:annotation>
+			<xs:documentation>Point of Sales information.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="BrowserDetail" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="HttpHeaders" minOccurs="0">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="HttpHeader" maxOccurs="unbounded">
+										<xs:complexType>
+											<xs:simpleContent>
+												<xs:extension base="xs:string">
+													<xs:attribute name="Name" type="xs:string" use="required"/>
+												</xs:extension>
+											</xs:simpleContent>
+										</xs:complexType>
+									</xs:element>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+					<xs:attribute name="BrowserSessionID" type="xs:string" use="optional"/>
+					<xs:attribute name="BrowserHostName" type="xs:string" use="optional"/>
+					<xs:attribute name="BrowserAccept" type="xs:string" use="optional"/>
+					<xs:attribute name="BrowserAcceptEncoding" type="xs:string" use="optional"/>
+					<xs:attribute name="BrowserAcceptCharset" type="xs:string" use="optional"/>
+					<xs:attribute name="BrowserID" type="xs:string" use="optional"/>
+					<xs:attribute name="BrowserLanguageCode" type="xs:string" use="optional"/>
+					<xs:attribute name="BrowserCookie" type="xs:string" use="optional"/>
+					<xs:attribute name="BrowserConnectionType" type="xs:string" use="optional"/>
+					<xs:attribute name="BrowserReferer" type="xs:string" use="optional"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Javascript" type="xs:string" minOccurs="0"/>
+			<xs:element name="POS_Address" type="AddressType" minOccurs="0"/>
+		</xs:sequence>
+		<xs:attribute name="CityCode" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation xml:lang="en">3-alpha city code</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="PseudoCityCode" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation xml:lang="en">An identification code assigned to an office/agency by a reservation system.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="AgentSine" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation xml:lang="en">Identifies the party within the requesting entity.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="AgentDutyCode" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation xml:lang="en">An authority code assigned to a requestor.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="LNIATA" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Agent set LNIATA</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="StationNumber" type="xs:string" use="optional"/>
+		<xs:attribute name="ISOCountry" type="ISO3166" use="optional">
+			<xs:annotation>
+				<xs:documentation xml:lang="en">The country code of the requesting party.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="SettlementPlan" type="xs:string" use="optional"/>
+		<xs:attribute name="AgencyOwner" type="xs:string" use="optional"/>
+		<xs:attribute name="IP_Address" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>For web transaction only. Must be in the range of 0.0.0.1 - 999.999.999.999</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="ChannelID" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>e.g. WEB, RES, ATO, CTO </xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="LocalDateTime" type="xs:dateTime" use="optional">
+			<xs:annotation>
+				<xs:documentation xml:lang="en">Local date/time of the POS in ISO 8601 format</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="SourceID" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Client application ID e.g. SSW, SE, INTERACT</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="ProductDetailType">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Passenger detail</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="ProductID" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>0001 – Air Booking (default)
+0002 – Hotel Booking
+0003 – Car Rental
+0004 – Travel Package
+0005 - Insurance
+0006 - Rail
+1000 - PTA
+1001 - MSR
+1002 - EXB
+9999 - Other</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="ProductName" type="xs:string" use="optional"/>
+		<xs:attribute name="ProductCategoryCode" type="xs:string" use="optional"/>
+		<xs:attribute name="CurrencyCode" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>3 alpha ISO 4217</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="UnitPrice" type="Money" use="optional"/>
+		<xs:attribute name="Taxes" type="Money" use="optional"/>
+		<xs:attribute name="Fees" type="Money" use="optional"/>
+		<xs:attribute name="Quantity" type="xs:int" use="optional"/>
+		<xs:attributeGroup ref="OriginDestinationGroup"/>
+		<xs:attribute name="TourCode" type="xs:string" use="optional"/>
+	</xs:complexType>
+	<xs:complexType name="ProviderInfoType">
+		<xs:sequence>
+			<xs:element name="ProviderAddress" type="AddressType" minOccurs="0"/>
+			<xs:element name="Contact" type="ContactInfoType" minOccurs="0"/>
+		</xs:sequence>
+		<xs:attribute name="ProviderID" type="xs:string"/>
+		<xs:attribute name="ProviderSiteID" type="xs:string"/>
+		<xs:attribute name="ProviderSiteNote" type="xs:string" use="optional"/>
+		<xs:attribute name="ProviderName" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="RailType">
+		<xs:sequence>
+			<xs:element name="Outbound" type="RailJourneyType" minOccurs="0"/>
+			<xs:element name="Return" type="RailJourneyType"/>
+			<xs:element name="ProviderInfo" type="ProviderInfoType" minOccurs="0"/>
+		</xs:sequence>
+		<xs:attribute name="AgreementNbr" type="xs:string">
+			<xs:annotation>
+				<xs:documentation>Required by Amex (max 14 chars)</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="ReferenceNbr" type="xs:string"/>
+	</xs:complexType>
+	<xs:complexType name="RailJourneyType">
+		<xs:sequence>
+			<xs:element name="Ticket" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="TicketNumber" type="Money" use="optional"/>
+					<xs:attribute name="Description" type="xs:string" use="optional"/>
+					<xs:attribute name="Class" type="xs:string" use="optional"/>
+					<xs:attribute name="Cost" type="Money" use="optional"/>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="SupplierCode" type="xs:string" use="required"/>
+		<xs:attribute name="SupplierName" type="xs:string" use="optional"/>
+		<xs:attribute name="JourneyID" type="xs:string" use="required"/>
+		<xs:attribute name="StartDateTime" type="xs:dateTime"/>
+		<xs:attribute name="EndDateTime" type="xs:dateTime"/>
+		<xs:attribute name="StartLocation" type="xs:string" use="optional"/>
+		<xs:attribute name="EndLocation" type="xs:string" use="optional"/>
+	</xs:complexType>
+	<xs:complexType name="RoomStayType">
+		<xs:sequence>
+			<xs:element name="Guest" type="GuestType" minOccurs="0" maxOccurs="10"/>
+		</xs:sequence>
+		<xs:attribute name="RoomType" type="xs:string" use="optional"/>
+		<xs:attribute name="RoomRate" type="Money" use="optional">
+			<xs:annotation>
+				<xs:documentation>In transaction currency</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="LengthOfStay" type="xs:int" use="optional"/>
+		<xs:attribute name="GuestsCount" type="xs:int" use="optional">
+			<xs:annotation>
+				<xs:documentation>Number of guests in this room</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="StateProvType">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">State, province, or region name or code needed to identify location.</xs:documentation>
+		</xs:annotation>
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="StateCode" type="xs:string" use="optional">
+					<xs:annotation>
+						<xs:documentation xml:lang="en">The postal service standard code or abbreviation for the state, province, or region.</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+				<xs:attribute name="Name" type="xs:string" use="optional">
+					<xs:annotation>
+						<xs:documentation>State name eg. Texas</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="StreetNmbrType">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Street name; number on street.</xs:documentation>
+		</xs:annotation>
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="PO_Box" type="xs:string" use="optional">
+					<xs:annotation>
+						<xs:documentation xml:lang="en">Defines a Post Office Box number.</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="SubBalanceType">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Sub-balance type and amount</xs:documentation>
+		</xs:annotation>
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="Usage" type="xs:string" use="optional"/>
+				<xs:attribute name="Balance" type="Money" use="optional"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="FeeType">
+		<xs:annotation>
+			<xs:documentation>Tax Code and Amount</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="TaxBreak" type="TaxType" minOccurs="0" maxOccurs="99"/>
+		</xs:sequence>
+		<xs:attribute name="FeeType" type="xs:string"/>
+		<xs:attribute name="FeeCode" type="xs:string" use="required"/>
+		<xs:attribute name="FeeAmount" type="Money" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="TaxType">
+		<xs:annotation>
+			<xs:documentation>Tax Code and Amount</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="TaxType" type="xs:string" use="required">
+			<xs:annotation>
+				<xs:documentation>e.g. PD, XT, TE</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="TaxCode" type="xs:string" use="required"/>
+		<xs:attribute name="TaxAmount" type="Money" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="TokenizationResultType">
+		<xs:attribute name="ResultCode" type="xs:string" use="optional"/>
+		<xs:attribute name="Description" type="xs:string" use="optional"/>
+		<xs:attribute name="CardNumber" type="xs:string" use="optional"/>
+		<xs:attribute name="TokenizedCardNumber" type="xs:string" use="optional"/>
+	</xs:complexType>
+	<xs:complexType name="TokensType">
+		<xs:sequence>
+			<xs:element name="Token" minOccurs="0" maxOccurs="10">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string">
+							<xs:attribute name="Name" type="xs:string" use="required"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="VoucherType">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Sub-balance type and amount</xs:documentation>
+		</xs:annotation>
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="VoucherNumber" type="xs:string" use="optional"/>
+				<xs:attribute name="ExpireDate" type="xs:date" use="optional"/>
+				<xs:attribute name="VoucherType" type="xs:string" use="optional"/>
+				<xs:attribute name="ResponseCode" type="xs:string" use="optional"/>
+				<xs:attribute name="VoucherRemarks1" type="xs:string" use="optional"/>
+				<xs:attribute name="InternalAccountNbr" type="xs:string" use="optional"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:element name="TPA_Extensions" type="TPA_ExtensionsType">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">A placeholder in the schema to allow for additional elements and attributes to be included if required, per Trading Partner Agreement (TPA).</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="TPA_ExtensionsType">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Allows extensions 
+to be added to the specification per trading partner agreement.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:any processContents="skip" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="SupplierMessagesType">
+		<xs:sequence>
+			<xs:element name="RequestMsg" type="xs:string" minOccurs="0"/>
+			<xs:element name="ResponseMsg" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ReturnURLsType">
+		<xs:sequence>
+			<xs:element name="DefaultURL" type="xs:string" minOccurs="0"/>
+			<xs:element name="ApprovedURL" type="xs:string" minOccurs="0"/>
+			<xs:element name="DeclinedURL" type="xs:string" minOccurs="0"/>
+			<xs:element name="PendingURL" type="xs:string" minOccurs="0"/>
+			<xs:element name="CancelURL" type="xs:string" minOccurs="0"/>
+			<xs:element name="ErrorURL" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="AuthorizationResultType">
+		<xs:sequence>
+			<xs:element name="CardReaderResult" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Tokens" type="TokensType" minOccurs="0">
+							<xs:annotation>
+								<xs:documentation>As returned by supplier.</xs:documentation>
+							</xs:annotation>
+						</xs:element>
+					</xs:sequence>
+					<xs:attribute name="ResultCode" type="xs:string" use="optional"/>
+					<xs:attribute name="Remarks" type="xs:string" use="optional"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="T3DS_Result" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="CAVV_ResultCode" type="xs:string" use="optional"/>
+					<xs:attribute name="T3DS_Remarks" type="xs:string" use="optional"/>
+					<xs:attribute name="PA_Request" type="xs:string" use="optional"/>
+					<xs:attribute name="IssuerURL" type="xs:string" use="optional"/>
+					<xs:attribute name="MD" type="xs:string" use="optional"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="CSC_Result" type="CSC_ResultType" minOccurs="0"/>
+			<xs:element name="PIN_Result" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="PIN_ResultCode" type="xs:string" use="optional"/>
+					<xs:attribute name="PIN_Remarks" type="xs:string" use="optional"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="AVS_Result" type="AVS_ResultType" minOccurs="0"/>
+			<xs:element name="AuthResponseDetail" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="AuthSrcCode" type="xs:string" use="optional"/>
+					<xs:attribute name="AuthValidationCode" type="xs:string" use="optional"/>
+					<xs:attribute name="ProductID" type="xs:string" use="optional">
+						<xs:annotation>
+							<xs:documentation xml:lang="en">Visa Product Identifier</xs:documentation>
+						</xs:annotation>
+					</xs:attribute>
+					<xs:attribute name="AuthCharacteristicInd" type="xs:string" use="optional"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="TokenizationResult" type="TokenizationResultType" minOccurs="0"/>
+			<xs:element name="SupplierMessages" type="SupplierMessagesType"/>
+			<xs:element name="LocalCardDetail" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="CardCode" type="xs:string" use="required"/>
+					<xs:attribute name="CardNumber" type="xs:string" use="required"/>
+					<xs:attribute name="ExpireDate" type="xs:string" use="required"/>
+					<xs:attribute name="Description" type="xs:string" use="optional"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="ReturnURL" type="xs:string" minOccurs="0"/>
+			<xs:element name="FulfillmentNotificationURL" type="xs:string" minOccurs="0"/>
+			<xs:element name="RedirectHTML" type="xs:string" minOccurs="0"/>
+			<xs:element name="AdditionalRemarks" type="RemarksType"/>
+		</xs:sequence>
+		<xs:attribute name="ResponseCode" type="xs:string" use="required"/>
+		<xs:attribute name="Description" type="xs:string" use="optional"/>
+		<xs:attribute name="ApprovalCode" type="xs:string" use="optional"/>
+		<xs:attribute name="ApprovedAmount" type="Money" use="optional">
+			<xs:annotation>
+				<xs:documentation>Total authorized including Bonus.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="AuthAmountSent" type="Money" use="optional">
+			<xs:annotation>
+				<xs:documentation>Internal use only</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="BonusAmount" type="Money" use="optional"/>
+		<xs:attribute name="SupplierID" type="xs:string" use="optional"/>
+		<xs:attribute name="SupplierTransID" type="xs:string" use="optional"/>
+		<xs:attribute name="SupplierResponseCode" type="xs:string" use="optional"/>
+		<xs:attribute name="MerchantAccountNumber" type="xs:string" use="optional"/>
+		<xs:attribute name="CAVV_ResultCode" type="xs:string" use="optional"/>
+		<xs:attribute name="AuthRemarks1" type="xs:string" use="optional"/>
+		<xs:attribute name="AuthRemarks2" type="xs:string" use="optional"/>
+		<xs:attribute name="DCC_Remarks" type="xs:string" use="optional"/>
+		<xs:attribute name="CurrencyCode" type="xs:string" use="optional"/>
+		<xs:attribute name="PaymentConfirmInd" type="xs:string" use="optional"/>
+		<xs:attribute name="FulfillmentNotificationInd" type="xs:boolean" use="optional"/>
+		<xs:attribute name="PaymentRef" type="xs:string" use="optional"/>
+	</xs:complexType>
+	<xs:complexType name="ConfirmAuthResultType">
+		<xs:sequence>
+			<xs:element name="ConfirmAuthAmount" type="CurrencyAmountType" minOccurs="0"/>
+		</xs:sequence>
+		<xs:attribute name="ResponseCode" type="xs:string" use="required"/>
+		<xs:attribute name="Description" type="xs:string" use="optional"/>
+		<xs:attribute name="Remarks" type="xs:string" use="optional"/>
+		<xs:attribute name="SupplierID" type="xs:string" use="optional"/>
+		<xs:attribute name="SupplierTransID" type="xs:string" use="optional"/>
+		<xs:attribute name="SupplierResponseCode" type="xs:string" use="optional"/>
+		<xs:attribute name="ApprovalCode" type="xs:string" use="optional"/>
+	</xs:complexType>
+	<xs:complexType name="CancelAuthResultType">
+		<xs:sequence>
+			<xs:element name="CancelAuthAmount" type="CurrencyAmountType" minOccurs="0"/>
+		</xs:sequence>
+		<xs:attribute name="ResponseCode" type="xs:string" use="required"/>
+		<xs:attribute name="Description" type="xs:string" use="optional"/>
+		<xs:attribute name="Remarks" type="xs:string" use="optional"/>
+		<xs:attribute name="SupplierID" type="xs:string" use="optional"/>
+		<xs:attribute name="SupplierTransID" type="xs:string" use="optional"/>
+		<xs:attribute name="SupplierResponseCode" type="xs:string" use="optional"/>
+		<xs:attribute name="ApprovalCode" type="xs:string" use="optional"/>
+	</xs:complexType>
+	<xs:complexType name="RefundResultType">
+		<xs:sequence>
+			<xs:element name="RefundAmount" type="CurrencyAmountType" minOccurs="0"/>
+		</xs:sequence>
+		<xs:attribute name="ResponseCode" type="xs:string" use="required"/>
+		<xs:attribute name="Description" type="xs:string" use="optional"/>
+		<xs:attribute name="Remarks" type="xs:string" use="optional"/>
+		<xs:attribute name="SupplierID" type="xs:string" use="optional"/>
+		<xs:attribute name="SupplierTransID" type="xs:string" use="optional"/>
+		<xs:attribute name="SupplierResponseCode" type="xs:string" use="optional"/>
+		<xs:attribute name="ApprovalCode" type="xs:string" use="optional"/>
+	</xs:complexType>
+	<xs:complexType name="FOPType">
+		<xs:attribute name="Type" type="xs:string" use="required"/>
+		<xs:attribute name="FOP_Code" type="xs:string" use="required"/>
+		<xs:attribute name="FOP_Subcode" type="xs:string" use="optional"/>
+		<xs:attribute name="AdditionalInfo" type="xs:string"/>
+		<xs:attribute name="Description" type="xs:string" use="optional"/>
+		<xs:attribute name="IssuerID" type="xs:string" use="optional"/>
+		<xs:attribute name="IssuerName" type="xs:string" use="optional"/>
+	</xs:complexType>
+	<xs:complexType name="MerchantDetailType">
+		<xs:attribute name="MerchantID" type="xs:string" use="required"/>
+		<xs:attribute name="MerchantName" type="xs:string"/>
+		<xs:attribute name="MerchantCategoryCode" type="xs:string"/>
+	</xs:complexType>
+	<xs:complexType name="GetCardResultType">
+		<xs:sequence>
+			<xs:element name="PaymentCard" type="PaymentCardType" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="RemarksType">
+		<xs:sequence>
+			<xs:element name="Remark" type="xs:string" maxOccurs="10"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="PaymentRQ">
+		<xs:annotation>
+			<xs:documentation>Root element for any Payment service request</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Action">
+					<xs:annotation>
+						<xs:documentation>&quot;GetBalance&quot;
+&quot;Auth&quot;
+&quot;ConfirmAuth&quot;
+&quot;CancelAuth&quot;</xs:documentation>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+								<xs:attribute name="Type" type="xs:string"/>
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="POS" type="POS_Type"/>
+				<xs:element name="ServiceIndicator" minOccurs="0">
+					<xs:complexType>
+						<xs:attribute name="MultiFOPsProcessInd" type="xs:string"/>
+						<xs:attribute name="FraudScreenInd" type="xs:boolean"/>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="MerchantDetail" type="MerchantDetailType"/>
+				<xs:element name="OrderDetail" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ProductDetail" type="ProductDetailType" minOccurs="0" maxOccurs="99"/>
+							<xs:element name="PassengerDetail" type="PassengerDetailType" minOccurs="0" maxOccurs="99"/>
+							<xs:element name="ContactInfo" type="ContactInfoType" minOccurs="0"/>
+							<xs:element name="FlightDetail" type="FlightDetailType" minOccurs="0" maxOccurs="20"/>
+							<xs:element name="Hotel" type="HotelType" minOccurs="0" maxOccurs="5"/>
+							<xs:element name="CarRental" type="CarRentalType" minOccurs="0" maxOccurs="5"/>
+							<xs:element name="Rail" type="RailType" minOccurs="0" maxOccurs="5"/>
+							<xs:element name="ShippingAddress" type="AddressType" minOccurs="0"/>
+							<xs:element name="Remarks" type="xs:string" minOccurs="0"/>
+						</xs:sequence>
+						<xs:attribute name="UniqueBookingID" type="xs:string">
+							<xs:annotation>
+								<xs:documentation>Identifier for tracking transactions originating from the same booking/PNR</xs:documentation>
+							</xs:annotation>
+						</xs:attribute>
+						<xs:attribute name="SessionID" type="xs:string">
+							<xs:annotation>
+								<xs:documentation>Identifier for tracking transactions from the same session</xs:documentation>
+							</xs:annotation>
+						</xs:attribute>
+						<xs:attribute name="OrderID" type="xs:string">
+							<xs:annotation>
+								<xs:documentation>Identifier for tracking purposes.</xs:documentation>
+							</xs:annotation>
+						</xs:attribute>
+						<xs:attribute name="OrderType" type="xs:string">
+							<xs:annotation>
+								<xs:documentation>O - Original (default)
+EE - Even Exchange
+EA - Exchange w/ Add Collect
+ER - Exchange w/ Refund
+R - Refund</xs:documentation>
+							</xs:annotation>
+						</xs:attribute>
+						<xs:attribute name="RecordLocator" type="xs:string">
+							<xs:annotation>
+								<xs:documentation>PNR Record locator</xs:documentation>
+							</xs:annotation>
+						</xs:attribute>
+						<xs:attribute name="DollarAmountPaid" type="Money" use="optional"/>
+						<xs:attribute name="InvoiceNumber" type="xs:string"/>
+						<xs:attribute name="ThirdPartyBookingInd" type="xs:boolean">
+							<xs:annotation>
+								<xs:documentation>Indicates if the booking was made by a 3rd party. i.e. if the card holder is not one of the passengers, set this to true.</xs:documentation>
+							</xs:annotation>
+						</xs:attribute>
+						<xs:attribute name="OneWayInd" type="xs:boolean">
+							<xs:annotation>
+								<xs:documentation>Set to true if the booking is a one-way trip.</xs:documentation>
+							</xs:annotation>
+						</xs:attribute>
+						<xs:attribute name="MultiCityInd" type="xs:boolean">
+							<xs:annotation>
+								<xs:documentation>Set to true if the booking involves more than 1 destination cities.</xs:documentation>
+							</xs:annotation>
+						</xs:attribute>
+						<xs:attribute name="PromotionCode" type="xs:string">
+							<xs:annotation>
+								<xs:documentation>For BML:
+&quot;SAC06M&quot; - 6-month Same As Cash</xs:documentation>
+							</xs:annotation>
+						</xs:attribute>
+						<xs:attribute name="ValidatingCarrierCode" type="xs:string"/>
+						<xs:attribute name="ValidatingCarrierNbr" type="xs:string"/>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="AccountDetail" type="AccountDetailType" minOccurs="0" maxOccurs="10"/>
+				<xs:element name="PaymentDetail" type="PaymentDetailType" minOccurs="0" maxOccurs="10"/>
+				<xs:element name="CustomerDetail" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Address" type="AddressType" minOccurs="0"/>
+							<xs:element name="EmailAddress" type="xs:string" minOccurs="0"/>
+							<xs:element name="PhoneNumber" type="PhoneType" minOccurs="0" maxOccurs="3"/>
+							<xs:element name="CustomerID" type="PersonID_Type" minOccurs="0"/>
+						</xs:sequence>
+						<xs:attributeGroup ref="PersonNameGroup"/>
+						<xs:attribute name="DOB" type="xs:date" use="optional">
+							<xs:annotation>
+								<xs:documentation>1980-07-31</xs:documentation>
+							</xs:annotation>
+						</xs:attribute>
+						<xs:attribute name="Gender" type="xs:string" use="optional">
+							<xs:annotation>
+								<xs:documentation>M/F</xs:documentation>
+							</xs:annotation>
+						</xs:attribute>
+						<xs:attribute name="Type" type="xs:string" use="optional">
+							<xs:annotation>
+								<xs:documentation>N - New
+E - Existing</xs:documentation>
+							</xs:annotation>
+						</xs:attribute>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="SystemDateTime" type="xs:dateTime">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Indicates the creation date and time of the message in UTC format</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="SabreTransactionID" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Unique identifier generated by PWS</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="DeferredPaymentID"/>
+			<xs:attribute name="ReturnSupplierMessagesInd" type="xs:boolean" use="optional">
+				<xs:annotation>
+					<xs:documentation>For test environment only. If set to true, supplier request/response will be included in PaymentRS</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="RetransmissionIndicator" type="xs:boolean" use="optional">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">When true, indicates the message is being re-sent after a failure. It is recommended that this attribute is used (i.e., set to TRUE) only when a message is retransmitted.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="Version" type="xs:string" use="required">
+				<xs:annotation>
+					<xs:documentation>Schema version (1.3.0)</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="PaymentRS">
+		<xs:annotation>
+			<xs:documentation>Payment Service response</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="POS" type="POS_Type" minOccurs="0"/>
+				<xs:element name="MerchantDetail" type="MerchantDetailType" minOccurs="0"/>
+				<xs:element name="OrderDetail" minOccurs="0">
+					<xs:complexType>
+						<xs:attribute name="RecordLocator" type="xs:string"/>
+						<xs:attribute name="OrderID" type="xs:string"/>
+					</xs:complexType>
+				</xs:element>
+				<xs:choice>
+					<xs:element name="Result">
+						<xs:complexType>
+							<xs:attribute name="ResultCode" type="xs:string" use="required"/>
+							<xs:attribute name="Description" type="xs:string" use="optional"/>
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="Results" maxOccurs="99">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="FOP" type="FOPType" minOccurs="0"/>
+								<xs:choice>
+									<xs:element name="AccountValidationResult" minOccurs="0">
+										<xs:complexType>
+											<xs:sequence>
+												<xs:element name="CSC_Result" type="CSC_ResultType" minOccurs="0"/>
+												<xs:element name="AVS_Result" type="AVS_ResultType" minOccurs="0"/>
+											</xs:sequence>
+											<xs:attribute name="ResultCode" type="xs:string" use="required"/>
+											<xs:attribute name="Description" type="xs:string" use="optional"/>
+											<xs:attribute name="ApprovalCode" type="xs:string" use="optional"/>
+											<xs:attribute name="SupplierID" type="xs:string" use="optional"/>
+											<xs:attribute name="SupplierTransID" type="xs:string" use="optional"/>
+											<xs:attribute name="SupplierResponseCode" type="xs:string" use="optional"/>
+										</xs:complexType>
+									</xs:element>
+									<xs:element name="AuthorizationResult" type="AuthorizationResultType" minOccurs="0" maxOccurs="10"/>
+									<xs:element name="ConfirmAuthResult" type="ConfirmAuthResultType" minOccurs="0" maxOccurs="10"/>
+									<xs:element name="CancelAuthResult" type="CancelAuthResultType" minOccurs="0" maxOccurs="10"/>
+									<xs:element name="RefundResult" type="RefundResultType" minOccurs="0" maxOccurs="10"/>
+									<xs:element name="TokenizationResult" type="TokenizationResultType" minOccurs="0"/>
+								</xs:choice>
+								<xs:element name="Remarks" minOccurs="0">
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="Remark" type="xs:string" maxOccurs="10"/>
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+							</xs:sequence>
+							<xs:attribute name="FOP_RPH"/>
+						</xs:complexType>
+					</xs:element>
+				</xs:choice>
+				<xs:choice>
+					<xs:element name="BalanceInquiryResult" minOccurs="0">
+						<xs:complexType>
+							<xs:attribute name="ResponseCode" type="xs:string" use="required"/>
+							<xs:attribute name="Description" type="xs:string" use="optional"/>
+							<xs:attribute name="SupplierTransID" type="xs:string" use="optional"/>
+							<xs:attribute name="SupplierResponseCode" type="xs:string" use="optional"/>
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="VerificationResult" minOccurs="0">
+						<xs:complexType>
+							<xs:attribute name="ResponseCode" type="xs:string" use="required"/>
+							<xs:attribute name="Description" type="xs:string"/>
+							<xs:attribute name="ApprovedAmount" type="Money"/>
+							<xs:attribute name="BonusAmount" type="Money"/>
+							<xs:attribute name="CurrencyCode" type="xs:string">
+								<xs:annotation>
+									<xs:documentation>Transaction currency</xs:documentation>
+								</xs:annotation>
+							</xs:attribute>
+							<xs:attribute name="ExchangeRate" type="xs:double"/>
+							<xs:attribute name="SupplierTransID" type="xs:string"/>
+							<xs:attribute name="SupplierResponseCode" type="xs:string"/>
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="DCC_Result" minOccurs="0">
+						<xs:complexType>
+							<xs:attribute name="DCC_Offered" type="xs:boolean" use="required">
+								<xs:annotation>
+									<xs:documentation>DCC Indicator</xs:documentation>
+								</xs:annotation>
+							</xs:attribute>
+							<xs:attribute name="SupplierResponseCode" type="xs:string" use="optional"/>
+							<xs:attribute name="SupplierID" type="xs:string" use="optional"/>
+							<xs:attribute name="SupplierTransID" type="xs:string" use="optional"/>
+							<xs:attribute name="CardCurrencyCode" type="xs:string" use="optional"/>
+							<xs:attribute name="CardCurrencyAmount" type="Money" use="optional"/>
+							<xs:attribute name="ExchangeRate" type="xs:double" use="optional"/>
+							<xs:attribute name="ExchangeRateSourceName" type="xs:string" use="optional"/>
+							<xs:attribute name="ExchangeRateSourceDateTime" type="xs:dateTime" use="optional"/>
+							<xs:attribute name="MarginPercentRate" type="xs:double" use="optional"/>
+							<xs:attribute name="CommissionPercentRate" type="xs:double" use="optional"/>
+							<xs:attribute name="ReasonCode" type="xs:string" use="optional"/>
+							<xs:attribute name="Description" type="xs:string" use="optional"/>
+							<xs:attribute name="DCC_Remarks" type="xs:string" use="optional"/>
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="AccountValidationResult" minOccurs="0" maxOccurs="10">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="CSC_Result" type="CSC_ResultType" minOccurs="0"/>
+								<xs:element name="AVS_Result" type="AVS_ResultType" minOccurs="0"/>
+							</xs:sequence>
+							<xs:attribute name="ResultCode" type="xs:string" use="required"/>
+							<xs:attribute name="Description" type="xs:string" use="optional"/>
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="AuthorizationResult" type="AuthorizationResultType" minOccurs="0" maxOccurs="10"/>
+					<xs:element name="ConfirmAuthResult" type="ConfirmAuthResultType" minOccurs="0" maxOccurs="10"/>
+					<xs:element name="CancelAuthResult" type="CancelAuthResultType" minOccurs="0" maxOccurs="10"/>
+					<xs:element name="RefundResult" type="RefundResultType" minOccurs="0" maxOccurs="10"/>
+					<xs:element name="GetCardResult" minOccurs="0">
+						<xs:complexType>
+							<xs:complexContent>
+								<xs:extension base="GetCardResultType">
+									<xs:attribute name="CardDeploymentID" type="xs:string" use="optional"/>
+								</xs:extension>
+							</xs:complexContent>
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="QueryDeferredPaymentResult" minOccurs="0">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="PaymentDetail" type="PaymentDetailType"/>
+								<xs:element name="AccountDetail" type="AccountDetailType" minOccurs="0"/>
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+				</xs:choice>
+				<xs:element name="CaptureResult" minOccurs="0" maxOccurs="10">
+					<xs:complexType>
+						<xs:attribute name="ResponseCode" type="xs:string" use="required"/>
+						<xs:attribute name="Description" type="xs:string" use="optional"/>
+						<xs:attribute name="CaptureRemarks" type="xs:string" use="optional"/>
+						<xs:attribute name="SupplierID" type="xs:string" use="optional"/>
+						<xs:attribute name="SupplierTransID" type="xs:string" use="optional"/>
+						<xs:attribute name="SupplierResponseCode" type="xs:string" use="optional"/>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="AccountDetail" minOccurs="0" maxOccurs="10">
+					<xs:complexType>
+						<xs:complexContent>
+							<xs:extension base="AccountDetailType">
+								<xs:sequence>
+									<xs:element name="SubBalance" type="SubBalanceType" minOccurs="0" maxOccurs="10"/>
+									<xs:element name="ListOfVouchers" minOccurs="0">
+										<xs:complexType>
+											<xs:sequence>
+												<xs:element name="Voucher" type="VoucherType" maxOccurs="99"/>
+											</xs:sequence>
+										</xs:complexType>
+									</xs:element>
+								</xs:sequence>
+								<xs:attribute name="InternalAccountNbr" type="xs:string" use="optional"/>
+								<xs:attribute name="Balance" type="Money" use="optional"/>
+								<xs:attribute name="Usage" type="xs:string" use="optional"/>
+								<xs:attribute name="ValidFrom" type="xs:date" use="optional"/>
+								<xs:attribute name="ValidUntil" type="xs:date" use="optional"/>
+							</xs:extension>
+						</xs:complexContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="FraudScreenResult" minOccurs="0">
+					<xs:complexType>
+						<xs:attribute name="Result" type="xs:string" use="required">
+							<xs:annotation>
+								<xs:documentation>Either &quot;ACCEPT&quot;, &quot;REJECT&quot;, &quot;REVIEW&quot; or &quot;ERROR&quot;</xs:documentation>
+							</xs:annotation>
+						</xs:attribute>
+						<xs:attribute name="ReasonCode" type="xs:string" use="optional">
+							<xs:annotation>
+								<xs:documentation>As returned by supplier.</xs:documentation>
+							</xs:annotation>
+						</xs:attribute>
+						<xs:attribute name="Score" type="xs:string" use="optional">
+							<xs:annotation>
+								<xs:documentation>As returned by supplier.</xs:documentation>
+							</xs:annotation>
+						</xs:attribute>
+						<xs:attribute name="SupplierTransID" type="xs:string" use="optional"/>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="FraudRemarks" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Remarks1" type="xs:string"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="TokenizationResults" type="TokenizationResultType" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element name="NotificationList" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Notification" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="DeliveryAddress" type="xs:string"/>
+									<xs:attribute name="Status" type="xs:string"/>
+									<xs:attribute name="DeliveryDate" type="xs:dateTime"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Remarks" type="RemarksType" minOccurs="0"/>
+			</xs:sequence>
+			<xs:attribute name="SystemDateTime" type="xs:dateTime" use="required">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Indicates the creation date and time of the message in ISO8601 format</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="SabreTransactionID" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">A unique identifier</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="DeferredPaymentID"/>
+			<xs:attribute name="RetransmissionIndicator" type="xs:boolean" use="optional">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">When true, indicates the message is being re-sent after a failure. It is recommended that this attribute is used (i.e., set to TRUE) only when a message is retransmitted.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="Version" use="required">
+				<xs:annotation>
+					<xs:documentation>Schema version (e.g. 1.0.1)</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string"/>
+				</xs:simpleType>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

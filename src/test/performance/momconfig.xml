@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<momconfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="momconfig.xsd">
+	<infrastructures>
+		<!-- Development -->
+		<infrastructure name="development-raf1" host="ctovm2092.dev.sabre.com"
+			port="1914" channel="CHLMOM.2SG.SAAP" connectionFactory="DMOMQM01"
+			contextFactory="com.ibm.mq.jms.context.WMQInitialContextFactory"
+			reconnectInterval="30" reconnectIntervalTimeUnit="SECONDS"
+			reconnectAttempts="100000" />
+		<infrastructure name="development-raf2" host="ctovm2093.dev.sabre.com"
+			port="2014" channel="CHLMOM.2SG.SAAP" connectionFactory="DMOMQM02"
+			contextFactory="com.ibm.mq.jms.context.WMQInitialContextFactory"
+			reconnectInterval="30" reconnectIntervalTimeUnit="SECONDS"
+			reconnectAttempts="100000" />
+		<infrastructure name="development-PubSub"
+			host="tcp://mo.dev.sabre.com:6333,tcp://mo.dev.sabre.com:6333" port="0"
+			channel="" connectionFactory="myFactory" connectionType="JNDI"
+			contextFactory="com.tibco.tibjms.naming.TibjmsInitialContextFactory"
+			pkgPrefixes="com.tibco.tibjms.naming" connUser="stpsuser"
+			connPassword="stpsuser" reconnectInterval="30"
+			reconnectIntervalTimeUnit="SECONDS" reconnectAttempts="100000" />
+		<!-- Performance -->
+		<infrastructure name="performance-raf1" host="plabb289.dev.sabre.com"
+			port="1914" channel="CHLMOM.2SG.SAAP" connectionFactory="DMOMQM01"
+			contextFactory="com.ibm.mq.jms.context.WMQInitialContextFactory"
+			reconnectInterval="30" reconnectIntervalTimeUnit="SECONDS"
+			reconnectAttempts="100000" />
+		<infrastructure name="performance-raf2" host="plabb290.dev.sabre.com"
+			port="2014" channel="CHLMOM.2SG.SAAP" connectionFactory="DMOMQM02"
+			contextFactory="com.ibm.mq.jms.context.WMQInitialContextFactory"
+			reconnectInterval="30" reconnectIntervalTimeUnit="SECONDS"
+			reconnectAttempts="100000" />
+		<infrastructure name="performance-PubSub"
+			host="tcp://plabq08.dev.sabre.com:65000,tcp://plabq08.dev.sabre.com:65000"
+			port="0" channel="" connectionFactory="myFactory" connectionType="JNDI"
+			contextFactory="com.tibco.tibjms.naming.TibjmsInitialContextFactory"
+			pkgPrefixes="com.tibco.tibjms.naming" connUser="stpsuser"
+			connPassword="stpsuser" reconnectInterval="30"
+			reconnectIntervalTimeUnit="SECONDS" reconnectAttempts="100000" />
+		<!-- Certification -->
+		<infrastructure name="certification-raf1" host="momhlc219.sabre.com"
+			port="1914" channel="CHLMOM.2SG.SAAP" connectionFactory="CSAAPQM01"
+			contextFactory="com.ibm.mq.jms.context.WMQInitialContextFactory"
+			reconnectInterval="30" reconnectIntervalTimeUnit="SECONDS"
+			reconnectAttempts="100000" />
+		<infrastructure name="certification-raf2" host="momhlc219.sabre.com"
+			port="2014" channel="CHLMOM.2SG.SAAP" connectionFactory="CSAAPQM02"
+			contextFactory="com.ibm.mq.jms.context.WMQInitialContextFactory"
+			reconnectInterval="30" reconnectIntervalTimeUnit="SECONDS"
+			reconnectAttempts="100000" />
+		<infrastructure name="certification-raf3" host="momhlc219.sabre.com"
+			port="1915" channel="CHLMOM.2SG.SAAP" connectionFactory="CSAAPQM03"
+			contextFactory="com.ibm.mq.jms.context.WMQInitialContextFactory"
+			reconnectInterval="30" reconnectIntervalTimeUnit="SECONDS"
+			reconnectAttempts="100000" />
+		<infrastructure name="certification-raf4" host="momhlc219.sabre.com"
+			port="2015" channel="CHLMOM.2SG.SAAP" connectionFactory="CSAAPQM04"
+			contextFactory="com.ibm.mq.jms.context.WMQInitialContextFactory"
+			reconnectInterval="30" reconnectIntervalTimeUnit="SECONDS"
+			reconnectAttempts="100000" />
+		<infrastructure name="certification-PubSub"
+			host="tcp://jms-pubsub.cert.sabre.com:65000,tcp://jms-pubsub.cert.sabre.com:60000"
+			port="0" channel="" connectionFactory="myFactory" connectionType="JNDI"
+			contextFactory="com.tibco.tibjms.naming.TibjmsInitialContextFactory"
+			pkgPrefixes="com.tibco.tibjms.naming" connUser="stpsuser"
+			connPassword="cstpsuser" reconnectInterval="30"
+			reconnectIntervalTimeUnit="SECONDS" reconnectAttempts="100000" />
+		<!-- Production -->
+		<infrastructure name="production-PubSub"
+			host="tcp://jms-pubsub.prod.sabre.com:36000,tcp://jms-pubsub.prod.sabre.com:60000"
+			port="0" channel="" connectionFactory="myFactory" connectionType="JNDI"
+			contextFactory="com.tibco.tibjms.naming.TibjmsInitialContextFactory"
+			pkgPrefixes="com.tibco.tibjms.naming" connUser="stpsuser"
+			connPassword="pstpsuser" reconnectInterval="30"
+			reconnectIntervalTimeUnit="SECONDS" reconnectAttempts="100000" />
+	</infrastructures>
+	<serviceDefinitions>
+		<serviceDefinition name="local-RafService"
+			infrastructure="development-raf1,development-raf2" recvTimeOut="20"
+			recvTimeOutTimeUnit="SECONDS" sendTransformation="COMPRESS"
+			receiveTransformation="COMPRESS">
+			<destination request="QMOM.2SG.RQ.SAAP.ALL" reply="QMOM.SAAP.RS.2SG.ALL" />
+			<serviceOptions>
+				<send minThreads="10" maxThreads="20" timeToLive="20"
+					timeToLiveTimeUnit="SECONDS" compressionThresholdUnit="KILOBYTES"
+					compressionThreshold="128" />
+				<receive minThreads="10" maxThreads="20" selector="EnvType = 'local'" />
+			</serviceOptions>
+		</serviceDefinition>
+		<serviceDefinition name="ci-RafService"
+			infrastructure="development-raf1,development-raf2" recvTimeOut="20"
+			recvTimeOutTimeUnit="SECONDS" sendTransformation="COMPRESS"
+			receiveTransformation="COMPRESS">
+			<destination request="QMOM.2SG.RQ.SAAP.ALL" reply="QMOM.SAAP.RS.2SG.ALL" />
+			<serviceOptions>
+				<send minThreads="10" maxThreads="20" timeToLive="20"
+					timeToLiveTimeUnit="SECONDS" compressionThresholdUnit="KILOBYTES"
+					compressionThreshold="128" />
+				<receive minThreads="10" maxThreads="20" selector="EnvType = 'ci'" />
+			</serviceOptions>
+		</serviceDefinition>
+		<serviceDefinition name="development-RafService"
+			infrastructure="development-raf1,development-raf2" recvTimeOut="20"
+			recvTimeOutTimeUnit="SECONDS" sendTransformation="COMPRESS"
+			receiveTransformation="COMPRESS">
+			<destination request="QMOM.2SG.RQ.SAAP.ALL" reply="QMOM.SAAP.RS.2SG.ALL" />
+			<serviceOptions>
+				<send minThreads="1" maxThreads="1" timeToLive="20"
+					timeToLiveTimeUnit="SECONDS" compressionThresholdUnit="KILOBYTES"
+					compressionThreshold="128" />
+				<receive minThreads="1" maxThreads="1" />
+			</serviceOptions>
+		</serviceDefinition>
+		<serviceDefinition name="performance-RafService"
+			infrastructure="performance-raf1,performance-raf2" recvTimeOut="20"
+			recvTimeOutTimeUnit="SECONDS" sendTransformation="COMPRESS"
+			receiveTransformation="COMPRESS">
+			<destination request="QMOM.2SG.RQ.SAAP.ALL" reply="QMOM.SAAP.RS.2SG.ALL" />
+			<serviceOptions>
+				<send minThreads="100" maxThreads="200" timeToLive="20"
+					timeToLiveTimeUnit="SECONDS" compressionThresholdUnit="KILOBYTES"
+					compressionThreshold="128" />
+				<receive minThreads="100" maxThreads="200" />
+			</serviceOptions>
+		</serviceDefinition>
+		<serviceDefinition name="certification-RafService"
+			infrastructure="certification-raf1,certification-raf2,certification-raf3,certification-raf4"
+			recvTimeOut="20" recvTimeOutTimeUnit="SECONDS" sendTransformation="COMPRESS"
+			receiveTransformation="COMPRESS">
+			<destination request="QMOM.2SG.RQ.SAAP.ALL" reply="QMOM.SAAP.RS.2SG.ALL" />
+			<serviceOptions>
+				<send minThreads="10" maxThreads="150" timeToLive="20"
+					timeToLiveTimeUnit="SECONDS" compressionThresholdUnit="KILOBYTES"
+					compressionThreshold="128" />
+				<receive minThreads="10" maxThreads="150" />
+			</serviceOptions>
+		</serviceDefinition>
+		<serviceDefinition name="production-RafService"
+			infrastructure="development-raf1,development-raf2" recvTimeOut="20"
+			recvTimeOutTimeUnit="SECONDS" sendTransformation="COMPRESS"
+			receiveTransformation="COMPRESS">
+			<destination request="QMOM.2SG.RQ.SAAP.ALL" reply="QMOM.SAAP.RS.2SG.ALL" />
+			<serviceOptions>
+				<send minThreads="10" maxThreads="150" timeToLive="20"
+					timeToLiveTimeUnit="SECONDS" compressionThresholdUnit="KILOBYTES"
+					compressionThreshold="128" />
+				<receive minThreads="10" maxThreads="150" />
+			</serviceOptions>
+		</serviceDefinition>
+		<serviceDefinition name="local-METRICS"
+			infrastructure="development-PubSub" recvTimeOut="5000"
+			recvTimeOutTimeUnit="MILLISECONDS" oneway="true">
+			<destination request="ICELOG.METRICS.CIO.STPS" />
+			<serviceOptions>
+				<send minThreads="1" maxThreads="1" timeToLive="60000"
+					timeToLiveTimeUnit="MILLISECONDS" />
+				<receive minThreads="1" maxThreads="1" />
+			</serviceOptions>
+		</serviceDefinition>
+		<serviceDefinition name="ci-METRICS" infrastructure="development-PubSub"
+			recvTimeOut="5000" recvTimeOutTimeUnit="MILLISECONDS" oneway="true">
+			<destination request="ICELOG.METRICS.CIO.STPS" />
+			<serviceOptions>
+				<send minThreads="1" maxThreads="1" timeToLive="60000"
+					timeToLiveTimeUnit="MILLISECONDS" />
+				<receive minThreads="1" maxThreads="1" />
+			</serviceOptions>
+		</serviceDefinition>
+		<serviceDefinition name="development-METRICS"
+			infrastructure="development-PubSub" recvTimeOut="5000"
+			recvTimeOutTimeUnit="MILLISECONDS" oneway="true">
+			<destination request="ICELOG.METRICS.CIO.STPS" />
+			<serviceOptions>
+				<send minThreads="1" maxThreads="1" timeToLive="60000"
+					timeToLiveTimeUnit="MILLISECONDS" />
+				<receive minThreads="1" maxThreads="1" />
+			</serviceOptions>
+		</serviceDefinition>
+		<serviceDefinition name="performance-METRICS"
+			infrastructure="performance-PubSub" recvTimeOut="5000"
+			recvTimeOutTimeUnit="MILLISECONDS" oneway="true">
+			<destination request="ICELOG.METRICS.CIO.STPS" />
+			<serviceOptions>
+				<send minThreads="1" maxThreads="1" timeToLive="60000"
+					timeToLiveTimeUnit="MILLISECONDS" />
+				<receive minThreads="1" maxThreads="1" />
+			</serviceOptions>
+		</serviceDefinition>
+		<serviceDefinition name="certification-METRICS"
+			infrastructure="certification-PubSub" recvTimeOut="5000"
+			recvTimeOutTimeUnit="MILLISECONDS" oneway="true">
+			<destination request="ICELOG.METRICS.CIO.STPS" />
+			<serviceOptions>
+				<send minThreads="1" maxThreads="1" timeToLive="60000"
+					timeToLiveTimeUnit="MILLISECONDS" />
+				<receive minThreads="1" maxThreads="1" />
+			</serviceOptions>
+		</serviceDefinition>
+		<serviceDefinition name="production-METRICS"
+			infrastructure="production-PubSub" recvTimeOut="5000"
+			recvTimeOutTimeUnit="MILLISECONDS" oneway="true">
+			<destination request="ICELOG.METRICS.CIO.STPS" />
+			<serviceOptions>
+				<send minThreads="1" maxThreads="1" timeToLive="60000"
+					timeToLiveTimeUnit="MILLISECONDS" />
+				<receive minThreads="1" maxThreads="1" />
+			</serviceOptions>
+		</serviceDefinition>
+	</serviceDefinitions>
+</momconfig>

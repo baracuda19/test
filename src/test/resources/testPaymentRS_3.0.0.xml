@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap-env:Header>
+		<eb:MessageHeader xmlns:eb="http://www.ebxml.org/namespaces/messageHeader" eb:version="1.0" soap-env:mustUnderstand="1">
+			<eb:From>
+				<eb:PartyId eb:type="URI">SEPG</eb:PartyId>
+			</eb:From>
+			<eb:To>
+				<eb:PartyId eb:type="URI">SHS</eb:PartyId>
+			</eb:To>
+			<eb:CPAId>NQ2F</eb:CPAId>
+			<eb:ConversationId>SHS::H9480305477441::2025145:CY123421::21</eb:ConversationId>
+			<eb:Service>PaymentRQ</eb:Service>
+			<eb:Action>PaymentRS</eb:Action>
+			<eb:MessageData>
+				<eb:MessageId>411c4729-d6ab-48f2-8fc6-9846c9ce4440@191</eb:MessageId>
+				<eb:Timestamp>2015-04-23T15:12:05</eb:Timestamp>
+			</eb:MessageData>
+		</eb:MessageHeader>
+		<wsse:Security xmlns:wsse="http://schemas.xmlsoap.org/ws/2002/12/secext">
+			<wsse:BinarySecurityToken valueType="String" EncodingType="wsse:Base64Binary">Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/STSB!ICESMSLB\/STS.LB!-3542257275033852256!1065321!0</wsse:BinarySecurityToken>
+		</wsse:Security>
+	</soap-env:Header>
+	<soap-env:Body>
+		<PaymentRS xmlns="http://www.opentravel.org/OTA/2003/05/beta" SystemDateTime="2015-04-23T10:12:05" SabreTransactionID="01111429801924568013" Version="3.0.0">
+			<Result ResultCode="SSG_ERR_SUPPLIER_REQ_POST_FAILURE" Description="HTTP Error Code 401"/>
+			<AuthorizationResult SupplierID="ADYEN" AuthRemarks1="AUTH-ADYEN/VI1111/23APR/01111429801924568013" AuthRemarks2="  AUTH-SYS/SUPPLIER DOWN/02/ARS11.2" PaymentRef="01111429801924568013"/>
+		</PaymentRS>
+	</soap-env:Body>
+</soap-env:Envelope>

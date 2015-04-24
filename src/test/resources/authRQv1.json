@@ -1,0 +1,67 @@
+{
+	"Action": "Auth",
+	"Transaction": "21",
+	"Reference": "2025145:CY123421",
+	"Context": {
+		"IPAddress": "1.1.1.1",
+		"Channel": "CRS",
+		"HTTPHeaders": [
+			{
+				"Name": "accept-language",
+				"Value": "en"
+			}, {
+				"Name": "accept-encoding",
+				"Value": "gzip, deflate, lzma, sdch"
+			}, {
+				"Name": "user-agent",
+				"Value": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36"
+			}, {
+				"Name": "cache-control",
+				"Value": "max-age=0"
+			}
+		],
+		"Language": "en"
+	},
+	"Merchant": {
+		"Supplier": "WPAY",
+		"AccountNumber": "SABRESYNXISECOM",
+		"Username": "UX9OMNG2LK9HNKA31AQ9",
+		"Password": "SEPGInterface2015",
+		"HostedID": "8ddGUyRm",
+		"SignatureKey": "S@bhm@C0512",
+		"HotelId": "2025145",
+		"HotelName": "Daniel Hotel"
+	},
+	"Guest": {
+		"ID": "0000000187833390ABC",
+		"ProfileType": "Personal",
+		"Firstname": "Jane",
+		"Lastname": "Curtain",
+		"EmailAddress": "test@test.com",
+		"PhoneNumber": "321-123-4567",
+		"MobilePhoneNumber": "123-123-1234",
+		"DateOfBirth": null,
+		"ZipCode": "01111",
+		"Address": "Address Line 1",
+		"CityName": "Newton",
+		"StateCode": "MA",
+		"CountryCode": "US"
+	},
+	"Payment": {
+		"FormOfPayment": "CC",
+		"PaymentCode": "VI",
+		"Amount": 11.2,
+		"Currency": "ARS",
+		"CardholderName": "NAME CC",
+		"CreditCardNumber": "4111111111111111",
+		"CreditCardExpDate": "0120",
+		"CreditCardCCV": "989",
+		"BankCode": null,
+		"ReturnUrl": "http://test.synxis.com/xbe/rez.aspx?hotel=2025145&step=confirm"
+	},
+	"Order": {
+		"RecordLocator": "CY1234",
+		"Arrival": "2015-06-11T00:00:00",
+		"Departure": "2015-06-12T00:00:00"
+	}
+}

@@ -1,0 +1,12 @@
+<PaymentRS xmlns="http://www.opentravel.org/OTA/2003/05/beta"
+	SystemDateTime="2015-01-20T09:06:18" SabreTransactionID="01121421766378026086"
+	Version="3.0.0">
+	<Result ResultCode="SUCCESS" Description="Successful" />
+	<AuthorizationResult ResponseCode="APPROVED"
+		ApprovalCode="001026" SupplierID="WPAY" SupplierTransID="100001322028512"
+		SupplierResponseCode="00" AuthRemarks1="AUTH-WPAY/BR0720/20JAN/01121421766378026086"
+		AuthRemarks2="  AUTH-APV/001026/00/PLN125.00">
+		<LocalCardDetail CardCode="BR" CardNumber="############0720"
+			ExpireDate="######" />
+	</AuthorizationResult>
+</PaymentRS>

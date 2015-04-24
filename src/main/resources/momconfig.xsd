@@ -1,0 +1,344 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified">
+	<xs:element name="momconfig">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="infrastructures" />
+				<xs:element ref="serviceDefinitions" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="infrastructures">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="infrastructure" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="infrastructure">
+		<xs:complexType>
+			<xs:attribute name="name" type="xs:string" use="required" />
+			<xs:attribute name="host" type="xs:string" use="required" />
+			<xs:attribute name="port" type="xs:nonNegativeInteger"
+				use="required" />
+			<xs:attribute name="channel" type="xs:string" use="required" />
+			<xs:attribute name="contextFactory" type="xs:string"
+				use="required" />
+			<xs:attribute name="connectionFactory" type="xs:string"
+				use="required" />
+			<xs:attribute name="connectionType">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="JNDI" />
+						<xs:enumeration value="WMQ_QUEUE" />
+						<xs:enumeration value="WMQ_TOPIC" />
+						<xs:enumeration value="ACTMQ_QUEUE" />
+						<xs:enumeration value="ACTMQ_TOPIC" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+
+			<xs:attribute name="pkgPrefixes" type="xs:string" />
+			<xs:attribute name="reconnectAttempts" type="xs:nonNegativeInteger" />
+			<xs:attribute name="reconnectInterval">
+				<xs:simpleType>
+					<xs:restriction base="xs:nonNegativeInteger">
+						<xs:minInclusive value="1" />
+						<xs:maxInclusive value="1000000000" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="reconnectIntervalTimeUnit">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="SECONDS" />
+						<xs:enumeration value="MILLISECONDS" />
+						<xs:enumeration value="MICROSECONDS" />
+						<xs:enumeration value="NANOSECONDS" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="connUser" type="xs:string" />
+			<xs:attribute name="connPassword" type="xs:string" />
+			<xs:attribute name="brokerPubQueue" type="xs:string" />
+			<xs:attribute name="brokerSubQueue" type="xs:string" />
+			<xs:attribute name="failoverType">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="NONE" />
+						<xs:enumeration value="PRIMARY" />
+						<xs:enumeration value="SECONDARY" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="serviceDefinitions">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="serviceDefinition" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="serviceDefinition">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="destination" />
+				<xs:element ref="serviceOptions" minOccurs="0" />
+			</xs:sequence>
+			<xs:attribute name="name" type="xs:string" use="required" />
+			<xs:attribute name="infrastructure" type="xs:string"
+				use="required" />
+			<xs:attribute name="recvTimeOut">
+				<xs:simpleType>
+					<xs:restriction base="xs:nonNegativeInteger">
+						<xs:minInclusive value="1" />
+						<xs:maxInclusive value="1000000000" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="recvTimeOutTimeUnit">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="SECONDS" />
+						<xs:enumeration value="MILLISECONDS" />
+						<xs:enumeration value="MICROSECONDS" />
+						<xs:enumeration value="NANOSECONDS" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="oneway" type="xs:boolean" />
+			<xs:attribute name="multiReply" type="xs:boolean" />
+			<xs:attribute name="sendTransformation" type="xs:string" />
+			<xs:attribute name="receiveTransformation" type="xs:string" />
+			<xs:attribute name="useAsyncMessageMap" type="xs:string" />
+
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="destination">
+		<xs:complexType>
+			<xs:attribute name="request" type="xs:string" use="required" />
+			<xs:attribute name="reply" type="xs:string" />
+			<xs:attribute name="nonJMSClient" type="xs:boolean" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="send">
+		<xs:complexType>
+			<xs:attribute name="minThreads">
+				<xs:simpleType>
+					<xs:restriction base="xs:nonNegativeInteger">
+						<xs:minInclusive value="1" />
+						<xs:maxInclusive value="5000" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="maxThreads">
+				<xs:simpleType>
+					<xs:restriction base="xs:nonNegativeInteger">
+						<xs:minInclusive value="1" />
+						<xs:maxInclusive value="5000" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="transacted" type="xs:boolean" />
+			<xs:attribute name="timeToLive">
+				<xs:simpleType>
+					<xs:restriction base="xs:nonNegativeInteger">
+						<xs:minInclusive value="0" />
+						<xs:maxInclusive value="1000000000" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="timeToLiveTimeUnit">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="SECONDS" />
+						<xs:enumeration value="MILLISECONDS" />
+						<!--xs:enumeration value="MICROSECONDS"/ -->
+						<!--xs:enumeration value="NANOSECONDS"/ -->
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="priority">
+				<xs:simpleType>
+					<xs:restriction base="xs:nonNegativeInteger">
+						<xs:minInclusive value="0" />
+						<xs:maxInclusive value="9" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="ackMode">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="AUTO_ACKNOWLEDGE" />
+						<xs:enumeration value="CLIENT_ACKNOWLEDGE" />
+						<xs:enumeration value="DUPS_OK_ACKNOWLEDGE" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="deliveryMode">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="PERSISTENT" />
+						<xs:enumeration value="NON_PERSISTENT" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="msgRetryAttempts">
+				<xs:simpleType>
+					<xs:restriction base="xs:nonNegativeInteger">
+						<xs:minInclusive value="0" />
+						<xs:maxInclusive value="5000" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="msgRetryInterval">
+				<xs:simpleType>
+					<xs:restriction base="xs:nonNegativeInteger">
+						<xs:minInclusive value="0" />
+						<xs:maxInclusive value="1000000000" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="msgRetryIntervalTimeUnit">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="SECONDS" />
+						<xs:enumeration value="MILLISECONDS" />
+						<!--xs:enumeration value="MICROSECONDS"/ -->
+						<!--xs:enumeration value="NANOSECONDS"/ -->
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="producerPooled" type="xs:boolean" />
+			<xs:attribute name="useReplyTo" type="xs:boolean" />
+			<xs:attribute name="producerPoolSize">
+				<xs:simpleType>
+					<xs:restriction base="xs:nonNegativeInteger">
+						<xs:minInclusive value="1" />
+						<xs:maxInclusive value="256" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="compressionThreshold">
+				<xs:simpleType>
+					<xs:restriction base="xs:nonNegativeInteger" />
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="compressionThresholdUnit">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="BYTES" />
+						<xs:enumeration value="KILOBYTES" />
+						<xs:enumeration value="MEGABYTES" />
+						<xs:enumeration value="GIGABYTES" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+
+			<xs:attribute name="loadBalancerType">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="ROUNDROBIN" />
+						<xs:enumeration value="FAILOVER" />
+						<xs:enumeration value="USE_REPLY_TO" />
+						<xs:enumeration value="CONTEXT_ROUNDROBIN" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+
+			<xs:attribute name="RPPCApplID">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="8" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+
+			<xs:attribute name="RPPCSubSystemUser">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="4" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+
+			<xs:attribute name="RPPCSubSystemDest">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="4" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+
+			<xs:attribute name="RPPCClientHostName">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="4" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+
+			<xs:attribute name="RPPCCarrierCode">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="3" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+
+			<xs:attribute name="RPPCCityCode">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="4" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+
+			<xs:attribute name="RPPCEbcdicConversion" type="xs:boolean" />
+
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="receive">
+		<xs:complexType>
+			<xs:attribute name="minThreads">
+				<xs:simpleType>
+					<xs:restriction base="xs:nonNegativeInteger">
+						<xs:minInclusive value="1" />
+						<xs:maxInclusive value="5000" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="maxThreads">
+				<xs:simpleType>
+					<xs:restriction base="xs:nonNegativeInteger">
+						<xs:minInclusive value="1" />
+						<xs:maxInclusive value="5000" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="transacted" type="xs:boolean" />
+			<xs:attribute name="ASF" type="xs:boolean" />
+			<xs:attribute name="selector" type="xs:string" />
+			<xs:attribute name="ackMode">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="AUTO_ACKNOWLEDGE" />
+						<xs:enumeration value="CLIENT_ACKNOWLEDGE" />
+						<xs:enumeration value="DUPS_OK_ACKNOWLEDGE" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="serviceOptions">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="send" />
+				<xs:element ref="receive" />
+				<xs:element name="atLeastOneInfrastructureAvailable" type="xs:boolean" minOccurs="0" maxOccurs="1" />				
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

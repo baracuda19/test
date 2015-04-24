@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:eb="http://www.ebxml.org/namespaces/messageHeader" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsd="http://www.w3.org/1999/XMLSchema">
+	<SOAP-ENV:Header>
+		<eb:MessageHeader SOAP-ENV:mustUnderstand="1" eb:version="1.0">
+			<eb:ConversationId>asim123</eb:ConversationId>
+			<eb:From>
+				<eb:PartyId type="urn:x12.org:IO5:01">999999</eb:PartyId>
+			</eb:From>
+			<eb:To>
+				<eb:PartyId type="urn:x12.org:IO5:01">123123</eb:PartyId>
+			</eb:To>
+			<eb:CPAId>NQ2F</eb:CPAId>
+			<eb:Service eb:type="string">PaymentRQ</eb:Service>
+			<eb:Action>PaymentRQ</eb:Action>
+			<eb:MessageData>
+				<eb:MessageId>mid:20001209-133003-2333@clientofsabre.com</eb:MessageId>
+				<eb:Timestamp>2001-02-15T11:15:12Z</eb:Timestamp>
+				<eb:TimeToLive>2001-02-15T11:15:12Z</eb:TimeToLive>
+			</eb:MessageData>
+		</eb:MessageHeader>
+		<wsse:Security xmlns:wsse="http://schemas.xmlsoap.org/ws/2002/12/secext">
+			<wsse:BinarySecurityToken valueType="String" EncodingType="wsse:Base64Binary">Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/STSA!ICESMSLB\/STS.LB!-3549680210788403840!1700536!0</wsse:BinarySecurityToken>
+		</wsse:Security>
+	</SOAP-ENV:Header>
+	<SOAP-ENV:Body>
+		<PaymentRQ xmlns="http://www.opentravel.org/OTA/2003/05/beta" SystemDateTime="2015-01-28T12:55:18.414Z" Version="3.0.0">
+			<Action>Auth</Action>
+			<POS PseudoCityCode="XBL" LNIATA="9D7D6B" StationNumber="18491233" ISOCountry="ET" IP_Address="127.0.0.1" ChannelID="WEB" LocalDateTime="2015-01-28T12:55:18.434Z" SourceID="SHS">
+				<BrowserDetail BrowserSessionID="################################">
+					<HttpHeaders>
+						<HttpHeader Name="host">shs.sabre.com:8443</HttpHeader>
+						<HttpHeader Name="accept">text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+				</HttpHeader>
+						<HttpHeader Name="accept-encoding">gzip, deflate, lzma, sdch</HttpHeader>
+						<HttpHeader Name="accept-language"/>
+						<HttpHeader Name="user-agent">Mozilla/5.0 (Windows NT 6.1; WOW64)
+					AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95
+					Safari/537.36 OPR/26.0.1656.60
+				</HttpHeader>
+						<HttpHeader Name="cookie">JSESSIONID=8C10651B35A6C6A390F29C52DA140713;
+					WLPCOOKIE=shs.sabre.comnull; __utma=;
+					SSWGID=1626AA538CD8493CA14773852D239607;
+					_ga=GA1.1.807946806.1420726861
+				</HttpHeader>
+						<HttpHeader Name="referer">https://shs.sabre.com:8443/SSW2010/ETET/webqtrip.html
+				</HttpHeader>
+						<HttpHeader Name="connection">keep-alive</HttpHeader>
+						<HttpHeader Name="origin"/>
+						<HttpHeader Name="content-type">application/x-www-form-urlencoded
+				</HttpHeader>
+						<HttpHeader Name="content-length">127</HttpHeader>
+						<HttpHeader Name="cache-control">max-age=0</HttpHeader>
+					</HttpHeaders>
+				</BrowserDetail>
+			</POS>
+			<MerchantDetail MerchantID="HOTELID1" MerchantName="Hilton Southlake"/>
+			<OrderDetail SessionID="8C10651B35A6C6A390F29C52DA140713" OrderID="FSWAEI280115" OrderType="O" RecordLocator="FSWAEI" ThirdPartyBookingInd="false">
+				<Hotel AgreementNbr="1234" ReferenceNbr="qwww" CheckOutDate="2015-03-13" CheckInDate="2015-03-15" LodgingType="qqq" CheckInCity="DFW">
+					<ProviderInfo ProviderID="HOTELID1" ProviderName="Hilton Southlake">
+						<ProviderAddress>
+							<AddressLine1>150 Some street</AddressLine1>
+							<CityName>Southlake</CityName>
+							<PostalCode>76092</PostalCode>
+							<StateProv Name="Texas" StateCode="tx">tx</StateProv>
+							<Country Name="USA" Code="US">U.S.A</Country>
+						</ProviderAddress>
+						<Contact LastName="Davies" FirstName="John" Name="John Davies">
+							<EmailAddress>john@hilton.com</EmailAddress>
+							<PhoneNumber Type="O" Number="817-333-5678"/>
+							<PhoneNumber Type="H" Number="817-333-5677"/>
+							<PhoneNumber Type="F" Number="817-333-1234"/>
+						</Contact>
+					</ProviderInfo>
+					<Room RoomRate="275.00" RoomType="dbl" LengthOfStay="2" GuestsCount="2">
+						<Guest FirstName="John" LastName="Bay" PrimaryIndicator="true" Name="John Bay"/>
+						<Guest FirstName="Mary" LastName="Kay" PrimaryIndicator="false" Name="Mary Kay"/>
+					</Room>
+					<Cost Taxes="15.00" Commission="25.00" BaseAmount="200.00" Fees="10.00" CurrencyCode="USD" TotalAmount="550.00"/>
+				</Hotel>
+			</OrderDetail>
+			<PaymentDetail>
+				<FOP Type="CC"/>
+				<PaymentCard CardCode="VI" CardNumber="############1111" CardSecurityCode="###" ExpireDate="######">
+					<CardHolderName Name="JOHN BAY"/>
+					<Address>
+						<AddressLine1>8-10 BROADWAY</AddressLine1>
+						<CityName>LONDON</CityName>
+						<PostalCode>SW1H 0BG</PostalCode>
+						<StateProv StateCode="WESTMINSTER"/>
+						<Country Code="GB"/>
+					</Address>
+					<EmailAddress>JOHN@TSTS.COM</EmailAddress>
+					<PhoneNumber Number="#####5313" Type="H"/>
+				</PaymentCard>
+				<AmountDetail Amount="550.00" CurrencyCode="USD"/>
+				<RoutingDetail SupplierID="ADYEN" MerchantAccountNumber="SabreCOM" UserName="USERNAME" Password="PASSWORD" PSP_HostedID="8ddGUyRm" SignatureKey="S@bhm@C0512"/>
+			</PaymentDetail>
+		</PaymentRQ>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
